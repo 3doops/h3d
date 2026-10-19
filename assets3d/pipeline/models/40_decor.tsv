@@ -1,0 +1,223 @@
+model_key	category	kind	priority	name	match	footprint	flag	fit	members	description
+tree_jungle_a	tree	gen	2	Jungle palm A	re:avlplm[1-5]0	1x1	0	max_h=1.5		A tropical jungle tree like a banana palm: a slender, slightly curved pale-brown trunk and a big crown of long, broad, drooping bright-green leaves.
+tree_jungle_b	tree	gen	2	Jungle tree B		1x1	0	max_h=1.4		A bushy tropical swamp tree with two or three short twisted trunks and arching roots, and a dense rounded crown of large glossy dark-green leaves with hanging fronds.
+tree_palm_fan	tree	gen	2	Fan palm	re:avlswt0[0-7] re:avlswt1[256]	1x1	0	max_h=1.3		A small fan palm with a slender ringed dark-brown trunk topped by a dense round tuft of stiff, spiky dark-green fronds radiating in all directions.
+tree_swamp_bushy	tree	gen	2	Bushy swamp tree	re:avlswt0[89] re:avlswt1[3489]	1x1	0	max_h=1.2		A low, broad swamp tree with several short gnarled trunks and a dense rounded crown of small dark-green leaves in puffy clumps.
+tree_cypress	tree	gen	2	Swamp cypress	re:avlswt1[01]	1x1	0	max_h=1.5		A tall, narrow cypress-like tree with dense feathery blue-green (teal) foliage forming a flame-shaped crown and a short dark trunk.
+tree_rough_a	tree	gen	2	Joshua tree	re:avltro0[0-4]	1x1	0	max_h=1.2		A dry-land tree like a Joshua tree: a short grey-brown trunk splitting into several crooked branches, each ending in a tuft of stiff, spiky olive-green leaves.
+tree_rough_b	tree	gen	2	Olive scrub tree	re:avltro0[589] re:avltro1[0-3] re:avlroug\d	1x1	0	max_h=1.2		A small gnarled tree with a twisted dark-brown trunk and a dense rounded crown of dull olive-green and golden-brown leaves.
+tree_willow	tree	gen	2	Weeping willow	def:avlwlw30	1x1	0	max_h=1.4		A weeping willow with a short thick trunk and a tall dome of long hanging curtains of green leaves falling almost to the ground.
+tree_yucca	tree	gen	2	Yucca tree	re:avlyuc[1-6]0	1x1	0	max_h=0.9		A small desert yucca tree: a thin forked grey-brown trunk with a few crooked branches, each ending in a rosette of narrow pointed green leaves.
+tree_palm_a	tree	gen	3	Date palm	re:avlspl0[5-8]	1x1	0	max_h=1.5		A date palm with a slender, slightly curved ringed tan trunk and a crown of long arching bright yellow-green feathery fronds.
+tree_palm_b	tree	gen	3	Oasis tree	re:avlspl0[1-4]	1x1	0	max_h=1.3		A small oasis tree with a short brown trunk and a dense, rounded, slightly drooping crown of fresh light-green leaves.
+tree_spruce_hl_a	tree	gen	3	Blue spruce		1x1	0	max_h=1.6		A slender spruce with dense layered dark blue-green needle branches forming a narrow spire, a short brown trunk at the bottom.
+tree_spruce_hl_b	tree	gen	3	Olive fir		1x1	0	max_h=1.4		A fir tree with a broad cone of yellowish olive-green needle branches and a straight brown trunk.
+tree_maple_a	tree	gen	3	Red maple A	re:avlswt2[0126]	1x1	0	max_h=1.3		A deciduous maple with a short dark trunk and a full rounded crown of bright scarlet and orange leaves.
+tree_maple_b	tree	gen	3	Red maple B	re:avlswt2[345] def:avlswt17	1x1	0	max_h=1.25		A maple tree with a compact rounded crown of deep crimson and dark wine-red leaves on a dark brown trunk.
+tree_predatory	tree	gen	3	Predatory plant tree	re:tpmtree\d	1x1	0	max_h=1.2		A strange small tree whose trunk is made of twisted, braided green vine stems, crowned by clusters of fleshy yellow-green bulbous pods and leaves with a few drooping tendrils.
+forest_jungle	tree	clump	2	Jungle forest	re:avlswmp\d re:avlswn0[1-3]		0	density=1.1	tree_jungle_a,tree_jungle_b	Dense tropical jungle (assembled from tree_jungle_a/b).
+forest_swamp	tree	clump	2	Swamp tree groups	re:avlswtr\d		0	density=1	tree_palm_fan,tree_swamp_bushy,tree_cypress,tree_jungle_b	Mixed swamp woods of fan palms, bushy trees and teal cypresses (assembled).
+forest_rough	tree	clump	2	Dry-land tree groups	re:avltrro\d		0	density=0.9	tree_rough_a,tree_rough_b,tree_dead_b	Sparse dry-land woods of Joshua-like and olive scrub trees with an odd dead tree (assembled).
+forest_willow	tree	clump	2	Willow group	re:avlwlw[12]0		0	density=1	tree_willow	A few weeping willows (assembled).
+forest_spruce_mixed	tree	clump	3	Mixed spruce forest	re:avlhspr\d		0	density=1	tree_pine_a,tree_pine_b,tree_spruce_hl_b	Mixed spruce forest of dark-green and olive firs (assembled).
+forest_tree_single	tree	clump	2	Single fir / leafy tree	re:avltr[123]d0 def:avltro07		0	density=1	tree_pine_b,tree_oak_a	One or two firs or leafy trees (assembled).
+forest_dead_single	tree	clump	3	Single dead trees	def:avltro06 def:swddtree		0	density=0.6	tree_dead_a,tree_dead_b	One or two dead leafless trees (assembled).
+forest_palm	tree	clump	3	Oasis palm grove	re:avlspl09 re:avlspl1[0-4]		0	density=1	tree_palm_a,tree_palm_b	Oasis grove of date palms and light-green oasis trees (assembled).
+forest_spruce_hl	tree	clump	3	Highland spruce forest	re:avlhpn\d\d		0	density=1	tree_spruce_hl_a,tree_spruce_hl_b	Highland forest of blue-green spruces and olive firs (assembled).
+forest_maple	tree	clump	3	Red maple grove	re:avrdtr0\d		0	density=1	tree_maple_a,tree_maple_b	Grove of scarlet and crimson maples (assembled).
+bush_green	bush	gen	2	Green shrub	def:avlshl00	1x1	0	max_h=0.7		A dense, rounded shrub of small dark-green leaves growing in several puffy clumps.
+bush_olive	bush	gen	2	Olive shrub	def:avlsh5d0	1x1	0	max_h=0.6		A low spreading shrub of small olive and yellow-green leaves in loose rounded clumps, a few dry twigs at its base.
+bush_dry_tuft	bush	gen	2	Dry grass tuft	def:avlsh1r0 def:avlsh8d0 def:avlsh1rw	1x1	0	max_h=0.5		A low tuft of dry golden-orange grass blades and twiggy brush, bleached pale at the tips.
+bush_sage	bush	gen	2	Sagebrush	def:avlsh2r0 def:avlsh3r0 def:avlsh5r0 def:avlsh7r0 def:avlsh8r0 def:avlca110	1x1	0	max_h=0.55		A low, round sagebrush of tiny silvery grey-green leaves on short woody stems.
+bush_dead_brush	bush	gen	2	Dead brush	def:avlsh4r0 def:avlca080	1x1	0	max_h=0.6		A small leafless thorny bush of thin, tangled dark grey-brown twigs, like a dry tumbleweed.
+bush_snow	bush	gen	2	Snowy shrub	def:avls1sn0 def:avls2sn0	1x1	0	max_h=0.6		A low rounded shrub whose dense twiggy branches are covered with thick white caps of snow and hoarfrost, brown twigs peeking out.
+bush_fern	bush	gen	2	Fern clump	def:avls07s0 def:avls10s0	1x1	0	max_h=0.6		A clump of large dark-green fern fronds and broad pointed tropical leaves spreading out from the centre.
+bush_reeds	bush	gen	2	Reeds		1x1	0	max_h=0.8		A dense tuft of tall thin green reeds and cattails with rust-red seed heads on top.
+bush_tussock	bush	gen	2	Grass tussock	def:avls05s0 def:avls11s0	1x1	0	max_h=0.5		A round tussock of stiff, narrow bright-green leaves and grass blades fanning out from the base.
+bush_agave	bush	gen	2	Agave	def:avlca010 def:avlca050 def:avlca070	1x1	0	max_h=0.6		A spiky agave rosette of thick, pointed grey-green leaves with pale edges, a few dry leaves at the bottom.
+bush_red_coral	bush	gen	2	Red swamp shrub	def:avls08s0	1x1	0	max_h=0.6		A small swamp shrub of branching coral-like stems with bright red-orange leaves.
+bush_white_flower	bush	gen	2	White-flowering bush	def:avlshl01	1x1	0	max_h=0.65		A rounded green bush densely dotted with small white blossoms.
+bush_heather	bush	gen	3	Heather	def:avgflh02	1x1	0	max_h=0.5		A low bush of lavender-purple flower spikes over grey-green foliage, with a few magenta blossoms.
+bush_coral_yellow	bush	gen	3	Yellow coral plant	re:avlwsh0[12]	1x1	0	max_h=0.6		A desert plant of branching, tubular yellow-ochre stems like coral, with a cluster of small magenta flowers at its base.
+forest_shrub_green	bush	clump	2	Green shrubs	re:avlsh[1-5]g0		0	density=1	bush_green	Rows of dense dark-green shrubs (assembled from bush_green).
+forest_shrub_olive	bush	clump	2	Olive shrubs	re:avlsh[1-4]d0		0	density=1	bush_olive	Low olive-green shrubs (assembled).
+forest_shrub_dry	bush	clump	2	Dry brush	def:avlsh6d0 def:avlsh7d0 def:avlsh6r0 def:avlsh9r0 def:avlsh6rw def:avlsh9rw def:avlsh9x0 def:avlsh9xw		0	density=0.9	bush_dry_tuft,bush_sage	Dry golden grass tufts and sagebrush (assembled).
+forest_shrub_snow	bush	clump	2	Snowy shrubs	def:avls3sn0		0	density=1	bush_snow	Snow-covered shrubs (assembled).
+forest_ferns	bush	clump	2	Swamp ferns	def:avls04s0 def:avls06s0 def:avlswp20 def:avlswp30 def:avlswp40 def:avlsh6g0		0	density=1	bush_fern	Lush clumps of ferns and broad tropical leaves (assembled).
+forest_reeds	bush	clump	2	Reed beds	def:avls01s0 def:avls02s0 def:avls03s0 def:avlswp10		0	density=1.2	bush_reeds	Reed beds of tall green reeds and cattails (assembled).
+forest_tussock	bush	clump	3	Grass tussocks	def:avls05s1		0	density=1	bush_tussock	Grass tussocks (assembled).
+forest_white_flower_bush	bush	clump	2	White-flowering bushes	def:avls09s0		0	density=1	bush_white_flower	Bushes with white blossoms (assembled).
+forest_heather	bush	clump	3	Heather	def:avgflh03 def:avgflh18		0	density=1	bush_heather,bush_olive	Heather and lavender bushes (assembled).
+bush_flowers_red	bush	gen	2	Red flowers	def:avlf01g0 def:avlfl6d0 def:avgflh00 def:avgflh08	1x1	0	max_h=0.35		A low cushion of green leaves covered with bright red and orange poppy-like flowers.
+bush_flowers_yellow	bush	gen	2	Yellow flowers	def:avlf09g0 def:avlf11g0 def:avgflh09	1x1	0	max_h=0.35		A low cushion of green leaves densely covered with golden-yellow daisy-like flowers.
+bush_flowers_purple	bush	gen	2	Purple flowers	def:avlf12g0 def:avgflh01	1x1	0	max_h=0.35		A low clump of green leaves with many small violet, lilac and pale-blue flowers.
+bush_flowers_white	bush	gen	2	White flowers	def:avlfl9d0 def:avgflh14	1x1	0	max_h=0.35		A low clump of fresh green leaves with many small white and pale-pink star-shaped flowers.
+forest_flowers_red	bush	clump	2	Red flower beds	def:avlf02g0 def:avlf07g0 def:avlf10g0 def:avlfl1d0 def:avlfl4d0 def:avlfl7d0 def:avgflh06 def:avgflh13 def:avgflh19 def:avgflh20		0	density=1.2	bush_flowers_red,bush_flowers_yellow	Beds of red and orange flowers (assembled).
+forest_flowers_yellow	bush	clump	2	Yellow flower beds	def:avlf04g0 def:avlf05g0 def:avlfl3d0 def:avlfl8d0 def:avgflh10 def:avgflh16		0	density=1.2	bush_flowers_yellow	Beds of golden-yellow flowers (assembled).
+forest_flowers_purple	bush	clump	2	Purple flower beds	def:avlf03g0 def:avlf08g0 def:avlfl2d0 def:avgflh04 def:avgflh07 def:avgflh11 def:avgflh15		0	density=1.2	bush_flowers_purple,bush_flowers_white	Beds of violet, lilac and blue flowers (assembled).
+forest_flowers_white	bush	clump	2	White flower beds	def:avlf06g0 def:avlfl5d0 def:avgflh05 def:avgflh12 def:avgflh17		0	density=1.2	bush_flowers_white	Beds of white and pale-pink flowers (assembled).
+bush_swamp_violet	bush	gen	3	Violet swamp rosette	re:swvflw0[1-3]	1x1	0	max_h=0.35		A low rosette of large pointed dark violet-grey leaves with pale veins, spreading flat over the ground.
+forest_swamp_violet	bush	clump	3	Violet swamp rosettes	re:swvflw0[45]		0	density=1	bush_swamp_violet	Groups of violet swamp rosettes (assembled).
+bush_mandrake	bush	gen	2	Mandrake	re:avlman[135]0	1x1	0	max_h=0.4		A low clump of crinkled, curly dark-green leaves growing close to the ground, a few thick pale roots showing at the base.
+forest_mandrake	bush	clump	2	Mandrake patch	re:avlman[24]0		0	density=1	bush_mandrake	Mandrake patches (assembled).
+bush_moss	bush	gen	3	Moss hummock	def:avlmoss0	1x1	0	max_h=0.3		A small rounded hummock of thick, spongy green moss with a few tiny yellow-green shoots.
+bush_mushroom_brown	bush	gen	2	Brown mushrooms	re:avlms0[2-58-9]0 re:avlms1[013-7]0	1x1	0	max_h=0.6		A cluster of mushrooms of different sizes with broad orange-brown caps and pale cream stems.
+forest_mushroom_brown	bush	clump	2	Brown mushroom patch	re:avlms0[167]0 def:avlms120		0	density=1.2	bush_mushroom_brown	Patches of orange-brown mushrooms (assembled).
+bush_mushroom_red	bush	gen	3	Fly agarics	re:avrmsh0[1-7]	1x1	0	max_h=0.55		A cluster of fly agaric mushrooms: bright red caps with white spots on thick white stems.
+forest_mushroom_red	bush	clump	3	Fly agaric patch	re:avrmsh0[89] def:avrmsh10		0	density=1.2	bush_mushroom_red	Patches of red fly agarics (assembled).
+bush_mushroom_violet	bush	gen	3	Violet mushrooms	re:swpmsh0[1-5]	1x1	0	max_h=0.55		A small cluster of mushrooms with glossy violet-purple caps on pale stems among a few green leaves.
+forest_mushroom_violet	bush	clump	3	Violet mushroom patch	def:swpmsh06		0	density=1	bush_mushroom_violet	Patches of violet mushrooms (assembled).
+bush_cactus_saguaro	bush	gen	2	Saguaro cactus	def:avlca100 re:avcact0[1-3] re:avlwct0[2-4]	1x1	0	max_h=1.2		A tall green saguaro cactus: a thick ribbed column with two arms curving upward, covered with fine pale spines.
+bush_cactus_column	bush	gen	2	Column cactus	def:avlca060 def:avlca090 def:avlca1r0 def:avlwct01	1x1	0	max_h=0.9		A single tall ribbed column cactus, yellow-green with rows of fine spines and a rounded top.
+bush_cactus_barrel	bush	gen	2	Barrel cacti	def:avlca020 def:avlca120 def:avlca130 def:avlca2r0 re:avlwct0[5-8]	1x1	0	max_h=0.55		A group of three round ribbed green barrel cacti of different sizes with golden spines, crowned with small yellow flowers.
+bush_cactus_prickly	bush	gen	2	Prickly pear	def:avlca030 def:avlca040 def:avcact04 re:avlwct09 re:avlwct1[01]	1x1	0	max_h=0.65		A prickly pear cactus of flat oval green pads growing out of each other, dotted with spines and a few small pink flowers.
+deco_log	pickup	gen	3	Fallen log	def:avldlog def:avllogdrt1 def:avlswp60 def:avlswp70	1x1	0	max_xz=0.95;max_h=0.3		A fallen tree log lying on the ground, rough dark-brown bark partly covered with green moss, one end broken and splintered.
+deco_stump	pickup	gen	3	Tree stumps	re:avlstm[1-3]	1x1	0	max_h=0.45		Two old tree stumps of different heights with rough brown bark, pale cut tops with growth rings and thick roots gripping the ground.
+deco_stump_snow	pickup	gen	3	Snowy stumps	re:avlp[12]sn0	1x1	0	max_h=0.45		Two small tree stumps with dark brown bark, each wearing a thick white cap of snow.
+deco_skull	pickup	gen	3	Horned skull	re:avlskul[0-2] def:avlwcsk0	1x1	0	max_h=0.35		A large bleached ox skull with two long curved horns lying on the ground, dark eye sockets.
+deco_bones	pickup	gen	3	Skeleton remains	def:avlskul3 re:avlbon0[0-2]	1x1	0	max_xz=0.95;max_h=0.35		The bleached skeleton of a large beast lying on the ground: a curved ribcage, a long spine of vertebrae and scattered leg bones.
+deco_dragon_skeleton	landform	gen	3	Dragon skeleton	def:avlbon03	3x1	0	max_h=0.7		The huge bleached skeleton of a dragon lying sprawled on a low patch of sand: long horned skull, curved spine, big ribcage and the bony frames of folded wings.
+land_hill_desert_a	landform	gen	2	Desert knoll	re:avlxds0[1-6] re:avlxds1[0-2]	2x2	0	max_h=0.9		A low knoll of pale sandy rocks and sand with spiky agaves, a small fan palm, dry yellow grass tufts and a few grey succulents growing between the stones.
+land_hill_desert_b	landform	gen	2	Desert knoll (long)	re:avlxds0[7-9]	3x1	0	max_h=0.7		A long, low ridge of pale sandstone rocks and sand with spiky agaves, dry yellow grass and small desert plants between the stones.
+land_hill_dirt_a	landform	gen	2	Wooded knoll	re:avlxdt0[0-5] re:avlndt0[1-6]	2x1	0	max_h=1.0		A low brown-earth knoll overgrown with dense green bushes, two small conifers, ferns, red and yellow wild flowers and a few grey boulders.
+land_hill_dirt_b	landform	gen	2	Wooded knoll (long)	re:avlxdt0[6-9] re:avlxdt1[01]	3x1	0	max_h=1.0		A long low ridge of brown earth thickly overgrown with green bushes, small fir trees, ferns, small brown mushrooms, wild flowers and a couple of tan boulders.
+land_hill_grass_a	landform	gen	2	Grassy knoll	re:avlxgr0[1-6] re:avlxgr1[0-2]	2x2	0	max_h=0.9		A low grassy knoll covered with lush leafy green shrubs, broad-leaved plants, clusters of purple and red flowers and a couple of pale tan rocks.
+land_hill_grass_b	landform	gen	2	Grassy knoll (long)	re:avlxgr0[7-9]	3x1	0	max_h=0.7		A long low strip of grassy ground with rounded green shrubs, red and purple flowers and a mossy green rock.
+land_hill_rough_a	landform	gen	2	Stony knoll	re:avlxro0[1-6] re:avlxro1[0-2]	2x2	0	max_h=0.9		A low knoll of pale tan rounded boulders with spiky grey-green agaves, silvery shrubs, dry yellow grass and a small olive tree among the stones.
+land_hill_rough_b	landform	gen	2	Stony knoll (long)	re:avlxro0[7-9]	3x1	0	max_h=0.7		A long low ridge of pale tan boulders with grey-green agaves, silvery shrubs and dry yellow grass tufts.
+land_hill_sub_a	landform	gen	2	Cave knoll	re:avlxsu0[1-6] re:avlxsu1[0-2]	2x2	0	max_h=1.0		A low knoll of reddish-brown rock with small pointed rock spires, clusters of orange-brown mushrooms, yellow-green grass tufts and ferns.
+land_hill_sub_b	landform	gen	2	Cave knoll (long)	re:avlxsu0[7-9]	3x1	0	max_h=0.8		A long low ridge of reddish-brown rock spires with clusters of orange-brown mushrooms, a few bleached bones and dry yellow-green grass.
+land_swamp_foliage_a	landform	gen	2	Swamp thicket	re:avlxsw0[1-6] re:avlxsw1[01]	2x2	0	max_h=1.0		A low swampy mound overgrown with huge tropical fern fronds and broad leaves, clusters of red-orange and purple flowers and a few mossy grey rocks.
+land_swamp_foliage_b	landform	gen	2	Swamp thicket (long)	re:avlxsw0[7-9]	3x1	0	max_h=0.8		A long low strip of swampy ground with big fern fronds, reeds, yellow and violet flowers and a mossy grey rock.
+land_snow_hill	landform	gen	3	Snowy knoll	re:avlxsn0[1-3]	2x2	0	max_h=1.0		A low snow-covered knoll with grey rocks poking through the snow, bare brown shrubs and two small snowy spruces.
+mountain_sand_l	mountain	gen	2	Sandstone mountains (large)	re:avlmtds[12]	5x3	0			A large massif of layered orange-tan sandstone: flat-topped mesas and buttes with eroded, stepped cliffs, deep canyons between them and loose sand at the foot.
+mountain_sand_m	mountain	gen	2	Sandstone mountains (medium)	re:avlmtds[3-6]	3x2	0			A medium sandstone mesa of layered orange-tan rock with two flat-topped buttes, eroded stepped cliffs and sand at the foot.
+mountain_rough_l	mountain	gen	2	Ridged mountains (large)	re:avlmtrf[12]	5x3	0			A large mountain massif of dusty grey-brown rock with several sharp peaks whose slopes are cut by many steep parallel ribs and gullies.
+mountain_rough_m	mountain	gen	2	Ridged mountains (medium)	re:avlmtrf[3-6]	3x2	0			A medium mountain of dusty grey-brown rock with two sharp peaks and steep slopes furrowed by parallel ribs and gullies.
+mountain_sub_l	mountain	gen	2	Spire mountains (large)	re:avlmtsb[01]	5x3	0			A large cluster of tall, sharp reddish-brown rock spires like giant stalagmites, rising from a jumble of ochre boulders and ledges.
+mountain_sub_m	mountain	gen	2	Spire mountains (medium)	re:avlmtsb[2-5]	3x2	0			A medium cluster of sharp reddish-brown rock spires like stalagmites on a base of ochre boulders.
+mountain_swamp_l	mountain	gen	2	Mossy mountains (large)	re:avlmtsw[12]	5x3	0			A large massif of dark grey-brown cliffs with deep vertical cracks, its rounded tops and ledges thickly overgrown with green moss and swamp plants, reeds at the foot.
+mountain_swamp_m	mountain	gen	2	Mossy mountains (medium)	re:avlmtsw[3-6]	3x2	0			A medium craggy mountain of dark grey-brown rock with rounded tops thickly covered with green moss and plants.
+mountain_volcanic_l	mountain	gen	2	Volcanic mountains (large)	re:avlmtvo[12]	5x3	0			A large massif of dark charcoal-grey porous volcanic rock with rounded humps pitted by several small craters whose insides glow dull dark red.
+mountain_volcanic_m	mountain	gen	2	Volcanic mountains (medium)	re:avlmtvo[3-6] def:avlvol60	3x2	0			A medium mound of dark charcoal-grey porous volcanic rock pitted by two or three small dark-red craters.
+mountain_lava_l	mountain	gen	3	Basalt mountains (large)	re:avlmtfr[12]	5x3	0			A large mountain massif of jagged black-grey basalt with several sharp peaks, rough fractured cliffs and faint reddish tints.
+mountain_lava_m	mountain	gen	3	Basalt mountains (medium)	re:avlmtfr[3-7]	3x2	0			A medium mountain of jagged black-grey basalt with one or two sharp peaks and rough fractured slopes.
+mountain_moss_l	mountain	gen	3	Green-peaked mountains (large)	re:mntswp0[56]	5x3	0			A large group of tall pointed grey-green rock peaks thickly coated with bright green moss and grass, like steep jungle karst towers.
+mountain_moss_m	mountain	gen	3	Green-peaked mountains (medium)	re:mntswp0[1-4]	3x2	0			A medium group of three or four pointed grey-green rock peaks coated with bright green moss and grass.
+mountain_highland_l	mountain	gen	3	Highland mountains (large)	re:avlmhs0[01]	5x3	0			A large mountain massif of grey rock with several sharp peaks, white snow on the summits and ridges and green grassy lower slopes.
+mountain_highland_m	mountain	gen	3	Highland mountains (medium)	re:avlmhs0[2-5]	3x2	0			A medium mountain of grey rock with two or three sharp snow-capped peaks and green grassy lower slopes.
+mountain_waste_l	mountain	gen	3	Hoodoo mountains (large)	re:avlmtwl[12]	5x3	0			A large massif of eroded orange-ochre sandstone towers and hoodoos with rounded tops, cut by narrow crevices and canyons.
+mountain_waste_m	mountain	gen	3	Hoodoo mountains (medium)	re:avlmtwl[3-6]	3x2	0			A medium cluster of eroded orange-ochre sandstone towers and hoodoos with rounded tops.
+mountain_glacier_l	mountain	gen	3	Glacier mountains (large)	re:avlglc0[12]	5x3	0			A large glacier mass of jagged pale icy-blue ice blocks and seracs with sharp broken edges, deep blue shadows in the cracks and snow at the foot.
+mountain_glacier_m	mountain	gen	3	Glacier mountains (medium)	re:avlglc0[3-6]	3x2	0			A medium heap of jagged pale icy-blue glacier ice blocks and seracs with snow at the foot.
+mountain_icespikes_l	mountain	gen	3	Ice spikes mountains (large)	re:avlifmt[01]	5x3	0			A large field of tall translucent blue ice spikes and pillars like frozen stalagmites, rising from a base of snow and ice.
+mountain_icespikes_m	mountain	gen	3	Ice spikes mountains (medium)	re:avlifmt[2-5]	3x2	0			A medium cluster of tall translucent blue ice spikes and pillars rising from a snowy base.
+mountain_volcano	mountain	gen	2	Volcano	def:avlvol30 def:avlvol50	3x2	0	max_h=2.4		A steep conical volcano of dark grey porous rock with a jagged crater rim glowing orange-red inside, streaks of red molten lava running down one flank.
+rock_sub_spire	rock	gen	2	Rock spire	re:avlr0[6-9]u0 re:avlr1[13-6]u0 re:avlstg[2-6]0	1x1	0	max_h=1.3		A tall, sharply pointed spire of rough reddish-brown layered rock like a stalagmite, with a few small stones at its foot.
+rock_sub_ridge	rock	gen	2	Spiky rock ridge	re:avlr0[1-5]u0 def:avlr10u0 def:avlr12u0 def:avlstg10	2x1	0	max_h=1.3		A jagged group of reddish-brown and ochre rock spikes and pointed crags of different heights, rough layered surfaces.
+rock_snow	rock	gen	2	Snowy rocks	re:avlr[1-8]sn0	1x1	0			A cluster of dark grey rocks heavily covered with thick white snow, only the steep sides of the stones showing.
+rock_swamp	rock	gen	2	Mossy swamp rocks	re:avlrk[1-4]s0 def:avlrk5s0 def:avlrk6s0	1x1	0			A small heap of grey-brown rocks thickly covered with dark green moss, a few tiny ferns in the cracks.
+rock_outcrop_snow	rock	gen	2	Snowy outcrop	re:avlo[123]sn0	2x1	0			A low elongated outcrop of dark grey rock almost buried in thick white snow, dark rock showing along the steep edges.
+rock_outcrop_grass	rock	gen	2	Grassy outcrop	re:avloc[123]g0 re:avlhitr[0-2]	2x1	0			A low elongated ledge of grey stratified rock whose flat top is covered with green moss and short grass, rocky flanks showing on the sides.
+rock_outcrop_earth	rock	gen	2	Brown outcrop	re:avloc[123]d0	2x1	0			A low elongated outcrop of lumpy golden-brown and ochre rocks heaped together.
+rock_outcrop_pale	rock	gen	2	Pale outcrop	re:avloc[1-4][ru]0	2x1	0			A low elongated ridge of pale tan-grey rock with vertical ribs and crumbling eroded faces.
+rock_outcrop_lava	rock	gen	3	Basalt outcrop	re:avlvotr[0-2]	2x1	0			A low elongated ridge of dark charcoal-black basalt with rough vertical ribs and jagged crests.
+rock_sandstone	rock	gen	3	Sandstone boulders	re:avlrws0[1-3]	2x1	0			A pile of large rounded orange-ochre sandstone boulders with layered, weathered, deeply grooved surfaces.
+rock_sub_boulder	rock	gen	3	Brown boulders	re:udrock0[1-8]	2x1	0			A few rough brown and tan boulders with sharp broken faces, one big block and smaller stones beside it.
+rock_mossy	rock	gen	3	Mossy grey stones	def:avlrhl00 re:avlrhl0[4-8]	1x1	0			A rounded grey granite boulder patched with bright green moss and grass, a smaller stone beside it.
+rock_natural_arch	rock	gen	3	Natural arch	def:avlmtwl7	3x1	0	max_h=1.5		A natural rock arch of eroded orange-ochre sandstone: two thick lumpy pillars joined by a curved bridge of rock.
+rock_ice_spikes	rock	gen	3	Ice spikes	re:avlific[0-3] re:tpicecr[1-4]	2x1	0			A small cluster of translucent blue ice spikes and rounded icy pillars of different heights on a little drift of snow.
+rock_ice_arch	rock	gen	3	Ice arch	re:avlifar[01]	3x1	0	max_h=1.5		A natural arch of translucent blue ice: two twisted icy pillars joined by a curved bridge of ice, snow at the foot.
+rock_lava_vent	rock	gen	2	Lava vent	def:avlvol10 def:avlvol20 def:avlvol40	2x1	0			A low cone of dark grey porous volcanic rock with a small crater on top and cracks glowing with orange molten lava down its side.
+wat_lake_green_l	landform	gen	2	Lake (large)	def:avllk1d0 def:avllk1g0 def:avllk1s0	5x3	0	max_h=0.5		A natural lake of deep blue water with an irregular outline, framed by lush green grass, reeds, ferns and a few mossy grey rocks along the banks.
+wat_lake_green_m	landform	gen	2	Pond	re:avllk[23][dgs]0 def:avlswp50	3x2	0	max_h=0.5		A small pond of deep blue water with grassy green banks, reeds, a few bushes and grey stones along the shore.
+wat_lake_rocky_l	landform	gen	2	Rocky lake (large)	def:avllk1u0	7x3	0	max_h=0.7		A long lake of dark blue water enclosed by jagged brown rocks and stony tan shores, pointed rocks rising from the water.
+wat_lake_rocky_m	landform	gen	2	Rocky pond	def:avllk2u0 def:avllk3u0 def:avllk1r	4x2	0	max_h=0.7		A small pond of blue water ringed by tan and brown boulders and pointed rocks, a little dry grass between them.
+wat_lake_flowers	landform	gen	3	Flowery lake	re:avlhll0[0-3]	5x3	0	max_h=0.5		A calm turquoise-blue lake with green grassy banks full of white, yellow and red wild flowers, lily pads near the shore and a few pale stones.
+wat_frozen_lake	landform	gen	2	Frozen lake	re:avlflk[1-3]0	5x2	0	max_h=0.4		A frozen lake: a flat sheet of pale turquoise ice with white cracks and frosted patches, edged with snowdrifts and dark rocks.
+wat_lava_lake	landform	gen	2	Lava lake	def:avllav10 re:avlllk[12]0	3x2	0	max_h=0.4		A pool of bright orange-red molten lava with darker cooling crusts, sunk into a rim of dark cracked volcanic rock.
+wat_tar_pit	landform	gen	3	Tar pit	re:avlwloi[1-5]	4x2	0	max_h=0.4		A shallow pit of glossy black tar with a few bubbles, framed by a cracked rim of orange-ochre clay, dry yellow grass and a few ochre stones.
+wat_limestone_lake	landform	gen	3	Limestone lake	re:avlwll0[0-2]	4x2	0	max_h=0.4		A shallow pale sky-blue pool edged by a crust of yellow-ochre limestone terraces with tufts of dry golden grass.
+land_lava_flow_l	landform	gen	2	Lava flow (large)	re:avllav[2-59]0 def:avllv100	3x2	0	max_h=0.35		A field of dark grey cracked basalt crust split by a network of glowing orange-red molten lava channels.
+land_lava_flow_s	landform	gen	2	Lava flow (small)	re:avllav[678]0 re:avllv1[1-9]0 re:avllv2[0-6]0	2x2	0	max_h=0.3		A patch of dark grey basalt crust with a few glowing orange-red molten lava cracks running through it.
+land_lava_crack_pale	landform	gen	3	Lava cracks	re:avllv[123]u0	2x2	0	max_h=0.3		A patch of pale beige rocky ground split by branching cracks filled with glowing orange-red molten lava.
+land_swamp_deadtree	landform	gen	3	Swamp pool with dead tree	re:avldt[123]s0	2x1	0	max_h=1.4		A small swamp pool of dark blue-green water ringed by mossy grey rocks and reeds, a gnarled bare grey dead tree leaning over it.
+land_waterfall_cliff	mountain	gen	3	Waterfall crag	re:avlwtf0[0-2]	3x2	0	max_h=2.0		A steep crag of grey rock with snowy tops and a white waterfall pouring from its face into a round blue pool, the pool ringed by grass and red and yellow flowers.
+land_crater_grass	landform	gen	2	Grassy crater	def:avlctrg0 def:avlctrs0 def:avlcthl0	2x1	0	max_h=0.35		A small impact crater in green turf: a shallow pit of torn brown earth with a raised broken rim and cracks radiating outward through the grass.
+land_crater_earth	landform	gen	2	Earth crater	def:avlctrd0 def:avlctrr0 def:avlctds0	2x1	0	max_h=0.3		A small impact crater: a shallow pit of brown earth and sand with a raised ragged rim and spiky cracks radiating outward.
+land_crater_lava	landform	gen	2	Ash crater	def:avlctrl0	2x1	0	max_h=0.3		A small impact crater in dark grey volcanic ash and rubble, with a ragged raised rim of black stones.
+land_crater_snow	landform	gen	2	Snow crater	def:avlctsn0	2x1	0	max_h=0.3		A small impact crater in white snow with a ragged raised rim and spiky cracks radiating outward, grey-blue shadows inside.
+land_fissure_grass	landform	gen	2	Grassy fissure	re:avlct[1-6]g0	2x2	0	max_h=0.4		A long rift torn through green turf: a raised broken ridge of brown earth and roots with branching cracks, grass hanging over its edges.
+land_fissure_earth	landform	gen	2	Earth fissure	re:avlct[1-5]d0	2x1	0	max_h=0.35		A low heaped rift of cracked brown earth with branching furrows and crumbling ridges.
+land_fissure_pale	landform	gen	2	Pale fissure	re:avlct[1-9]r0 re:avlct[1-5]u0	2x1	0	max_h=0.35		A patch of pale tan crumbly ground split by branching dark cracks and eroded gullies with raised ridges.
+land_fissure_lava	landform	gen	2	Volcanic rubble ridge	re:avlc1[0-4]l0 re:avlct[1-9]l0	2x2	0	max_h=0.5		A heaped ridge of crumbly dark grey and purplish volcanic rock and cinders, cracked and lumpy.
+land_fissure_waste	landform	gen	3	Deep chasm	re:avlwcr0[1-5]	4x2	0	max_h=0.3		A flat slab of cracked orange-ochre clay ground split by a deep branching chasm with steep layered walls.
+land_canyon	landform	gen	3	Eroded gully	def:avlglly0	4x3	0	max_h=0.8		A low mound of grey-brown eroded rock cut by deep winding gullies and crumbling ridges.
+land_mound_earth	landform	gen	3	Earth mound	re:avlmd[12]d0 re:avlmd[123]r0	2x1	0	max_h=0.35		A low rounded heap of brown earth and pebbles with a rough crumbly surface.
+land_mound_grass	landform	gen	3	Grassy mound	re:avlmd[12]g0	2x1	0	max_h=0.35		A low rounded hump of earth completely covered with green grass.
+land_mound_snow	landform	gen	3	Snowdrift	re:avlsnh0[1-4]	2x1	0	max_h=0.35		A low smooth white snowdrift with soft rounded crests and blue-grey shadows.
+land_sand_dune	landform	gen	3	Sand dunes	re:avldun[123]0	2x1	0	max_h=0.45		Two or three small dunes of fine pinkish-tan sand with sharp wind-blown crests and rippled slopes.
+land_sand_pit	landform	gen	3	Sand pit	def:avlspit0	3x1	0	max_h=0.3		A shallow hollow of loose pale sand with a soft raised rim and grainy, slightly darker sand inside.
+land_barchan_l	landform	gen	3	Barchan dunes (large)	re:avlmtdn[12]	5x3	0	max_h=1.8		Several big crescent-shaped sand dunes of fine pinkish-tan sand with smooth windward slopes and sharp curved crests casting shade on the steep lee sides.
+land_barchan_m	landform	gen	3	Barchan dunes (medium)	re:avlmtdn[3-6]	3x2	0	max_h=1.2		Two crescent-shaped sand dunes of fine pinkish-tan sand with smooth slopes and sharp curved crests.
+wat_reef_l	water	gen	2	Reef (large)	re:avlref[12]0 re:avlrfx0[23]	3x2	0	max_h=0.6		A wide reef of many low, rough brown rocks and flat ledges scattered in a loose group, worn smooth at the waterline.
+wat_reef_s	water	gen	2	Reef (small)	re:avlref[3-6]0 re:avlrfx0[14] re:zreef[1-3]	2x1	0	max_h=0.5		A small reef of a few low, rough, weathered brown rocks lying close together.
+wat_sea_crag	water	gen	3	Sea crag	re:avlrfx0[578] def:zreef5	3x2	0	max_h=1.5		A craggy rock islet of weathered brown stone with several sharp peaks rising steeply from a broad rocky base.
+wat_sea_stack	water	gen	2	Sea stack	def:avlrfx06 def:zreef4 re:avlrk[1-4]w0	1x1	0	max_h=1.3		A tall pointed sea stack of layered brown rock with a few smaller stones at its foot.
+wat_stone_sphere	water	gen	3	Stone sphere	def:waterball	2x1	0	max_h=1.0		A huge, almost perfectly round boulder of dark brown speckled stone with a band of green moss at the waterline.
+wat_sunken_column	water	gen	3	Sunken column	re:avlpilr[0-35-7]	1x1	0	max_h=1.2		A weathered stone column of an ancient ruin, its grey-green shaft patched with moss and its carved capital broken.
+wat_sunken_arcade	water	gen	3	Sunken arcade	def:avlpilr4	3x1	0	max_h=1.4		A ruined arcade: three mossy grey-green stone columns carrying a curved, crumbling stone arch overgrown with moss.
+wat_column_rubble	water	gen	3	Column rubble	re:avlcof0[1-4] def:avlcom06	2x1	0	max_h=0.6		Broken pieces of ancient sandstone columns lying together: round column drums, a cracked capital and squared blocks of pale tan stone.
+wat_waterfall_small	water	gen	3	Sea waterfall	re:h4wt[1-3]f	2x1	0	max_h=1.2		A small outcrop of dark rock with a white cascade of falling water pouring down its face, the water modelled as a solid white-blue shape.
+deco_crate	pickup	gen	3	Crate	def:crates04	1x1	0	max_h=0.45		A single sturdy wooden crate made of brown planks with a diagonal cross brace on each side.
+deco_crates	pickup	gen	3	Stacked crates	def:crates01 re:crates1[1-3]	1x1	0	max_h=0.6		A pile of three wooden crates of brown planks with cross braces, one stacked on top of the others, a pale cloth label on one lid.
+deco_sacks	pickup	gen	3	Sacks	def:crates05 def:crates10	1x1	0	max_h=0.55		Two tall, bulging sacks of coarse dark green-grey netting, tied at the top with rope.
+deco_barrels	pickup	gen	3	Barrels	re:crates0[23]	1x1	0	max_h=0.45		Two or three wooden barrels with dark iron hoops, one standing and one lying on its side.
+deco_rope	pickup	gen	3	Coiled rope	re:crates0[67]	1x1	0	max_h=0.2		A thick coil of pale hemp rope lying flat on the ground in a neat spiral.
+deco_jawbone	pickup	gen	3	Giant jawbone	def:jaws	2x1	0	max_xz=1.4;max_h=0.45		The huge bleached jawbone of a sea monster lying on the ground in a wide curved arc, lined with rows of sharp teeth.
+deco_boat_wreck	landform	gen	3	Boat wreck	re:crates0[89]	2x1	0	max_h=0.5		An old wooden rowboat wrecked and half buried in a mound of sand, its brown planks broken and ribs showing.
+deco_frog	creature	gen	3	Frog	re:frog_0[1-3]	1x1	0	max_xz=0.35;max_h=0.25		A small bright green frog with yellowish spots sitting on its haunches.
+deco_chicken	creature	gen	3	Hen	def:rooster_01	1x1	0	max_xz=0.45;max_h=0.4		A white hen with a small red comb pecking at the ground.
+deco_rooster	creature	gen	3	Rooster	def:rooster_02	1x1	0	max_xz=0.5;max_h=0.5		A proud rooster with a red comb, golden-brown neck feathers, a red-brown body and a tall dark blue-green tail.
+deco_pig	creature	gen	3	Pig	def:pig	1x1	0	max_xz=0.65;max_h=0.45		A plump pale pink pig standing on four short legs, with a curly tail and floppy ears.
+deco_fire	pickup	gen	3	Fire	re:avdcfir\d	1x1	0	max_h=0.9		A patch of scorched black ground with glowing embers and tall licking orange-yellow flames, modelled as solid stylised flame shapes.
+deco_bridge_h	water	gen	3	Bridge (across)	re:tpbridg[125]	3x1	0	max_h=0.5;back=0		A short wooden bridge of thick brown planks on log beams running left to right, resting on two low abutments of grey fieldstone at its ends, open space beneath the deck.
+deco_bridge_v	water	gen	3	Bridge (along)	re:tpbridg[346]	1x3	0	max_h=0.5;back=0		A short wooden bridge of thick brown planks on log beams running from front to back, resting on two low abutments of grey fieldstone at its ends, open space beneath the deck.
+deco_fence	pickup	gen	3	Palisade fence	re:avzabr0[1-6]	1x1	0	max_xz=1.0;max_h=0.85		A short section of palisade fence: five upright brown logs with sharpened tops lashed together side by side.
+deco_fence_snow	pickup	gen	3	Snowy palisade fence	re:avzbrs0[1-6]	1x1	0	max_xz=1.0;max_h=0.85		A short section of palisade fence: five upright brown logs with sharpened tops lashed together, each tip capped with white snow.
+deco_ruin_camp	building	gen	3	Crumbled camp	def:tpdestr3	3x1	0	max_h=0.9		The ruins of a small camp: a broken round wall of grey fieldstones, a collapsed palisade of dark wooden stakes and scattered planks and logs.
+deco_ruin_fountain	building	gen	3	Crumbled fountain	def:tpdestr2	2x2	0	max_h=1.2		A ruined round fountain: a low basin rim of grey stones filled with a heap of broken tan rock blocks, dry black thorny branches growing around it.
+deco_ruin_well	building	gen	3	Ruined well	def:tpdestr4	1x1	0	max_h=0.35		A low ring of old weathered grey stones around a dry, dark pit.
+deco_ruin_edifice	building	gen	3	Crumbled edifice	def:avtcvrui	3x1	0	max_h=1.4		The ruins of a stone building: broken walls and window arches of weathered grey-tan masonry standing among heaps of rubble and dry yellow grass.
+deco_burnt_house	building	gen	3	Burnt house	re:avbhou0[1-3]	2x2	0	max_h=1.8		A burnt-out house: blackened, charred timber frame and collapsed roof beams on low walls of grey fieldstone, a crooked stone chimney still standing.
+deco_stele	building	gen	3	Sandstone obelisk	re:avlobd0[12]	1x1	0	max_h=2.0		A tall slender four-sided obelisk of pale tan sandstone with a pyramid tip, standing on a stepped square base.
+deco_stone_pyramid	building	gen	3	Stone pyramid	def:avlwad01	1x1	0	max_h=0.6		A small pyramid of smooth pale tan sandstone on a low square plinth.
+deco_column	building	gen	3	Sandstone column	re:avlcod0[1-4] re:avlcog0[1-4] re:avlcom0[145]	1x1	0	max_h=1.8		A single weathered pale tan sandstone column with a round carved capital and a square base, its shaft cracked and chipped.
+deco_colonnade	building	gen	3	Sandstone colonnade	re:avlcom0[2378] re:avlcom1[0-2]	3x1	0	max_h=1.8		A row of three weathered sandstone columns carrying a heavy entablature carved with a frieze of ornaments, pale tan stone with cracks.
+deco_wall_h	building	gen	3	Sandstone wall (straight)	re:avlwah\d\d def:avlwam02	2x2	0	max_h=1.2		A straight section of a massive wall of pale tan sandstone blocks running left to right, with a flat top bordered by a carved rim and a few carved panels on its face.
+deco_wall_v	building	gen	3	Sandstone wall (front-back)	re:avlwav\d\d	2x2	0	max_h=1.2		A straight section of a massive wall of pale tan sandstone blocks running from front to back, with a flat top bordered by a carved rim.
+deco_wall_corner	building	gen	3	Sandstone wall (corner)	re:avlwac\d\d re:avlwam0[1345]	2x2	0	max_h=1.2		An L-shaped corner piece of a massive wall of pale tan sandstone blocks with a flat top bordered by a carved rim.
+deco_stairs	building	gen	3	Sandstone stairs	re:avlwas0[1-5]	1x2	0	max_h=1.0		A broad flight of pale tan sandstone steps rising between two low side walls of sandstone blocks.
+deco_carnivorous_plant	bush	gen	3	Carnivorous plant	def:avswplnt	2x1	0	max_xz=1.4;max_h=1.2		A giant carnivorous plant: a bulbous red flower head with an open purple maw lined with white fang-like teeth, rising from a mass of long green leaves.
+decal_cursed_ground	landform	decal	4	Cursed ground	obj:21 obj:223		0			Barren grey-brown dirt strewn with pebbles, dry dead grass and small bleached bones.
+decal_magic_plains	landform	decal	4	Magic plains	obj:46 obj:230		0			Olive-green grassland sprinkled with small white star-like sparkles.
+decal_clover_field	landform	decal	4	Clover field	obj:222		0			Lush bright-green carpet of three-leaf clover.
+decal_evil_fog	landform	decal	4	Evil fog	obj:224		0			A low patch of dark charcoal-grey smoky fog lying on the ground.
+decal_favorable_winds	landform	decal	4	Favorable winds	obj:225		0			Small white and pale-blue cloud puffs and dark ripples scattered over the water surface.
+decal_fiery_fields	landform	decal	4	Fiery fields	obj:226		0			A carpet of low bright orange and yellow flames over the ground.
+decal_holy_ground	landform	decal	4	Holy ground	obj:227		0			Fresh green grass with scattered small grey stones and faint pale paths.
+decal_lucid_pools	landform	decal	4	Lucid pools	obj:228		0			Shallow bright-blue clear water over pale pebbles.
+decal_magic_clouds	landform	decal	4	Magic clouds	obj:229		0			Fluffy pale-blue and white clouds lying low on the ground.
+decal_rocklands	landform	decal	4	Rocklands	obj:231		0			Rough brown stony ground covered with flat stones and gravel.
+decal_cracked_ice	landform	decal	4	Cracked ice	obj:141:0		0			A sheet of pale cyan ice crazed with fine white cracks.
+decal_sand_ripples	landform	decal	4	Dunes overlay	obj:141:1		0			Pale tan sand with soft wind-blown ripples.
+decal_fields_of_glory	landform	decal	4	Fields of glory	obj:141:2		0			Dark reddish-brown earth littered with broken weapons and armour fragments.
+decal_puddles	landform	decal	4	Puddles	obj:139:24 obj:139:26		0			Small shallow puddles of clear water edged with green grass or a yellow limestone crust.
+decal_hole	landform	decal	4	Hole	obj:124		0			A small dark pit in the ground ringed by a lip of loose earth.
+decal_delta_water	landform	decal	4	River delta	re:clrdelt\d		0			The mouth of a small blue river splitting into several branching channels with muddy banks.
+decal_delta_ice	landform	decal	4	Icy river delta	re:icedelt\d		0			The mouth of a frozen river: branching channels of pale turquoise ice framed by white snowbanks.
+decal_delta_lava	landform	decal	4	Lava river delta	re:lavdelt\d		0			The mouth of a lava river splitting into branching channels of glowing orange molten lava with dark crusted banks.
+decal_delta_mud	landform	decal	4	Mud river delta	re:muddelt\d		0			The mouth of a muddy river splitting into branching channels of brown mud with a few grass tufts.
+decal_kelp	landform	decal	4	Kelp	obj:125		0			Strands of green kelp floating just under the water surface.
+decal_seaweed	landform	decal	4	Seaweed	obj:139:10		0			Branching ochre-yellow and red-orange seaweed and corals spread flat just under the water surface.
+decal_scrub	landform	decal	4	Scrub patches	re:avlwsb0\d		0			Flat patches of orange-brown lichen and low green moss on dry ground.

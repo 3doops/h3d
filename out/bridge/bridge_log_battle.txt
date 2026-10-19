@@ -1,0 +1,21 @@
+game folder C:\prj\hota-decompile\game\Heroes3_HotA1
+game pid 12164 (started, hidden window)
+bridge enabled in the agent: {'on': True, 'phase': 'adventure', 'walk': [4, 4], 'quick': 1, 'moveReminder': 1, 'battles': 'manual', 'windows': {}, 'visible': False}; frames: gdiplus
+bridge on ws://127.0.0.1:8799
+client connected ('127.0.0.1', 61948)
+client connected ('127.0.0.1', 61951)
+<- {"t": "hello", "client": "test_client", "caps": ["windows"]}
+client test_client caps ['windows']
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\06_battle_start.jpg"}
+<- {"t": "path", "hero": 98, "to": [8, 24, 0]}
+client disconnected
+<- {"t": "cmd", "cmd": "move_hero", "hero": 98, "to": [8, 24, 0]}
+[game] battle start {"atk":98,"def":-1,"town":-1,"at":[8,24,0]}
+[game] window combat passthrough open, depth 1
+<- {"t": "window_refresh"}
+<- {"t": "window_refresh"}
+[game] window combatResults skipped -> 30722
+[game] window combat passthrough closed (30722), depth 0
+[game] battle end, winner side 0
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\07_battle_after.jpg"}
+<- {"t": "debug_queue"}

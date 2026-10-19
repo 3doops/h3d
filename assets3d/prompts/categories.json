@@ -1,0 +1,229 @@
+{
+  "_comment": "Per-category prompt parts ({w},{h},{ratio} = footprint in tiles) and fit rules for fit_asset.py. fit.mode: footprint = scale the model into its w x h cells (keeps proportions, margin), size = scale so that the model fits max_xz across and max_h high. tris/tex = budget after fitting. flag = add PlayerColor pennant (only if the catalog row has flag=1). back = tiles the model may extend behind (north of) its footprint, as H3 pictures rise behind the blocked front row; {d} in prompts = h + back. align = square the base slab up with the axes (min-area bounding rectangle, turn -45..45). orient = find the facade from the concept (fit_asset.orient_from_concept; facade = image-right face); 0 for symmetric things. lay = tip tall thin items (artifacts) over so they lie on the ground.",
+  "_default": {
+    "view": "three-quarter isometric-like view from the front-left: the camera is in front of the subject and about 35 degrees to its left, raised about 35 degrees above the horizon, orthographic look without perspective distortion; the subject's front side (entrance / face) is turned towards the viewer.",
+    "size": "",
+    "base": "Base: none; the subject rests on an invisible floor with a flat bottom.",
+    "extra": "",
+    "fit": {
+      "mode": "size",
+      "max_xz": 0.9,
+      "max_h": 1.2,
+      "tris": 20000,
+      "tex": 1024,
+      "margin": 0.96
+    }
+  },
+  "town": {
+    "size": "a whole fortified town as one compact, massive complex of walls, towers and halls; about {w} map tiles wide and {d} tiles deep (width:depth = {ratio}), the tallest towers rising about as high as the complex is deep.",
+    "base": "Base: the town stands on a low rocky plateau whose outline is a rounded rectangle (width:depth = {ratio}); a short road leads up to the main gate in the middle of the front side; the plateau ends in a flat horizontal bottom cut, no loose rocks around it.",
+    "extra": "No banners or flags anywhere (owner flags are added later).",
+    "fit": {
+      "mode": "footprint",
+      "max_h": 4.0,
+      "tris": 30000,
+      "tex": 2048,
+      "margin": 0.98,
+      "back": 0.4,
+      "align": 1
+    }
+  },
+  "building": {
+    "size": "one building or structure about {w} map tiles wide and {d} tiles deep (width:depth = {ratio}); sturdy proportions, roof and walls clearly separated.",
+    "base": "Base: it stands on a thin flat irregular slab of packed earth with gravel and a few small grass tufts, the slab outline filling a {ratio} (width:depth) rectangle; the slab is very thin and its bottom is flat.",
+    "extra": "No banners or flags (owner flags are added later).",
+    "fit": {
+      "mode": "footprint",
+      "max_h": 2.6,
+      "tris": 20000,
+      "tex": 1024,
+      "margin": 0.96,
+      "back": 0.8,
+      "align": 1
+    }
+  },
+  "mine": {
+    "size": "a mine about {w} map tiles wide and {d} tiles deep (width:depth = {ratio}): a rock outcrop or hillock with the mine entrance in its front side.",
+    "base": "Base: the rock outcrop itself forms the base and ends in a flat horizontal bottom cut; a little packed-earth apron in front of the entrance.",
+    "extra": "No banners or flags (owner flags are added later).",
+    "fit": {
+      "mode": "footprint",
+      "max_h": 2.2,
+      "tris": 20000,
+      "tex": 1024,
+      "margin": 0.97,
+      "back": 1.0,
+      "align": 1
+    }
+  },
+  "resource": {
+    "size": "a small heap that fits on one map tile: low, compact, about as wide as deep and about half as high as wide.",
+    "base": "Base: none; the heap sits directly on the invisible floor with a flat bottom.",
+    "extra": "",
+    "fit": {
+      "mode": "size",
+      "max_xz": 0.72,
+      "max_h": 0.55,
+      "tris": 12000,
+      "tex": 1024,
+      "margin": 1.0,
+      "orient": 0
+    }
+  },
+  "pickup": {
+    "size": "a small item lying on the ground that fits on one map tile, compact and chunky (drawn larger than life so it reads from far above).",
+    "base": "Base: none; it rests directly on the invisible floor with a flat bottom.",
+    "extra": "",
+    "fit": {
+      "mode": "size",
+      "max_xz": 0.7,
+      "max_h": 0.6,
+      "tris": 12000,
+      "tex": 1024,
+      "margin": 1.0,
+      "lay": 1
+    }
+  },
+  "tree": {
+    "size": "exactly one single tree, about one map tile wide, with a full crown and a short trunk.",
+    "base": "Base: none; only the short root flare of the trunk, cut flat at the bottom; no grass patch or ground disc.",
+    "extra": "Exactly one tree, no other plants, no falling leaves or snowflakes.",
+    "view": "side view from the front, raised about 20 degrees above the horizon, orthographic look; the whole tree from the root flare to the top of the crown.",
+    "fit": {
+      "mode": "size",
+      "max_xz": 1.05,
+      "max_h": 1.5,
+      "tris": 3000,
+      "tex": 512,
+      "margin": 1.0,
+      "orient": 0
+    }
+  },
+  "bush": {
+    "size": "one small plant group (shrub, cactus, mushrooms, flowers or similar) that fits on one map tile.",
+    "base": "Base: none; it sits directly on the invisible floor with a flat bottom.",
+    "extra": "No other plants.",
+    "fit": {
+      "mode": "size",
+      "max_xz": 0.95,
+      "max_h": 0.8,
+      "tris": 4000,
+      "tex": 512,
+      "margin": 1.0,
+      "orient": 0
+    }
+  },
+  "mountain": {
+    "size": "a rocky mountain massif about {w} map tiles wide and {d} tiles deep (width:depth = {ratio}), with several peaks; its height is about half its width.",
+    "base": "Base: no separate base; the rock mass itself ends in a flat horizontal bottom cut, its footprint filling a {ratio} rectangle.",
+    "extra": "No buildings, no trees, no paths on the mountain.",
+    "fit": {
+      "mode": "footprint",
+      "max_h": 3.0,
+      "tris": 10000,
+      "tex": 1024,
+      "margin": 1.02,
+      "back": 0.4,
+      "align": 1,
+      "orient": 0
+    }
+  },
+  "rock": {
+    "size": "a group of boulders and rock slabs about {w} map tiles wide and {d} tiles deep, low (height about a third of its width).",
+    "base": "Base: none; the rocks rest on the invisible floor, bottom cut flat.",
+    "extra": "No plants except a little moss.",
+    "fit": {
+      "mode": "footprint",
+      "max_h": 1.2,
+      "tris": 6000,
+      "tex": 1024,
+      "margin": 1.0,
+      "back": 0.2,
+      "orient": 0
+    }
+  },
+  "landform": {
+    "size": "a natural landform about {w} map tiles wide and {d} tiles deep (width:depth = {ratio}), mostly low and flat.",
+    "base": "Base: it is shaped on a thin flat slab of natural ground whose outline fills a {ratio} rectangle; flat bottom.",
+    "extra": "",
+    "fit": {
+      "mode": "footprint",
+      "max_h": 1.5,
+      "tris": 10000,
+      "tex": 1024,
+      "margin": 1.0,
+      "back": 0.0,
+      "align": 1,
+      "orient": 0
+    }
+  },
+  "creature": {
+    "size": "one single creature, full body, in a calm ready stance; compact pose with limbs and wings close to the body.",
+    "base": "Base: none, no pedestal or ground disc; the creature stands on the invisible floor.",
+    "extra": "Exactly one creature, nothing in the air around it, no magic effects.",
+    "fit": {
+      "mode": "size",
+      "max_xz": 1.1,
+      "max_h": 1.3,
+      "tris": 15000,
+      "tex": 1024,
+      "margin": 1.0
+    },
+    "view": "three-quarter isometric-like view from the front-left: the camera is in front of the creature and about 40 degrees to the left, raised about 30 degrees above the horizon, orthographic look; the creature faces towards the lower right of the picture, so we see its face/front and its left flank."
+  },
+  "hero": {
+    "size": "one hero riding a horse, horse and rider as one compact group, the horse walking forward.",
+    "base": "Base: none, no ground; the horse's hooves rest on the invisible floor.",
+    "extra": "Exactly one rider on one horse. No flag, no banner, no lance pennant.",
+    "fit": {
+      "mode": "size",
+      "max_xz": 1.25,
+      "max_h": 1.25,
+      "tris": 15000,
+      "tex": 1024,
+      "margin": 1.0
+    },
+    "view": "three-quarter isometric-like view from the front-left: the camera is in front of the rider and about 40 degrees to the left, raised about 30 degrees above the horizon, orthographic look; horse and rider face towards the lower right of the picture, so we see the horse's head and chest and its left flank."
+  },
+  "boat": {
+    "size": "one small sailing boat / vessel that fits on about one map tile, chunky proportions.",
+    "base": "Base: none; the hull is cut flat at the waterline, no water shown.",
+    "extra": "No crew, no water, no splashes.",
+    "fit": {
+      "mode": "size",
+      "max_xz": 1.3,
+      "max_h": 1.2,
+      "tris": 15000,
+      "tex": 1024,
+      "margin": 1.0
+    }
+  },
+  "water": {
+    "size": "an object floating on or standing in the sea, about {w} map tiles wide and {d} tiles deep.",
+    "base": "Base: none; it is cut flat at the waterline, no water surface shown.",
+    "extra": "No water, waves or splashes in the picture.",
+    "fit": {
+      "mode": "footprint",
+      "max_h": 1.5,
+      "tris": 15000,
+      "tex": 1024,
+      "margin": 0.95,
+      "back": 0.3,
+      "align": 1
+    }
+  },
+  "portal": {
+    "size": "one magic gateway or monolith about {w} map tiles wide and {d} tiles deep, clearly taller than wide.",
+    "base": "Base: it stands on a small flat stone platform with a flat bottom.",
+    "extra": "No glow beyond the gateway itself, no particles.",
+    "fit": {
+      "mode": "footprint",
+      "max_h": 2.0,
+      "tris": 15000,
+      "tex": 1024,
+      "margin": 0.95,
+      "back": 0.4,
+      "align": 1
+    }
+  }
+}

@@ -1,0 +1,41 @@
+game pid 6904 (started)
+bridge enabled in the agent: {'on': True, 'walk': [4, 4], 'quick': 1, 'moveReminder': 1}
+bridge on ws://127.0.0.1:8765
+client connected ('127.0.0.1', 52089)
+client error: ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+client disconnected
+client connected ('127.0.0.1', 52150)
+<- {"cmd":"select_hero","hero":70,"t":"cmd"}
+<- {"hero":70,"t":"path","to":[7,29,0]}
+<- {"cmd":"move_hero","hero":70,"t":"cmd","to":[7,29,0]}
+<- {"hero":70,"t":"path","to":[5,12,0]}
+<- {"cmd":"select_hero","hero":75,"t":"cmd"}
+<- {"hero":75,"t":"path","to":[21,25,1]}
+<- {"cmd":"move_hero","hero":75,"t":"cmd","to":[21,25,1]}
+<- {"answer":0,"id":1,"t":"dialog_answer"}
+[game] NormalDialog style 7 answer 0 -> 30729
+<- {"hero":75,"t":"path","to":[8,15,1]}
+<- {"cmd":"end_turn","t":"cmd"}
+<- {"answer":0,"id":2,"t":"dialog_answer"}
+[game] NormalDialog style 2 answer 0 -> 30725
+[game] battle start {"atk":94,"def":-1,"town":-1,"at":[24,6,0]}
+<- {"answer":0,"id":3,"t":"dialog_answer"}
+game process exited
+connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\dev0\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\asyncio\server.py", line 374, in conn_handler
+    await self.handler(connection)
+  File "C:\prj\hota-decompile\godot\bridge\bridge.py", line 241, in serve_client
+    await asyncio.to_thread(self.api.set_client, False)
+  File "C:\Users\dev0\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dev0\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dev0\AppData\Local\Programs\Python\Python312\Lib\site-packages\frida\__init__.py", line 371, in method
+    return script._rpc_request(["call", js_name, params], data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dev0\AppData\Local\Programs\Python\Python312\Lib\site-packages\frida\__init__.py", line 1786, in _rpc_request
+    raise outcome["error"]
+frida.InvalidOperationError: script has been destroyed

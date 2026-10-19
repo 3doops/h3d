@@ -1,0 +1,430 @@
+type	subtype	def	count	class_name	name
+2	0	AvXAltar	1	Altar of Sacrifice	Altar of Sacrifice
+5	11	ava0011	1	Artifact	Artifact: Sword of Hellfire
+5	35	AVA0035	1	Artifact	Artifact: Sword of Judgement
+5	37	AVA0037	1	Artifact	Artifact: Quiet Eye of the Dragon
+5	41	ava0041	1	Artifact	Artifact: Dragonbone Greaves
+5	55	AVA0055	1	Artifact	Artifact: Vampire's Cowl
+5	64	AVA0064	1	Artifact	Artifact: Stoic Watchman
+5	71	ava0071	1	Artifact	Artifact: Necklace of Ocean Guidance
+5	77	ava0077	1	Artifact	Artifact: Ring of Conjuring
+5	126	AVA0126	1	Artifact	Artifact: Orb of Inhibition
+7	0	AVXmktb0	1	Black Market	Black Market
+9	2	AVXbor20	1	Border Guard	Border Guard (подтип 2)
+9	3	AVXbor30	1	Border Guard	Border Guard (подтип 3)
+9	4	AVXbor40	1	Border Guard	Border Guard (подтип 4)
+10	2	AVXkey20	1	Keymaster's Tent	Keymaster's Tent (подтип 2)
+10	3	AVXkey30	1	Keymaster's Tent	Keymaster's Tent (подтип 3)
+10	4	AVXkey40	1	Keymaster's Tent	Keymaster's Tent (подтип 4)
+12	0	AVXcflv0	1	Campfire	Campfire
+16	0	AVXbnk10	1	Creature Bank	Creature Bank
+16	1	AVXbnk20	1	Creature Bank	Creature Bank (подтип 1)
+16	4	AVXbnk50	1	Creature Bank	Creature Bank (подтип 4)
+16	6	AVXbnk70	1	Creature Bank	Creature Bank (подтип 6)
+17	11	AVGdfly0	1	Creature Generator 1	Creature Generator 1: Serpent Fly Hive
+17	16	AVGfire0	1	Creature Generator 1	Creature Generator 1: Fire Elemental Conflux
+17	25	AVGgrff0	1	Creature Generator 1	Creature Generator 1: Griffin Tower
+17	29	AVGimp0	1	Creature Generator 1	Creature Generator 1: Imp Crucible
+17	54	AVGskel0	1	Creature Generator 1	Creature Generator 1: Cursed Temple
+17	55	AVGzomb0	1	Creature Generator 1	Creature Generator 1: Graveyard
+17	94	fregat	1	Creature Generator 1	
+21	0	AVXcrsd0	5	Cursed Ground	Cursed Ground
+23	0	AvSMarl	1	Marletto Tower	Marletto Tower
+27	0	AVXeyem0	4	Eye of the Magi	Eye of the Magi
+28	0	AVSring0	1	Faerie Ring	Faerie Ring
+30	0	AVSfntn0	1	Fountain of Fortune	Fountain of Fortune
+31	0	AVXfyth0	1	Fountain of Youth	Fountain of Youth
+32	0	AVSgrdn0	1	Garden of Revelation	Garden of Revelation
+33	0	AVCgar10	3	Garrison	Garrison
+33	0	AVCvgr	1	Garrison	Garrison
+33	1	AVCgar20	1	Garrison	Garrison (подтип 1)
+35	0	AVXhilg0	1	Hill Fort	Hill Fort
+37	0	AVXhutm0	1	Hut of the Magi	Hut of the Magi
+38	0	AVSidol0	1	Idol of Fortune	Idol of Fortune
+39	0	AVMlean0	1	Lean To	Lean To
+43	1	AVXmn1r0	1	Monolith One Way Entrance	Monolith One Way Entrance (подтип 1)
+44	1	AVXmx1r0	1	Monolith One Way Exit	Monolith One Way Exit (подтип 1)
+45	0	AVXmn2g0	2	Monolith Two Way	Monolith Two Way
+47	0	AVSschm0	1	School of Magic	School of Magic
+49	0	AVXwelg0	2	Magic Well	Magic Well
+49	0	AVXwlsn0	1	Magic Well	Magic Well
+51	0	AVSmerc0	1	Mercenary Camp	Mercenary Camp
+53	0	AVMsawg0	3	Mine	Mine: Sawmill
+53	0	AVMsawl0	2	Mine	Mine: Sawmill
+53	0	AVMsawr0	1	Mine	Mine: Sawmill
+53	0	AVMswsn0	1	Mine	Mine: Sawmill
+53	1	AVMalch0	1	Mine	Mine: Alchemist's Lab
+53	1	AVMalcs0	2	Mine	Mine: Alchemist's Lab
+53	2	AVMore0	1	Mine	Mine: Ore Pit
+53	2	AVMorlv0	1	Mine	Mine: Ore Pit
+53	2	AVMorsn0	1	Mine	Mine: Ore Pit
+53	3	AVMsulf0	6	Mine	Mine: Sulfur Dune
+53	5	AVMgelv0	1	Mine	Mine: Gem Pond
+53	5	AVMgems0	2	Mine	Mine: Gem Pond
+53	5	AVMgesn0	1	Mine	Mine: Gem Pond
+53	7	AVXamGr	2	Mine	Mine (подтип 7)
+53	7	AVXamLv	2	Mine	Mine (подтип 7)
+53	7	AVXamRo	1	Mine	Mine (подтип 7)
+53	7	AVXamSn	3	Mine	Mine (подтип 7)
+53	7	AvMAbMG	1	Mine	Mine: Abandoned Mine
+54	0	AvWPike	1	Monster	Pikeman: на карте приключений
+54	6	AVWswrd0	1	Monster	Swordsman: на карте приключений
+54	15	AVWcenx0	1	Monster	Centaur Captain: на карте приключений
+54	31	AVWgarx0	2	Monster	Obsidian Gargoyle: на карте приключений
+54	33	AVWgolx0	1	Monster	Iron Golem: на карте приключений
+54	42	AVWimp0	2	Monster	Imp: на карте приключений
+54	43	AVWimpx0	1	Monster	Familiar: на карте приключений
+54	44	AVWgog0	1	Monster	Gog: на карте приключений
+54	47	AVWhoux0	1	Monster	Cerberus: на карте приключений
+54	48	AVWdemn0	1	Monster	Demon: на карте приключений
+54	58	AVWzomb0	1	Monster	Walking Dead: на карте приключений
+54	64	AVWlich0	1	Monster	Lich: на карте приключений
+54	71	AvWInfr	1	Monster	Infernal Troglodyte: на карте приключений
+54	75	AVWbehx0	1	Monster	Evil Eye: на карте приключений
+54	84	AVWgobl0	1	Monster	Goblin: на карте приключений
+54	85	AVWgobx0	2	Monster	Hobgoblin: на карте приключений
+54	86	AVWwolf0	1	Monster	Wolf Rider: на карте приключений
+54	87	AVWwolx0	1	Monster	Wolf Raider: на карте приключений
+54	88	AVWorc0	3	Monster	Orc: на карте приключений
+54	99	AVWgnlx0	2	Monster	Gnoll Marauder: на карте приключений
+54	100	AvWLizr	1	Monster	Lizardman: на карте приключений
+54	101	AVWlizx0	2	Monster	Lizard Warrior: на карте приключений
+54	104	AvWDFly	1	Monster	Serpent Fly: на карте приключений
+54	106	AvWBasl	1	Monster	Basilisk: на карте приключений
+54	119	AVWsprit	1	Monster	Sprite: на карте приключений
+54	138	AVWhalf	1	Monster	Halfling: на карте приключений
+54	139	AVWpeas	1	Monster	Peasant: на карте приключений
+54	140	AVWboar	2	Monster	Boar: на карте приключений
+54	142	AVWnomd	1	Monster	Nomad: на карте приключений
+54	143	AVWrog	1	Monster	Rogue: на карте приключений
+54	151	AVWPR3UP	1	Monster	Monster: creature 151 (HotA)
+54	154	AVWOCEAN	1	Monster	Monster: creature 154 (HotA)
+54	171	AVWhbom	1	Monster	Monster: creature 171 (HotA)
+54	174	AVWalmd	1	Monster	Monster: creature 174 (HotA)
+54	186	AVWKOBOL	1	Monster	Monster: creature 186 (HotA)
+54	187	AVWFKOBL	2	Monster	Monster: creature 187 (HotA)
+54	190	AVWSNELF	1	Monster	Monster: creature 190 (HotA)
+54	191	AVWSTELF	1	Monster	Monster: creature 191 (HotA)
+54	195	AVWGSHMN	1	Monster	Monster: creature 195 (HotA)
+57	0	AvXOblK	2	Obelisk	Obelisk
+57	0	AvXOblP	2	Obelisk	Obelisk
+57	0	AvXOblW	3	Obelisk	Obelisk
+57	0	AvXOblY	1	Obelisk	Obelisk
+60	0	AVXpllr0	1	Pillar of Fire	Pillar of Fire
+61	0	AVSaxis0	1	Star Axis	Star Axis
+78	0	AVGrefg0	1	Refugee Camp	Refugee Camp
+79	0	avtwood0	11	Resource	Resource: Wood
+79	1	avtmerc0	12	Resource	Resource: Mercury
+79	2	avtore0	13	Resource	Resource: Ore
+79	3	avtsulf0	10	Resource	Resource: Sulfur
+79	4	avtcrys0	7	Resource	Resource: Crystal
+79	5	AVTgems0	1	Resource	Resource: Gems
+79	5	avtgems0	13	Resource	Resource: Gems
+79	6	AVTgold0	1	Resource	Resource: Gold
+79	6	avtgold0	17	Resource	Resource: Gold
+83	0	AVXseer0	1	Seer's Hut	Seer's Hut
+83	1	AVXseey0	1	Seer's Hut	Seer's Hut (подтип 1)
+83	2	AVXseeb0	2	Seer's Hut	Seer's Hut (подтип 2)
+88	0	AVXl1sh0	1	Shrine of Magic Incantation	Shrine of Magic Incantation
+89	0	AVXl2sh0	1	Shrine of Magic Gesture	Shrine of Magic Gesture
+90	0	AVXl3sh0	1	Shrine of Magic Thought	Shrine of Magic Thought
+97	0	AvXDenT	1	Den of Thieves	Den of Thieves
+98	3	AVCinff0	2	Town	Town: Inferno
+98	3	AVCinft0	2	Town	inferno: город на карте (village) | inferno: town/mapObject/templates/village/animation
+98	4	AVCnecf0	2	Town	Town: Necropolis
+98	5	AVCdunf0	3	Town	Town: Dungeon
+98	8	AVChforx	1	Town	conflux: город на карте (castle, citadel, fort) | conflux: town/mapObject/templates/castle/animation | conflux: town/mapObject/templates/citadel/animation | conflux: town/mapObject/templates/fort/animation | (ещё 1)
+98	9	AVCcovf0	2	Town	Town: Cove
+99	0	AVXpost0	2	Trading Post	Trading Post
+100	0	AVSgzbo0	1	Learning Stone	Learning Stone
+101	0	AVTchst0	65	Treasure Chest	Treasure Chest
+103	0	AvTCave	4	Subterranean Gate	Subterranean Gate
+106	0	AVGsieg0	1	War Machine Factory	War Machine Factory
+107	0	AVSwar20	1	School of War	School of War
+109	0	AVMwwhl0	1	Water Wheel	Water Wheel
+113	0	AVSwtch0	2	Witch Hut	Witch Hut
+116	0	AVLca010	2	Cactus	Cactus
+116	0	AVLca020	1	Cactus	Cactus
+116	0	AVLca030	1	Cactus	Cactus
+116	0	AVLca040	3	Cactus	Cactus
+116	0	AVLca050	1	Cactus	Cactus
+116	0	AVLca060	3	Cactus	Cactus
+116	0	AVLca070	3	Cactus	Cactus
+116	0	AVLca080	2	Cactus	Cactus
+116	0	AVLca090	1	Cactus	Cactus
+116	0	AVLca100	9	Cactus	Cactus
+116	0	AVLca110	3	Cactus	Cactus
+116	0	AVLca130	1	Cactus	Cactus
+118	0	AVLc12l0	1	Crater	Crater
+118	0	AVLct1r0	1	Crater	Crater
+118	0	AVLct4u0	2	Crater	Crater
+118	0	AVLct5u0	1	Crater	Crater
+118	0	AVLct7l0	1	Crater	Crater
+118	0	AVLctds0	1	Crater	Crater
+118	0	AVLctsn0	1	Crater	Crater
+119	0	AVLd4sn0	1	Dead Vegetation	Dead Vegetation
+119	0	AVLd6sn0	2	Dead Vegetation	Dead Vegetation
+119	0	AVLd7sn0	4	Dead Vegetation	Dead Vegetation
+119	0	AVLd8sn0	1	Dead Vegetation	Dead Vegetation
+119	0	AVLd9sn0	6	Dead Vegetation	Dead Vegetation
+119	0	AVLddsn0	10	Dead Vegetation	Dead Vegetation
+119	0	AVLddsn1	2	Dead Vegetation	Dead Vegetation
+119	0	AVLddsn2	7	Dead Vegetation	Dead Vegetation
+119	0	AVLddsn3	10	Dead Vegetation	Dead Vegetation
+119	0	AVLddsn4	6	Dead Vegetation	Dead Vegetation
+119	0	AVLddsn5	5	Dead Vegetation	Dead Vegetation
+119	0	AVLddsn6	9	Dead Vegetation	Dead Vegetation
+119	0	AVLddsn7	1	Dead Vegetation	Dead Vegetation
+119	0	AVLdead0	9	Dead Vegetation	Dead Vegetation
+119	0	AVLdead1	18	Dead Vegetation	Dead Vegetation
+119	0	AVLdead2	9	Dead Vegetation	Dead Vegetation
+119	0	AVLdead3	10	Dead Vegetation	Dead Vegetation
+119	0	AVLdead4	9	Dead Vegetation	Dead Vegetation
+119	0	AVLdead5	4	Dead Vegetation	Dead Vegetation
+119	0	AVLdead6	1	Dead Vegetation	Dead Vegetation
+119	0	AVLdead7	3	Dead Vegetation	Dead Vegetation
+120	0	AVLf06g0	1	Flowers	Flowers
+120	0	AVLf07g0	1	Flowers	Flowers
+120	0	AVLf09g0	1	Flowers	Flowers
+120	0	AVLf10g0	1	Flowers	Flowers
+120	0	AVLfl1d0	1	Flowers	Flowers
+120	0	AVLfl2d0	1	Flowers	Flowers
+120	0	AVLfl4d0	2	Flowers	Flowers
+120	0	AVLfl5d0	4	Flowers	Flowers
+120	0	AVLfl6d0	3	Flowers	Flowers
+120	0	AVLfl7d0	1	Flowers	Flowers
+120	0	AVLfl8d0	2	Flowers	Flowers
+120	0	AVLfl9d0	1	Flowers	Flowers
+121	0	AVLflk20	1	Frozen Lake	Frozen Lake
+121	0	AVLflk30	1	Frozen Lake	Frozen Lake
+124	0	AVLhlds0	1	Hole	Hole
+124	0	AVLhlsn0	3	Hole	Hole
+124	0	AVLhold0	1	Hole	Hole
+124	0	AVLholl0	1	Hole	Hole
+126	0	AVLlk2d0	1	Lake	Lake
+126	0	AVLlk3u0	1	Lake	Lake
+127	0	AVLlav20	2	Lava Flow	Lava Flow
+127	0	AVLlav60	1	Lava Flow	Lava Flow
+127	0	AVLlav80	5	Lava Flow	Lava Flow
+127	0	AVLlv120	4	Lava Flow	Lava Flow
+127	0	AVLlv130	1	Lava Flow	Lava Flow
+127	0	AVLlv150	1	Lava Flow	Lava Flow
+127	0	AVLlv160	2	Lava Flow	Lava Flow
+127	0	AVLlv170	3	Lava Flow	Lava Flow
+128	0	AVLlav10	1	Lava Lake	Lava Lake
+129	0	AVLms010	1	Mushrooms	Mushrooms
+129	0	AVLms020	2	Mushrooms	Mushrooms
+129	0	AVLms040	1	Mushrooms	Mushrooms
+129	0	AVLms100	1	Mushrooms	Mushrooms
+131	0	AVLman20	1	Mandrake	Mandrake
+133	0	AVLmd1d0	2	Mound	Mound
+133	0	AVLmd1g0	1	Mound	Mound
+134	0	AVLmtds1	2	Mountain	Mountain
+134	0	AVLmtds2	2	Mountain	Mountain
+134	0	AVLmtds3	3	Mountain	Mountain
+134	0	AVLmtds4	1	Mountain	Mountain
+134	0	AVLmtds6	1	Mountain	Mountain
+134	0	AVLmtgn2	7	Mountain	Mountain
+134	0	AVLmtgn3	8	Mountain	Mountain
+134	0	AVLmtgn4	4	Mountain	Mountain
+134	0	AVLmtgr1	1	Mountain	Mountain
+134	0	AVLmtgr2	3	Mountain	Mountain
+134	0	AVLmtgr3	5	Mountain	Mountain
+134	0	AVLmtgr4	6	Mountain	Mountain
+134	0	AVLmtgr5	1	Mountain	Mountain
+134	0	AVLmtgr6	2	Mountain	Mountain
+134	0	AVLmtsb0	1	Mountain	Mountain
+134	0	AVLmtsb1	1	Mountain	Mountain
+134	0	AVLmtsb2	2	Mountain	Mountain
+134	0	AVLmtsb3	3	Mountain	Mountain
+134	0	AVLmtsb4	3	Mountain	Mountain
+134	0	AVLmtsb5	5	Mountain	Mountain
+134	0	AVLmtsn1	4	Mountain	Mountain
+134	0	AVLmtsn2	5	Mountain	Mountain
+134	0	AVLmtsn3	9	Mountain	Mountain
+134	0	AVLmtsn4	11	Mountain	Mountain
+134	0	AVLmtsn5	1	Mountain	Mountain
+134	0	AVLmtsn6	2	Mountain	Mountain
+134	0	AVLmtvo1	3	Mountain	Mountain
+134	0	AVLmtvo2	2	Mountain	Mountain
+134	0	AVLmtvo3	7	Mountain	Mountain
+134	0	AVLmtvo4	11	Mountain	Mountain
+134	0	AVLmtvo5	4	Mountain	Mountain
+134	0	AVLmtvo6	3	Mountain	Mountain
+134	0	avlmtrf1	2	Mountain	Mountain
+134	0	avlmtrf3	2	Mountain	Mountain
+134	0	avlmtrf4	7	Mountain	Mountain
+134	0	avlmtrf5	5	Mountain	Mountain
+134	0	avlmtrf6	5	Mountain	Mountain
+135	0	AVLAUTR3	1	Oak Trees	Oak Trees
+135	0	AVLAUTR4	1	Oak Trees	Oak Trees
+135	0	AVLSPTR0	15	Oak Trees	Oak Trees
+135	0	AVLSPTR1	5	Oak Trees	Oak Trees
+135	0	AVLSPTR2	6	Oak Trees	Oak Trees
+135	0	AVLSPTR3	4	Oak Trees	Oak Trees
+135	0	AVLSPTR4	4	Oak Trees	Oak Trees
+135	0	AVLSPTR5	7	Oak Trees	Oak Trees
+135	0	AVLSPTR6	1	Oak Trees	Oak Trees
+135	0	AVLautr6	1	Oak Trees	Oak Trees
+135	0	AVLsptr7	2	Oak Trees	Oak Trees
+135	0	AVLsptr8	2	Oak Trees	Oak Trees
+135	0	avlautr0	1	Oak Trees	Oak Trees
+135	0	avlautr1	3	Oak Trees	Oak Trees
+136	0	AVLo1sn0	1	Outcropping	Outcropping
+136	0	AVLo3sn0	1	Outcropping	Outcropping
+136	0	AVLoc1g0	1	Outcropping	Outcropping
+136	0	AVLoc2r0	1	Outcropping	Outcropping
+137	0	AVLPNTR0	29	Pine Trees	Pine Trees
+137	0	AVLPNTR1	25	Pine Trees	Pine Trees
+137	0	AVLPNTR2	7	Pine Trees	Pine Trees
+137	0	AVLPNTR3	10	Pine Trees	Pine Trees
+137	0	AVLPNTR4	11	Pine Trees	Pine Trees
+137	0	AVLPNTR5	1	Pine Trees	Pine Trees
+137	0	AVLSNTR0	39	Pine Trees	Pine Trees
+137	0	AVLSNTR1	18	Pine Trees	Pine Trees
+137	0	AVLSNTR2	12	Pine Trees	Pine Trees
+137	0	AVLSNTR3	5	Pine Trees	Pine Trees
+137	0	AVLSNTR4	10	Pine Trees	Pine Trees
+137	0	AVLSNTR5	5	Pine Trees	Pine Trees
+137	0	AVLpntr6	5	Pine Trees	Pine Trees
+137	0	AVLpntr7	5	Pine Trees	Pine Trees
+137	0	AVLsntr6	6	Pine Trees	Pine Trees
+137	0	AVLsntr7	4	Pine Trees	Pine Trees
+143	0	clrdelt3	1	River Delta	River Delta
+143	0	clrdelt4	1	River Delta	River Delta
+143	0	icedelt3	1	River Delta	River Delta
+143	0	lavdelt4	1	River Delta	River Delta
+147	0	AVLr01u0	3	Rock	Rock
+147	0	AVLr02r0	1	Rock	Rock
+147	0	AVLr02u0	2	Rock	Rock
+147	0	AVLr03u0	1	Rock	Rock
+147	0	AVLr04u0	1	Rock	Rock
+147	0	AVLr05u0	1	Rock	Rock
+147	0	AVLr06u0	1	Rock	Rock
+147	0	AVLr07u0	3	Rock	Rock
+147	0	AVLr08r0	1	Rock	Rock
+147	0	AVLr10u0	1	Rock	Rock
+147	0	AVLr13r0	1	Rock	Rock
+147	0	AVLr1sn0	1	Rock	Rock
+147	0	AVLr2sn0	1	Rock	Rock
+147	0	AVLr4sn0	1	Rock	Rock
+147	0	AVLr5sn0	1	Rock	Rock
+147	0	AVLr6sn0	2	Rock	Rock
+147	0	AVLr7sn0	1	Rock	Rock
+147	0	AVLr8sn0	1	Rock	Rock
+147	0	AVLrk1w0	1	Rock	Rock
+147	0	AVLrk3d0	1	Rock	Rock
+147	0	AVLrk3w0	1	Rock	Rock
+147	0	AVLrk4w0	1	Rock	Rock
+147	0	AVLstg40	1	Rock	Rock
+147	0	AVLstg50	1	Rock	Rock
+147	0	AVLstg60	1	Rock	Rock
+147	0	AvLRD04	1	Rock	Rock
+147	0	AvLRG01	2	Rock	Rock
+147	0	AvLRG02	3	Rock	Rock
+147	0	AvLRG04	2	Rock	Rock
+147	0	AvLRG05	1	Rock	Rock
+147	0	AvLRG06	1	Rock	Rock
+147	0	AvLRG10	1	Rock	Rock
+147	0	AvLRG11	1	Rock	Rock
+148	0	AVLdun20	2	Sand Dune	Sand Dune
+148	0	AVLdun30	1	Sand Dune	Sand Dune
+150	0	AVLs1sn0	2	Shrub	Shrub
+150	0	AVLs2sn0	2	Shrub	Shrub
+150	0	AVLs3sn0	5	Shrub	Shrub
+150	0	AVLsh1r0	1	Shrub	Shrub
+150	0	AVLsh3d0	1	Shrub	Shrub
+150	0	AVLsh3g0	1	Shrub	Shrub
+150	0	AVLsh4g0	2	Shrub	Shrub
+150	0	AVLsh6g0	2	Shrub	Shrub
+150	0	AVLsh7d0	1	Shrub	Shrub
+150	0	avlsh4r0	1	Shrub	Shrub
+150	0	avlsh6r0	2	Shrub	Shrub
+150	0	avlsh9r0	2	Shrub	Shrub
+151	0	AVLskul0	1	Skull	Skull
+153	0	AVLp2sn0	3	Stump	Stump
+153	0	AvLStm1	1	Stump	Stump
+153	0	AvLStm2	1	Stump	Stump
+153	0	AvLStm3	2	Stump	Stump
+155	0	AVLroug1	3	Trees	Trees
+155	0	AVLroug2	3	Trees	Trees
+155	0	AVLtRo00	1	Trees	Trees
+155	0	AVLtRo02	1	Trees	Trees
+155	0	AVLtRo05	1	Trees	Trees
+155	0	AVLtRo07	2	Trees	Trees
+155	0	AVLtRo08	1	Trees	Trees
+155	0	AVLtRo09	1	Trees	Trees
+155	0	AVLtRo10	1	Trees	Trees
+155	0	AVLtRo11	1	Trees	Trees
+155	0	AVLtRo12	5	Trees	Trees
+155	0	AVLtr1d0	1	Trees	Trees
+155	0	AVLtr2d0	2	Trees	Trees
+155	0	AVLtr3d0	1	Trees	Trees
+155	0	AVLtrRo0	9	Trees	Trees
+155	0	AVLtrRo1	7	Trees	Trees
+155	0	AVLtrRo2	1	Trees	Trees
+155	0	AVLtrRo3	7	Trees	Trees
+155	0	AVLtrRo4	2	Trees	Trees
+155	0	AVLtrRo5	3	Trees	Trees
+155	0	AVLtrRo6	3	Trees	Trees
+155	0	AVLwlw10	1	Trees	Trees
+155	0	AVLyuc10	1	Trees	Trees
+155	0	AVLyuc30	1	Trees	Trees
+155	0	avlswt00	1	Trees	Trees
+155	0	avlswt02	1	Trees	Trees
+155	0	avlswt04	1	Trees	Trees
+155	0	avlswt06	1	Trees	Trees
+155	0	avlswt07	3	Trees	Trees
+155	0	avlswt10	1	Trees	Trees
+155	0	avlswt12	1	Trees	Trees
+155	0	avlswtr9	1	Trees	Trees
+158	0	AVLvol10	4	Volcano	Volcano
+158	0	AVLvol20	4	Volcano	Volcano
+158	0	AVLvol30	3	Volcano	Volcano
+158	0	AVLvol40	1	Volcano	Volcano
+158	0	AVLvol50	6	Volcano	Volcano
+161	0	AVLref10	2	Reef	Reef
+161	0	AVLref20	4	Reef	Reef
+161	0	AVLref50	1	Reef	Reef
+161	0	AVLref60	1	Reef	Reef
+206	0	avlxds01	3	Desert Hills	Desert Hills
+206	0	avlxds02	2	Desert Hills	Desert Hills
+206	0	avlxds03	2	Desert Hills	Desert Hills
+206	0	avlxds04	8	Desert Hills	Desert Hills
+206	0	avlxds05	6	Desert Hills	Desert Hills
+206	0	avlxds06	3	Desert Hills	Desert Hills
+206	0	avlxds07	6	Desert Hills	Desert Hills
+206	0	avlxds08	2	Desert Hills	Desert Hills
+206	0	avlxds09	3	Desert Hills	Desert Hills
+206	0	avlxds10	4	Desert Hills	Desert Hills
+206	0	avlxds11	3	Desert Hills	Desert Hills
+206	0	avlxds12	1	Desert Hills	Desert Hills
+207	0	avlxdt01	1	Dirt Hills	Dirt Hills
+207	0	avlxdt02	1	Dirt Hills	Dirt Hills
+207	0	avlxdt08	1	Dirt Hills	Dirt Hills
+208	0	avlxgr01	1	Grass Hills	Grass Hills
+208	0	avlxgr02	1	Grass Hills	Grass Hills
+208	0	avlxgr03	3	Grass Hills	Grass Hills
+208	0	avlxgr04	5	Grass Hills	Grass Hills
+208	0	avlxgr05	4	Grass Hills	Grass Hills
+208	0	avlxgr06	4	Grass Hills	Grass Hills
+208	0	avlxgr08	2	Grass Hills	Grass Hills
+208	0	avlxgr10	3	Grass Hills	Grass Hills
+208	0	avlxgr11	5	Grass Hills	Grass Hills
+208	0	avlxgr12	3	Grass Hills	Grass Hills
+209	0	avlxro01	2	Rough Hills	Rough Hills
+209	0	avlxro03	1	Rough Hills	Rough Hills
+209	0	avlxro07	1	Rough Hills	Rough Hills
+209	0	avlxro09	1	Rough Hills	Rough Hills
+209	0	avlxro10	1	Rough Hills	Rough Hills
+210	0	avlxsu01	1	Subterranean Rocks	Subterranean Rocks
+210	0	avlxsu02	1	Subterranean Rocks	Subterranean Rocks
+210	0	avlxsu03	3	Subterranean Rocks	Subterranean Rocks
+210	0	avlxsu04	1	Subterranean Rocks	Subterranean Rocks
+210	0	avlxsu05	7	Subterranean Rocks	Subterranean Rocks
+210	0	avlxsu06	1	Subterranean Rocks	Subterranean Rocks
+210	0	avlxsu09	2	Subterranean Rocks	Subterranean Rocks
+210	0	avlxsu10	2	Subterranean Rocks	Subterranean Rocks
+210	0	avlxsu11	2	Subterranean Rocks	Subterranean Rocks
+210	0	avlxsu12	4	Subterranean Rocks	Subterranean Rocks
+215	0	avxbor80	1	Quest Guard	Quest Guard

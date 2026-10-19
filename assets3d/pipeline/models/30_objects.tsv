@@ -1,0 +1,438 @@
+model_key	category	kind	priority	name	match	footprint	flag	fit	members	description
+dw_basilisk_pit	building	gen	2	Basilisk Pit	obj:17:0		1			A rectangular pit enclosed by low walls of grey cut stone, its sunken floor of dark reddish earth visible from above, a narrow opening in the front corner of the wall.
+dw_behemoth_crag	mine	gen	2	Behemoth Crag	obj:17:1		1			A tall jagged crag of dark brown rock with many spiky pinnacles and deep crevices, a glowing red-orange cave mouth at its foot.
+dw_pillar_of_eyes	building	gen	2	Pillar of Eyes	obj:17:2		1			A grotesque organic pillar of olive-green flesh rising from a spread of thick tentacle-like roots, a big round eye in the middle of its stem and several bulging eyes on short stalks crowning its top.
+dw_hall_of_darkness	building	gen	2	Hall of Darkness	obj:17:3		1			A tall gothic hall of dark blue-grey stone with many slender black spires and pinnacles, pointed lancet windows and a dark arched doorway at the front.
+dw_dragon_vault	mine	gen	2	Dragon Vault	obj:17:4		1			A tall steep spire of brown rock with a massive grey stone vault front built into its foot: heavy iron-barred grates above a stone threshold.
+dw_training_grounds	building	gen	2	Training Grounds	obj:17:5		1			A large round pavilion tent with vertical blue-and-white stripes, a conical roof with a scalloped valance and a dark entrance opening at the front.
+dw_air_conflux	building	gen	2	Air Elemental Conflux	obj:17:7		1			A round platform of dark stone ringed by six tall pale bluish-white crystal obelisks on dark pedestals, a big swirling dome of white cloud and mist in its centre.
+dw_portal_of_glory	building	gen	2	Portal of Glory	obj:17:8		1			A white-and-gold celestial gateway with tall blue panels between golden pillars, standing on a fluffy white cloud, a broad white stairway descending from the gate to the ground.
+dw_cyclops_cave	mine	gen	2	Cyclops Cave	obj:17:9		1			A conical hill of dark brown rock with rough ridges and a huge dark cave mouth in its front.
+dw_forsaken_palace	building	gen	2	Forsaken Palace	obj:17:10		1			A round domed palace with red-and-white vertical stripes ringed by huge curved red horns rising from its base, a slender spire on top, on a dark red stone foundation.
+dw_serpent_fly_hive	building	gen	2	Serpent Fly Hive	obj:17:11		1			Two tall jungle trees with slender dark trunks and dense green leafy crowns, glowing orange hive pods clinging to the trunks, on a small earthen mound.
+dw_earth_conflux	building	gen	2	Earth Elemental Conflux	obj:17:13		1			A shallow crater of brown earth ringed by jagged brown rock spikes, a dark muddy pool with rocks in its middle.
+dw_fire_lake	building	gen	2	Fire Lake	obj:17:14		1			A pool of molten gold-orange lava with two small pavilions crowned by shining golden-orange onion domes standing in it.
+dw_fire_conflux	building	gen	2	Fire Elemental Conflux	obj:17:16		1			A ring of jagged dark rock enclosing a large dome of sculpted roaring orange-yellow flames over molten lava.
+dw_parapet	building	gen	2	Parapet	obj:17:17		1			A tall tiered tower: a round domed base of grey stone with a steep stone stairway climbing to it, upper tiers narrowing to a pinnacle crowned by a stone gargoyle with spread wings.
+dw_altar_of_wishes	building	gen	2	Altar of Wishes	obj:17:18		1			A tall tiered tower faced with blue glazed tiles and gold trim, arched openings on every tier, topped by a copper onion dome and a needle spire.
+dw_hall_of_sins	building	gen	2	Hall of Sins	obj:17:22		1			A small fortress of dark red-brown and black stone with crenellated walls and a round tower topped by a big cauldron, molten gold pouring from it into a pool of glowing yellow-orange liquid in the courtyard.
+dw_gorgon_lair	building	gen	2	Gorgon Lair	obj:17:23		1			A low squat bunker of dark grey stone with a dark entrance, a huge golden bull head with long curved horns mounted on its roof.
+dw_dragon_cliffs	building	gen	2	Dragon Cliffs	obj:17:24		1			A very tall pointed spire of brown rock pitted with dark cave holes and ledges, a few small pine trees at its foot.
+dw_griffin_tower	building	gen	2	Griffin Tower	obj:17:25		1			A grey stone tower-gatehouse with crenellations and an arched gate perched on top of a mossy green rocky crag, a winding path leading up to it.
+dw_harpy_loft	building	gen	2	Harpy Loft	obj:17:26		1			A tall rugged spire of dark rock with ledges, a large nest of twigs and straw holding pale eggs on its summit.
+dw_kennels	building	gen	2	Kennels	obj:17:27		1			A loose group of rust-red iron cages of different sizes and tall bone-white pillars stained red, standing on bare ground.
+dw_hydra_pond	building	gen	2	Hydra Pond	obj:17:28		1			A dark murky pond with muddy banks enclosed by a low fence of green bamboo poles tied together.
+dw_lizard_den	building	gen	2	Lizard Den	obj:17:30		1			A cluster of rounded brown mud-and-stone domes stacked together, with dark burrow holes.
+dw_mage_tower	building	gen	2	Mage Tower	obj:17:31		1			A very tall slender conical tower of sandstone tapering to a needle-thin spire, a long straight stairway climbing up its front from a shallow round sunken base.
+dw_manticore_lair	building	gen	2	Manticore Lair	obj:17:32		1			A ruined patch of ground strewn with pale bones and grey stone rubble, two tall slender grey stone pillars and a few broken column stumps standing among them.
+dw_chapel_stilled_voices	building	gen	2	Chapel of Stilled Voices	obj:17:33		1			A round drum-shaped chapel of dark stone with red bands, a golden ribbed dome on top and a red stone stairway leading up to an arched door.
+dw_labyrinth	building	gen	2	Labyrinth	obj:17:34		1			A low square block of grey stone walls forming a winding maze open at the top, with one entrance in the front.
+dw_monastery	building	gen	2	Monastery	obj:17:35		1			A small monastery of brown stone: a round central hall with a conical brown tiled roof and two lower wings with tiled gable roofs, small arched windows.
+dw_golden_pavilion	building	gen	2	Golden Pavilion	obj:17:36		1			An oriental palace of red-brown and grey stone with two tall round towers topped by small golden domes, a big golden ribbed dome over the main hall, arched windows and blue trim.
+dw_demon_gate	building	gen	2	Demon Gate	obj:17:37		1			A red-brown stone gate shrine with a dark arched portal, two enormous curved white-tipped horns rising from its roof, spiky posts at its corners.
+dw_ogre_fort	building	gen	2	Ogre Fort	obj:17:38		1			A round grey stone keep with crenellations, surrounded by a low ring wall of rough sharpened wooden stakes.
+dw_orc_tower	building	gen	2	Orc Tower	obj:17:39		1			A tall tapering round tower of beige stone in stacked tiers banded with dark stone, a dark domed top and a small arched door at its base.
+dw_hell_hole	building	gen	2	Hell Hole	obj:17:40		1			A pit of glowing red lava with a dark rocky rim, a tall dark red stone gate frame at its back holding a fiery circular emblem.
+dw_dragon_cave	building	gen	2	Dragon Cave	obj:17:41		1			A low wide heap of glittering gold coins and treasure with a few pale pink crystal shards sticking out around its edge.
+dw_cliff_nest	building	gen	2	Cliff Nest	obj:17:42		1			A tall rugged pinnacle of dark grey rock with a big nest of wooden beams and branches on its top and a glowing red hole in its face.
+dw_cloud_temple	building	gen	2	Cloud Temple	obj:17:44		1			A white marble classical temple with a colonnade of slender columns, topped by a tall round tower with blue bands and a white dome.
+dw_dendroid_arches	building	gen	2	Dendroid Arches	obj:17:45		1			A tangle of huge twisted brown tree roots and gnarled branches curving into arches over a mossy patch of ground.
+dw_water_conflux	building	gen	2	Water Elemental Conflux	obj:17:47		1			A round fountain pool of clear blue water with tall arching jets of water, ringed by sculpted stone fish statues spouting water and a grassy rim.
+dw_tomb_of_souls	building	gen	2	Tomb of Souls	obj:17:48		1			A tall ruined tower of dark grey stone, broken and crumbling at the top, fallen blocks at its foot.
+dw_wyvern_nest	building	gen	2	Wyvern Nest	obj:17:49		1			A conical mound of earth, sticks and straw propped up by a few long leaning wooden poles.
+dw_enchanted_spring	building	gen	2	Enchanted Spring	obj:17:50		1			A tall brown rock with a waterfall pouring down its front into a small pool, a silver statue of a winged horse standing on its top.
+dw_unicorn_glade	building	gen	2	Unicorn Glade	obj:17:51		1			A grove of dense round green trees with a low stone gateway and two small stone lanterns at its front.
+dw_mausoleum	building	gen	2	Mausoleum	obj:17:52		1			A tall pointed tower-mausoleum of grey stone with buttresses, crowned by a round dome shaped like a skull.
+dw_estate	building	gen	2	Estate	obj:17:53		1			A two-storey manor house of grey-blue stone with flat terraced roofs, dark wooden beams and benches on the roof terraces and an outside staircase.
+dw_altar_of_thought	building	gen	2	Altar of Thought	obj:17:60		1			A large upright golden ring frame on a small stone base holding a glowing blue mirror-like disc, a small golden star finial on top.
+dw_pyre	building	gen	2	Pyre	obj:17:61		1			A small stone ring from which a narrow column of sculpted flame rises into a wide flat swirling disc of purple, red and orange fire, all one connected shape.
+dw_frozen_cliffs	building	gen	2	Frozen Cliffs	obj:17:62		1			A tall cluster of jagged pale blue ice crystal spires of different heights.
+dw_crystal_cavern	mine	gen	2	Crystal Cavern (dwelling)	obj:17:63		1			A cluster of tall pale pink-red quartz crystal spires growing from the ground, a small barred cave opening at their foot.
+dw_magic_forest	building	gen	2	Magic Forest	obj:17:64		1			Bulbous purple onion-shaped houses like giant mushrooms with small windows among dark green pine trees, a small blue pond and a curved stone stair.
+dw_sulfurous_lair	building	gen	2	Sulfurous Lair	obj:17:65		1			A stepped pyramid of rough brown rock with small dark vents and rubble at its base.
+dw_enchanters_hollow	mine	gen	2	Enchanter's Hollow	obj:17:66		1			A mossy grey-green rock hollow with a glowing golden cave entrance, surrounded by dense green trees.
+dw_treetop_tower	building	gen	2	Treetop Tower	obj:17:67		1			Two wooden watchtowers on tall stilts with conical thatched roofs among green trees, joined by a wooden ladder.
+dw_unicorn_glade_small	building	gen	2	Unicorn Glade (small)	obj:17:68		1			A small grove of dense green trees with two stone lanterns standing in front of it.
+dw_altar_of_air	building	gen	2	Altar of Air	obj:17:69		1			A square grey stone platform with steps, pale crystals at its corners and a swirling white cloud vortex in its centre.
+dw_altar_of_earth	building	gen	2	Altar of Earth	obj:17:70		1			A low dark grey-green rocky platform crowned by a ring of jagged dark stone spikes.
+dw_altar_of_fire	building	gen	2	Altar of Fire	obj:17:71		1			A round dome of sculpted flickering orange fire inside an open shell of dark rock, stone steps at the front.
+dw_altar_of_water	building	gen	2	Altar of Water	obj:17:72		1			A round pool with a golden rim and small golden statues around it, blue water and a fountain of arching water jets in the middle.
+dw_thatched_hut	building	gen	2	Thatched Hut	obj:17:73		1			A small stone cottage with a thick golden straw thatched roof, small windows, a wooden door and a chimney.
+dw_hovel	building	gen	2	Hovel	obj:17:74		1			A small wooden hut with a thatched roof and a little fence, nestled among tall green pine trees.
+dw_boar_glen	building	gen	2	Boar Glen	obj:17:75		1			A dirt path leading into a glade between dense green leafy trees and bushes.
+dw_tomb_of_curses	building	gen	2	Tomb of Curses	obj:17:76		1			A sandstone pyramid with a large sphinx statue lying in front of it.
+dw_nomad_tent	building	gen	2	Nomad Tent	obj:17:77		1			A conical tent of red-and-white vertical stripes with a dark entrance flap.
+dw_rogue_cavern	mine	gen	2	Rogue Cavern	obj:17:78		1			A rocky hill overgrown with green bushes, a dark cave entrance at its foot with barrels, crates and sacks piled in front.
+dw_troll_bridge	building	gen	2	Troll Bridge	obj:17:79		1			An arched stone bridge with low parapets and small corner turrets with red conical roofs, spanning a little blue stream.
+dw_elemental_conflux	building	gen	2	Elemental Conflux	obj:20:0		1			A stone platform with four round stone basins: one with roaring sculpted fire, one with a fountain of blue water, one with swirling white cloud, one with earth and rubble; a white stone domed centrepiece between them.
+dw_golem_factory	building	gen	2	Golem Factory	obj:20:1		1			A tall industrial building of dark grey metal and stone with big curved pipes, a round boiler, several chimney stacks and wooden plank parts.
+dw_maelstrom	building	gen	3	Maelstrom	obj:17:91 obj:17:98	3x2	1			A round rocky basin holding a swirling grey-blue whirlpool vortex, a tall mossy grey rock peak rising at its back.
+dw_nymph_waterfall	building	gen	3	Nymph Waterfall	obj:17:92		1			A tall mossy grey rock with a small waterfall streaming down its front into a little pool at its foot.
+dw_shack	building	gen	3	Shack	obj:17:93		1			Two wooden two-storey stilt houses with whitewashed walls and dark timber frames on a small hill overgrown with jungle plants.
+dw_frigate	building	gen	3	Frigate	obj:17:94		1			A wrecked wooden sailing ship hull lying on rocks and gravel, a single broken mast, gold coins scattered around.
+dw_nest	building	gen	3	Nest	obj:17:95		1			A tall twisted brown trunk like a palm tree crowned by a cluster of large pale yellow curved fronds, rocks around its base.
+dw_tower_of_the_seas	building	gen	3	Tower of the Seas	obj:17:96		1			A very tall slender round tower of dark green-black stone with rows of small yellow lit windows and pale stone bands, a white domed lantern top, on a round stepped base.
+dw_nix_fort	building	gen	3	Nix Fort	obj:17:97 obj:17:99	3x1	1			A low fortified hall of grey stone with a dark tiled roof, a big red arched gate in front and two armoured warrior statues standing on the roof corners.
+dw_wineyard	building	gen	3	Wineyard	obj:17:100		1			A small wooden cottage with a shingle roof built against a huge wooden wine barrel lying on its side, a round door in the barrel end, a stone chimney.
+dw_ziggurat	building	gen	3	Ziggurat	obj:17:101		1			A stepped temple of mossy green stone with two pointed spires and horn-like ornaments, a round window and a dark doorway.
+dw_alehouse	building	gen	3	Alehouse	obj:17:102		1			A timber-framed two-storey house with white plaster walls and dark beams, a green tiled roof and a tall chimney.
+dw_halfling_adobe	building	gen	3	Halfling Adobe	obj:17:103		1			A sandy beige adobe house with flat roofs at different levels, outside stairs, a roof terrace with a small tree and a green awning.
+dw_foundry	building	gen	3	Foundry	obj:17:104		1			A tall narrow workshop of orange-brown brick with arched windows and a tall chimney rising from its roof.
+dw_ranch	building	gen	3	Ranch	obj:17:105		1			A wooden wind pump tower with a many-bladed wheel on a timber frame, next to a wooden fenced corral and a water trough.
+dw_manufactory	building	gen	3	Manufactory	obj:17:106		1			A red-brick factory hall with an arched roof ribbed with white stripes, a wide arched gate and three tall chimneys.
+dw_catacombs	building	gen	3	Catacombs	obj:17:107		1			A low round domed mound of brown stone with a ribbed iron grate over a round opening on top and stone steps at the front.
+dw_watchtower	building	gen	3	Watchtower	obj:17:108		1			A fortified sandstone base with a tall wooden watchtower rising from it, a lookout balcony and a pointed shingle roof.
+dw_serpentarium	building	gen	3	Serpentarium	obj:17:109		1			A square sandstone building with tall blue arched windows and a lush garden of tropical green plants on its flat roof.
+dw_gantry	building	gen	3	Gantry	obj:17:110		1			A tall frame of four parallel arched copper-bronze ribs on stone footings with round finials on top, a chain hanging between them.
+dw_colliery	mine	gen	3	Colliery	obj:17:111		1			A mound of dark grey coal rock with a timber-framed mine entrance and a wooden crane hoist on top.
+dw_frigid_spur	mine	gen	3	Frigid Spur	obj:17:112		1			A rock outcrop of grey-green basalt columns crowned with pale turquoise ice crystals, a dark cave mouth at its foot.
+dw_hall_of_the_bold	building	gen	3	Hall of the Bold	obj:17:113		1			A long Nordic longhouse with a steep wooden shingle roof, timber walls and round painted shields hung along its side wall.
+dw_mountain_embassy	building	gen	3	Mountain Embassy	obj:17:114		1			A round domed hut of hides and stones with an enormous horned beast skull and tusks over its entrance.
+dw_shaman_fane	building	gen	3	Shaman Fane	obj:17:115		1			A ring of grey standing stones joined by stone lintels on top.
+dw_mammoth_stalls	building	gen	3	Mammoth Stalls	obj:17:116		1			A long low stone stable with a wavy dark wooden shingle roof and a big arched door framed by curved tusks.
+dw_frosthome	building	gen	3	Frosthome	obj:17:117		1			A tall Nordic hall of grey stone and dark timber with steep dark roofs and gables, turquoise-glowing windows and an arched gate.
+bank_cyclops_stockpile	mine	gen	2	Cyclops Stockpile	obj:16:0		0			A craggy brown rock outcrop with a big timber-and-stone storehouse built into it, a round wooden wheel-like door in its front.
+bank_dwarven_treasury	building	gen	2	Dwarven Treasury	obj:16:1		0			A massive hall of mossy beige stone blocks with a steep stone gable roof and an iron portcullis gate.
+bank_griffin_conservatory	building	gen	2	Griffin Conservatory	obj:16:2		0			A grey stone gatehouse tower with crenellations and an iron portcullis, built on a brown rocky outcrop.
+bank_imp_cache	building	gen	2	Imp Cache	obj:16:3		0			A square grey stone shrine with a stepped roof, a small flame burning on its top and a barred door.
+bank_medusa_stores	building	gen	2	Medusa Stores	obj:16:4		0			A ruin of pale grey-green stone walls and broken arches overgrown with green moss and creepers.
+bank_naga_bank	building	gen	2	Naga Bank	obj:16:5		0			A beehive-shaped dome of carved sandstone with ornate relief patterns, an arched door at the front and a small round lantern turret on top, on a round grassy base.
+bank_dragon_fly_hive	building	gen	2	Dragon Fly Hive	obj:16:6		0			A huge gnarled brown tree with twisted branches, round papery hive nests hanging along the branches.
+bank_beholders_sanctuary	water	gen	3	Beholders' Sanctuary	obj:16:21		0			A square sandstone temple tower with carved reliefs and a dark doorway, standing on a small rocky islet.
+bank_temple_of_the_sea	water	gen	3	Temple of the Sea	obj:16:22		0			A colossal grey stone statue of a bearded sea king with a spiked turquoise crown rising to the waist, a turquoise trident in one hand, cradling a small turquoise-domed temple in the other arm.
+bank_pirate_cavern	mine	gen	3	Pirate Cavern	obj:16:23		0			A rocky hill with a cave entrance framed by timber beams and lit from within, tropical palm plants around it, barrels in front and a carved skull above the entrance.
+bank_mansion	building	gen	3	Mansion	obj:16:24		0			A large three-storey manor of cream walls and dark timber with steep red-brown roofs, dormers and gables, bare dead trees beside it.
+bank_spit	mine	gen	3	Spit	obj:16:25		0			A big mossy green rock shaped like a giant dragon skull with a glowing red cave mouth, overgrown with moss and small plants.
+bank_red_tower	building	gen	3	Red Tower	obj:16:26		0			A tall two-tiered tower of red-lacquered wood and brick with flared red pagoda roofs on golden posts, a golden spire on top and a red brick base with a door.
+bank_black_tower	building	gen	3	Black Tower	obj:16:27		0			A tall narrow tower of dark grey fieldstone with a pointed dark slate roof flanked by small corner turrets, a small door at its foot.
+bank_ivory_tower	building	gen	3	Ivory Tower	obj:16:28		0			A tall slender tiered tower of white ivory stone with many small windows, topped by a pointed violet crystal.
+bank_churchyard	building	gen	3	Churchyard	obj:16:29		0			A graveyard enclosed by a black wrought-iron fence: grey tombstones and crosses, a small stone statue and a gnarled tree with pink blossoms.
+bank_experimental_shop	building	gen	3	Experimental Shop	obj:16:30		0			A ramshackle workshop of timber and slate with metal pipes, a brass dome and two smoking chimneys.
+bank_wolf_raider_picket	building	gen	3	Wolf Raider Picket	obj:16:31		0			A squat tower of stacked rough beige stone blocks with barred windows and a dark doorway.
+bank_ruins	building	gen	3	Ruins	obj:16:32		0			A ruined circular sandstone fortress with a broken round tower and crumbled walls overgrown with grass.
+bank_dragon_utopia	building	gen	3	Dragon Utopia	obj:25:0		0			A large terracotta-red castle with many round towers with red conical roofs and a tall central keep, standing on a pale rocky plateau.
+bank_crypt	building	gen	2	Crypt	obj:84:0		0			A wide classical mausoleum of pale beige stone with a flat roof, columns carved with skulls, a dark central door with steps and two braziers with red flames by the entrance.
+wat_shipwreck	water	gen	2	Shipwreck	obj:85:0		0			A broken wooden ship hull lying half-sunk and tilted, a snapped mast with torn rigging.
+wat_derelict_ship	water	gen	3	Derelict Ship	obj:24:0		0			A dark wooden sailing ship with two masts, torn rigging and tattered grey sails, its hull battered.
+gate_border_guard_light_blue	building	gen	3	Border Guard (Light Blue)	obj:9:0		0			A narrow round watchtower of dark grey fieldstone with a conical red clay-tile roof topped by a small finial and a dark arched doorway at its foot; a tall narrow light sky-blue painted panel is fixed flat on the front wall above the door, the only strong colour on the tower.
+gate_border_guard_green	building	gen	3	Border Guard (Green)	obj:9:1		0			A narrow round watchtower of dark grey fieldstone with a conical red clay-tile roof topped by a small finial and a dark arched doorway at its foot; a tall narrow bright green painted panel is fixed flat on the front wall above the door, the only strong colour on the tower.
+gate_border_guard_red	building	gen	3	Border Guard (Red)	obj:9:2		0			A narrow round watchtower of dark grey fieldstone with a conical red clay-tile roof topped by a small finial and a dark arched doorway at its foot; a tall narrow bright red painted panel is fixed flat on the front wall above the door, the only strong colour on the tower.
+gate_border_guard_dark_blue	building	gen	3	Border Guard (Dark Blue)	obj:9:3		0			A narrow round watchtower of dark grey fieldstone with a conical red clay-tile roof topped by a small finial and a dark arched doorway at its foot; a tall narrow deep dark blue painted panel is fixed flat on the front wall above the door, the only strong colour on the tower.
+gate_border_guard_brown	building	gen	3	Border Guard (Brown)	obj:9:4		0			A narrow round watchtower of dark grey fieldstone with a conical red clay-tile roof topped by a small finial and a dark arched doorway at its foot; a tall narrow ochre-brown painted panel is fixed flat on the front wall above the door, the only strong colour on the tower.
+gate_border_guard_purple	building	gen	3	Border Guard (Purple)	obj:9:5		0			A narrow round watchtower of dark grey fieldstone with a conical red clay-tile roof topped by a small finial and a dark arched doorway at its foot; a tall narrow purple painted panel is fixed flat on the front wall above the door, the only strong colour on the tower.
+gate_border_guard_white	building	gen	3	Border Guard (White)	obj:9:6		0			A narrow round watchtower of dark grey fieldstone with a conical red clay-tile roof topped by a small finial and a dark arched doorway at its foot; a tall narrow white painted panel is fixed flat on the front wall above the door, the only strong colour on the tower.
+gate_border_guard_black	building	gen	3	Border Guard (Black)	obj:9:7		0			A narrow round watchtower of dark grey fieldstone with a conical red clay-tile roof topped by a small finial and a dark arched doorway at its foot; a tall narrow black painted panel is fixed flat on the front wall above the door, the only strong colour on the tower.
+gate_keymaster_light_blue	building	gen	3	Keymaster's Tent (Light Blue)	obj:10:0		0			A large rectangular pavilion tent with a double-peaked roof, walls and roof of light sky-blue canvas, gilded trim along all edges with small golden ball finials on the corners and peaks, small square windows in the side walls.
+gate_keymaster_green	building	gen	3	Keymaster's Tent (Green)	obj:10:1		0			A large rectangular pavilion tent with a double-peaked roof, walls and roof of bright green canvas, gilded trim along all edges with small golden ball finials on the corners and peaks, small square windows in the side walls.
+gate_keymaster_red	building	gen	3	Keymaster's Tent (Red)	obj:10:2		0			A large rectangular pavilion tent with a double-peaked roof, walls and roof of bright red canvas, gilded trim along all edges with small golden ball finials on the corners and peaks, small square windows in the side walls.
+gate_keymaster_dark_blue	building	gen	3	Keymaster's Tent (Dark Blue)	obj:10:3		0			A large rectangular pavilion tent with a double-peaked roof, walls and roof of deep dark blue canvas, gilded trim along all edges with small golden ball finials on the corners and peaks, small square windows in the side walls.
+gate_keymaster_brown	building	gen	3	Keymaster's Tent (Brown)	obj:10:4		0			A large rectangular pavilion tent with a double-peaked roof, walls and roof of ochre-brown canvas, gilded trim along all edges with small golden ball finials on the corners and peaks, small square windows in the side walls.
+gate_keymaster_purple	building	gen	3	Keymaster's Tent (Purple)	obj:10:5		0			A large rectangular pavilion tent with a double-peaked roof, walls and roof of purple canvas, gilded trim along all edges with small golden ball finials on the corners and peaks, small square windows in the side walls.
+gate_keymaster_white	building	gen	3	Keymaster's Tent (White)	obj:10:6		0			A large rectangular pavilion tent with a double-peaked roof, walls and roof of white canvas, gilded trim along all edges with small golden ball finials on the corners and peaks, small square windows in the side walls.
+gate_keymaster_black	building	gen	3	Keymaster's Tent (Black)	obj:10:7		0			A large rectangular pavilion tent with a double-peaked roof, walls and roof of black canvas, gilded trim along all edges with small golden ball finials on the corners and peaks, small square windows in the side walls.
+gate_border_gate_light_blue	building	gen	3	Border Gate (Light Blue)	obj:212:0		0			A fortified gateway: a short crenellated wall of dark grey fieldstone with a barred iron portcullis in the middle, flanked by two round towers with conical red clay-tile roofs; a tall narrow light sky-blue painted panel is fixed flat on the front of each tower.
+gate_border_gate_green	building	gen	3	Border Gate (Green)	obj:212:1		0			A fortified gateway: a short crenellated wall of dark grey fieldstone with a barred iron portcullis in the middle, flanked by two round towers with conical red clay-tile roofs; a tall narrow bright green painted panel is fixed flat on the front of each tower.
+gate_border_gate_red	building	gen	3	Border Gate (Red)	obj:212:2		0			A fortified gateway: a short crenellated wall of dark grey fieldstone with a barred iron portcullis in the middle, flanked by two round towers with conical red clay-tile roofs; a tall narrow bright red painted panel is fixed flat on the front of each tower.
+gate_border_gate_dark_blue	building	gen	3	Border Gate (Dark Blue)	obj:212:3		0			A fortified gateway: a short crenellated wall of dark grey fieldstone with a barred iron portcullis in the middle, flanked by two round towers with conical red clay-tile roofs; a tall narrow deep dark blue painted panel is fixed flat on the front of each tower.
+gate_border_gate_brown	building	gen	3	Border Gate (Brown)	obj:212:4		0			A fortified gateway: a short crenellated wall of dark grey fieldstone with a barred iron portcullis in the middle, flanked by two round towers with conical red clay-tile roofs; a tall narrow ochre-brown painted panel is fixed flat on the front of each tower.
+gate_border_gate_purple	building	gen	3	Border Gate (Purple)	obj:212:5		0			A fortified gateway: a short crenellated wall of dark grey fieldstone with a barred iron portcullis in the middle, flanked by two round towers with conical red clay-tile roofs; a tall narrow purple painted panel is fixed flat on the front of each tower.
+gate_border_gate_white	building	gen	3	Border Gate (White)	obj:212:6		0			A fortified gateway: a short crenellated wall of dark grey fieldstone with a barred iron portcullis in the middle, flanked by two round towers with conical red clay-tile roofs; a tall narrow white painted panel is fixed flat on the front of each tower.
+gate_border_gate_black	building	gen	3	Border Gate (Black)	obj:212:7		0			A fortified gateway: a short crenellated wall of dark grey fieldstone with a barred iron portcullis in the middle, flanked by two round towers with conical red clay-tile roofs; a tall narrow black painted panel is fixed flat on the front of each tower.
+gate_quest_gate	building	gen	3	Quest Gate	obj:212:1000		0			A fortified gateway: a short crenellated wall of pale grey-pink fieldstone with a barred iron portcullis in the middle, flanked by two round towers with conical red clay-tile roofs and dark arched doors; plain stone, no coloured panels.
+gate_quest_gate_v	building	gen	4	Quest Gate (vertical)	def:avxqgtv		0			A fortified wall of pale grey-pink fieldstone running straight from front to back, seen end-on: a round tower with a conical red clay-tile roof at the front end and another at the back end, a barred gate passage in the middle of its long side.
+gate_quest_guard	building	gen	3	Quest Guard	obj:215:0		0			A narrow round watchtower of dark grey fieldstone with a conical red clay-tile roof topped by a small finial and a dark arched doorway at its foot, plain stone walls.
+gate_grave	landform	gen	4	Grave (border gate)	obj:212:1001		0			A small low mound of freshly dug brown earth with a few stones and a bone sticking out.
+gate_garrison	building	gen	2	Garrison	obj:33:0		1			A short fortified wall of sandy beige rubble stone with crenellations and a barred iron gate in the middle, flanked by two squat round towers with dark grey conical slate roofs.
+gate_garrison_antimagic	building	gen	3	Anti-Magic Garrison	obj:33:1		1			A short fortified wall of sandy beige rubble stone with crenellations and a barred iron gate in the middle, flanked by two squat round towers with dark grey conical slate roofs; small pale-violet rune stones set into the walls and towers.
+gate_garrison_wood	building	gen	3	Garrison (wooden)	def:avgtzab1 def:avgtzab2		1			A wooden fort wall of sharpened vertical logs with a barred gate in the middle, flanked by two square log towers with flat lookout tops.
+gate_garrison_wood_antimagic	building	gen	4	Anti-Magic Garrison (wooden)	def:avcgmpah def:avcgmpsh		1			A wooden fort wall of sharpened vertical logs with a barred gate in the middle, flanked by two square log towers with flat lookout tops; small pale-violet rune carvings on the logs.
+gate_garrison_dark	building	gen	3	Garrison (dark stone)	def:avcgare		1			A fortified gate between two round towers of dark grey stone with spiky silver-white conical roofs; the gate between them is a twisted lattice of dark curved wooden and iron beams.
+gate_garrison_v	building	gen	2	Garrison (vertical)	obj:219:0		1			A fortified wall of sandy beige rubble stone running straight from front to back, seen end-on: a squat round tower with a dark grey conical slate roof at the front end and another at the back end, the crenellated wall between them with a barred gate in its long side.
+gate_garrison_v_antimagic	building	gen	3	Anti-Magic Garrison (vertical)	obj:219:1		1			A fortified wall of sandy beige rubble stone running straight from front to back, seen end-on: a squat round tower with a dark grey conical slate roof at the front end and another at the back end, the crenellated wall between them with a barred gate in its long side; small pale-violet rune stones set into the walls and towers.
+gate_garrison_wood_v	building	gen	4	Garrison (wooden, vertical)	def:avgtzab3 def:avgtzab4		1			A wooden fort wall of sharpened vertical logs running straight from front to back, seen end-on: a square log tower with a flat lookout top at the front end and another at the back end, a barred gate in the middle of its long side.
+gate_garrison_wood_v_antimagic	building	gen	4	Anti-Magic Garrison (wooden, vertical)	def:avcgmpav def:avcgmpsv		1			A wooden fort wall of sharpened vertical logs running straight from front to back, seen end-on: a square log tower with a flat lookout top at the front end and another at the back end, a barred gate in the middle of its long side; small pale-violet rune carvings on the logs.
+vis_mono_in_blue	portal	gen	3	One-way Monolith entrance (blue)	obj:43:0		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with blue gems, on a low stone step; the arch is filled with a black portal sprinkled with white starlights.
+vis_mono_in_red	portal	gen	3	One-way Monolith entrance (red)	obj:43:1		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with red gems, on a low stone step; the arch is filled with a swirling red-and-white spiral portal.
+vis_mono_in_amber	portal	gen	3	One-way Monolith entrance (amber)	obj:43:2		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with amber-orange gems, on a low stone step; the arch is filled with a shimmering orange-gold streaked portal.
+vis_mono_in_gold	portal	gen	3	One-way Monolith entrance (gold)	obj:43:3		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with pale gold gems, on a low stone step; the arch is filled with a glittering pale golden portal.
+vis_mono_in_cyan	portal	gen	4	One-way Monolith entrance (cyan)	obj:43:8		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with cyan gems, on a low stone step; the arch is filled with a glittering icy cyan crystalline portal.
+vis_mono_in_violet	portal	gen	4	One-way Monolith entrance (violet)	obj:43:9		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with violet gems, on a low stone step; the arch is filled with a swirling lilac-violet spiral portal.
+vis_mono_in_green	portal	gen	4	One-way Monolith entrance (green)	obj:43:10		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with green gems, on a low stone step; the arch is filled with a bright lime-green bubbling portal.
+vis_mono_in_white	portal	gen	4	One-way Monolith entrance (white)	obj:43:11		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with white gems, on a low stone step; the arch is filled with a misty silver-white portal.
+vis_mono_out_blue	portal	gen	3	One-way Monolith exit (blue)	obj:44:0		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with blue gems, on a low stone step; the opening is empty and dark.
+vis_mono_out_red	portal	gen	3	One-way Monolith exit (red)	obj:44:1		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with red gems, on a low stone step; the opening is empty and dark.
+vis_mono_out_yellow	portal	gen	3	One-way Monolith exit (yellow)	obj:44:2 obj:44:3		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with yellow-gold gems, on a low stone step; the opening is empty and dark.
+vis_mono_out_cyan	portal	gen	4	One-way Monolith exit (cyan)	obj:44:8		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with cyan gems, on a low stone step; the opening is empty and dark.
+vis_mono_out_violet	portal	gen	4	One-way Monolith exit (violet)	obj:44:9		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with violet gems, on a low stone step; the opening is empty and dark.
+vis_mono_out_green	portal	gen	4	One-way Monolith exit (green)	obj:44:10		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with green gems, on a low stone step; the opening is empty and dark.
+vis_mono_out_white	portal	gen	4	One-way Monolith exit (white)	obj:44:11		0			A narrow upright arch of dark green-grey stone built of rounded segments, studded with white gems, on a low stone step; the opening is empty and dark.
+vis_mono_in_horn_purple	portal	gen	3	One-way Monolith entrance (horned, purple)	obj:43:4		0			A pointed arch formed by two huge curved magenta-purple horns rising from a round flat stone platform with a stone step; the opening is filled with a swirling white-and-pink spiral portal.
+vis_mono_out_horn_purple	portal	gen	3	One-way Monolith exit (horned, purple)	obj:44:4		0			A pointed arch formed by two huge curved magenta-purple horns rising from a round flat stone platform with a stone step; the opening is empty and black.
+vis_mono_in_horn_orange	portal	gen	3	One-way Monolith entrance (horned, orange)	obj:43:5		0			A pointed arch formed by two huge curved amber-orange horns rising from a round flat stone platform with a stone step; the opening is filled with black darkness full of golden sparks.
+vis_mono_out_horn_orange	portal	gen	3	One-way Monolith exit (horned, orange)	obj:44:5		0			A pointed arch formed by two huge curved amber-orange horns rising from a round flat stone platform with a stone step; the opening is empty and black.
+vis_mono_in_horn_red	portal	gen	3	One-way Monolith entrance (horned, red)	obj:43:6		0			A pointed arch formed by two huge curved dark red horns rising from a round flat stone platform with a stone step; the opening is filled with deep black-red darkness.
+vis_mono_out_horn_red	portal	gen	3	One-way Monolith exit (horned, red)	obj:44:6		0			A pointed arch formed by two huge curved dark red horns rising from a round flat stone platform with a stone step; the opening is empty and black.
+vis_mono_in_horn_teal	portal	gen	3	One-way Monolith entrance (horned, teal)	obj:43:7		0			A pointed arch formed by two huge curved teal horns rising from a round flat stone platform with a stone step; the opening is filled with black darkness with a bright white star flash in its middle.
+vis_mono_out_horn_teal	portal	gen	3	One-way Monolith exit (horned, teal)	obj:44:7		0			A pointed arch formed by two huge curved teal horns rising from a round flat stone platform with a stone step; the opening is empty and black.
+mkt_trading_post	building	gen	2	Trading Post	obj:99:0 obj:221:0		0			A log cabin with a thick golden straw thatched roof and a stone chimney, barrels and a crate in front of it.
+mkt_black_market	building	gen	3	Black Market	obj:7:0		0			A market stall with a dark slatted canopy roof on wooden posts, tables piled with goods, a cart wheel and barrels beside it.
+mkt_altar_of_sacrifice	building	gen	3	Altar of Sacrifice	obj:2:0		0			A low square altar platform of rust-red bricks stained dark red, a broken stone arch fragment standing at its back corner.
+mkt_freelancers_guild	building	gen	3	Freelancer's Guild	obj:213:0		0			A big round fortress of three joined towers of pale stone and dark timber, each with a dark ribbed dome ringed by white tusk-like spikes, an arched gate in front.
+mkt_war_machine_factory	building	gen	3	War Machine Factory	obj:106:0		0			A long workshop of stone and timber with a wooden shingle roof, a large open forge door glowing red and a chimney.
+mkt_cannon_yard	building	gen	3	Cannon Yard	obj:106:1		0			A large timber-framed workshop with a red tiled roof and two tall stone chimneys, an outside stone stair, glowing furnace openings and heaps of black cannonballs.
+mkt_junkman	building	gen	3	Junkman	obj:144:7		0			A covered wooden caravan wagon with a barrel-vaulted plank roof, a market stall with a green awning and crates beside it.
+vis_arena	building	gen	2	Arena	obj:4:0		0			A round colosseum of pale beige stone with two tiers of arched openings and a main arched gate at the front.
+vis_cartographer	building	gen	3	Cartographer (land)	obj:13:1		0			A tall round tower of rubble stone and plaster in several tiers with white balconies and a small domed lantern spire on top.
+vis_cartographer_sub	building	gen	3	Cartographer (underground)	obj:13:2		0			A tall pointed spire of brown rock riddled with holes like a termite mound, an arched door at its base.
+vis_swan_pond	building	gen	3	Swan Pond	obj:14:0		0			A small oval pond rimmed with stones and green plants, a red-pink swan swimming on it.
+vis_cover_of_darkness	building	gen	3	Cover of Darkness	obj:15:0		0			A crouching bronze sphinx-like beast statue on a stepped dark wooden plinth, a twisting column of grey smoke rising from it into a dark blue starry cloud above, all one connected shape.
+vis_corpse	pickup	gen	2	Corpse	obj:22:0		0			A human skeleton lying sprawled on a low patch of sand, bleached bones.
+vis_marletto_tower	building	gen	2	Marletto Tower	obj:23:0		0			A round tapering tower of brown-red brick with a crenellated top and a small wooden door, on a grassy base.
+vis_eye_of_the_magi	building	gen	3	Eye of the Magi	obj:27:0		0			A large beige eyeball with a blue iris resting on a cluster of short curled tentacles.
+vis_faerie_ring	building	gen	2	Faerie Ring	obj:28:0		0			A ring of brown-capped and white mushrooms on the ground with a small pink-winged fairy figure standing in its middle.
+vis_fountain_of_fortune	building	gen	2	Fountain of Fortune	obj:30:0		0			A round stone basin of blue water with a white statue of a leaping fish spouting an arc of water.
+vis_fountain_of_youth	building	gen	2	Fountain of Youth	obj:31:0		0			A big boulder carved with a giant stone face, water pouring from its mouth into a blue pool, green trees behind it.
+vis_garden_of_revelation	building	gen	2	Garden of Revelation	obj:32:0		0			A small square walled garden with a lattice gate, a grey stone statue fountain, green bushes and red flowers.
+vis_hill_fort	building	gen	2	Hill Fort	obj:35:0		0			A grey stone fortress with several round towers with red conical roofs, walls and a gate, on a small rocky hill.
+vis_hill_fort_hota	building	gen	3	Hill Fort (HotA)	obj:35:1		0			A small fort of dark vertical log palisade walls around a timber hall with a steep shingle roof, two round wooden turrets with pointed tops, on a mound with a path to the gate.
+vis_hut_of_the_magi	building	gen	3	Hut of the Magi	obj:37:0		0			A round hut with a shaggy straw-thatched dome roof on a base of twisted roots, a dark doorway and a thin chimney.
+vis_idol_of_fortune	building	gen	2	Idol of Fortune	obj:38:0		0			A carved totem idol of orange-red stone with a grinning face and a fan-shaped feather headdress on a short pedestal.
+vis_library	building	gen	2	Library of Enlightenment	obj:41:0		0			A long classical building of grey-white marble with a colonnade, a triangular pediment with a golden emblem and steps to the entrance flanked by two statues.
+vis_lighthouse	building	gen	3	Lighthouse	obj:42:0		1			A tall round lighthouse of grey rubble stone with a brick band, a lantern room with windows and a red domed roof.
+vis_school_of_magic	building	gen	2	School of Magic	obj:47:0		0			A tall round multi-tiered tower of red-brown brick with stacked flared roofs like a pagoda, a small dome on top and white star-shaped ornaments on its walls.
+vis_magic_spring	building	gen	3	Magic Spring	obj:48:0		0			A rocky hill of brown stone with a waterfall pouring into a blue pool at its foot, dark coral-like branches beside it.
+vis_mercenary_camp	building	gen	2	Mercenary Camp	obj:51:0		0			A cluster of military tents of dark blue-grey, striped brown and yellow-brown canvas around a campfire, a short wooden fence and a weapon rack with a shield.
+vis_mystical_garden	building	gen	2	Mystical Garden	obj:55:0		0			A small figure in green clothes and a green hat standing among lush green bushes, grey rocks and scattered gold coins.
+vis_oasis	building	gen	3	Oasis	obj:56:0		0			A small pool of blue water on sand with two palm trees leaning over it and green plants on its banks.
+vis_redwood_observatory	building	gen	2	Redwood Observatory	obj:58:0		0			A very tall straight redwood trunk with a few short branches, a small wooden lookout hut with a pitched roof on its top.
+vis_pillar_of_fire	building	gen	3	Pillar of Fire	obj:60:0		0			A tall tapering spiral tower of dark stone with red glowing windows and a flame burning on its top.
+vis_star_axis	building	gen	2	Star Axis	obj:61:0		0			A large upright spoked wheel of pale stone like an astrolabe, with a red hub, on a small stone pedestal.
+vis_prison	building	gen	2	Prison	obj:62:0		0			A grim two-storey keep of grey stone with a dark hipped roof, two small round turrets, barred windows and a low crenellated outer wall with a small gate.
+vis_hero_camp	building	gen	3	Hero Camp	obj:62:1		0			A small round canvas tent with a grey-white striped conical top, a blue-and-white shield and a suit of armour leaning beside it.
+vis_pyramid	building	gen	3	Pyramid	obj:63:0		0			A stepped sandstone pyramid with a stairway up its front and a small temple on its top.
+vis_rally_flag	building	gen	3	Rally Flag	obj:64:0		0			A sword stuck upright in the ground with a long tattered red cloth streamer tied to it, a skull and a round shield lying beside it.
+vis_refugee_camp	building	gen	2	Refugee Camp	obj:78:0		0			A small red wooden hut-wagon and several beige canvas tents around a campfire.
+vis_sanctuary	building	gen	2	Sanctuary	obj:80:0		0			A white-plastered chapel with a dark tiled roof, arched windows and a small bell tower with a spire.
+vis_scholar	creature	gen	2	Scholar	obj:81:0		0			A robed scholar in a long brown hooded cloak standing and reading an open red book held in one hand.
+vis_shipyard	building	gen	2	Shipyard	obj:87:0		1			A wooden ship hull under construction on a slipway of timber scaffolding, bare masts, piles of timber and barrels around it.
+vis_airship_yard	building	gen	3	Airship Yard	obj:87:1		1			A long workshop hall with a pale plank roof and three chimneys, a wooden crane holding a boat-shaped airship gondola, a big gear wheel and barrels.
+vis_sign	pickup	gen	2	Sign	obj:91:0		0			A wooden signpost: a short post with a square board carved with decorative patterns, no letters.
+vis_stables	building	gen	2	Stables	obj:94:0		0			A two-storey stable of stone and plaster with a brown tiled roof and dormer windows, a lower wing with a wide wooden door.
+vis_tavern	building	gen	2	Tavern	obj:95:0		0			A tall timber-framed two-storey inn with a steep dark shingle roof and a chimney, a blank hanging sign board and barrels by the door.
+vis_temple	building	gen	2	Temple	obj:96:0		0			A white marble classical temple with a colonnade, a low pediment roof and a wide staircase at the front.
+vis_den_of_thieves	building	gen	3	Den of Thieves	obj:97:0		0			A crooked wooden house with a dark roof perched on top of a rocky outcrop, rope ladders hanging down its sides.
+vis_learning_stone	portal	gen	2	Learning Stone	obj:100:0		0			An upright stone slab with a rounded top on a small stone base, carved runes and a blue gem set in its face.
+vis_tree_of_knowledge	tree	gen	2	Tree of Knowledge	obj:102:0		0			A large broad tree with a dense round green crown and a thick gnarled trunk bearing a carved wise old face.
+vis_university	building	gen	2	University	obj:104:0		0			A walled quadrangle of sandstone with square corner towers enclosing a courtyard, a central hall with a red tiled roof, a few garden trees and an arched gate in the front wall.
+vis_wagon	building	gen	3	Wagon	obj:105:0		0			An overturned wooden cart lying on its side with one big wheel up, broken boards scattered around it.
+vis_school_of_war	building	gen	2	School of War	obj:107:0		0			A large palace of beige stone with many dark slate roofs, round towers with conical roofs and several wings.
+vis_warriors_tomb	building	gen	3	Warrior's Tomb	obj:108:0		0			A stone sarcophagus with a carved knight effigy lying on its lid and wave patterns carved on its sides.
+vis_watering_hole	landform	gen	3	Watering Hole	obj:110:0		0			A shallow blue pond with muddy banks, a big rock and dry bushes at its edge.
+vis_warehouse_wood	mine	gen	3	Warehouse of Wood	obj:142:0		0			A log cabin storehouse with a plank roof, stacks of cut logs piled in front of it.
+vis_warehouse_mercury	mine	gen	3	Warehouse of Mercury	obj:142:1		0			A round brick tower with a conical tiled roof and a small round window, a little brick annex, flasks and barrels beside it.
+vis_warehouse_ore	mine	gen	3	Warehouse of Ore	obj:142:2		0			Two round stone sheds with thatched roofs, heaps of grey ore lumps beside them.
+vis_warehouse_sulfur	mine	gen	3	Warehouse of Sulfur	obj:142:3		0			A small round tower of dark stone with yellow-lit windows and a pointed roof, heaps of bright yellow sulfur around it.
+vis_warehouse_crystal	mine	gen	3	Warehouse of Crystal	obj:142:4		0			A round wooden hut with a curved plank roof and a chimney, clusters of red crystals growing in front of it.
+vis_warehouse_gems	mine	gen	3	Warehouse of Gems	obj:142:5		0			A grey round stone tower with a blue conical roof on a round blue-tiled platform strewn with colourful gems.
+vis_warehouse_gold	mine	gen	3	Warehouse of Gold	obj:142:6		0			A dark rocky mound piled with gold coins and nuggets, a round golden door in its front.
+vis_temple_of_loyalty	building	gen	3	Temple of Loyalty	obj:144:0		0			A tall ornate tower-shrine of sandstone with blue panels and golden trim, a pointed roof and an arched opening sheltering a white statue.
+vis_skeleton_transformer	building	gen	3	Skeleton Transformer	obj:144:1		0			A tall narrow gothic house of blue-grey stone with a steep red roof, a round window and an arched door, bones scattered at its foot.
+vis_colosseum_of_the_magi	building	gen	3	Colosseum of the Magi	obj:144:2		0			A round colosseum of beige stone with a blue-tiled roof ring, four small towers with blue conical roofs and an entrance portico at the front.
+vis_watering_place	building	gen	3	Watering Place	obj:144:3		0			A small round stone trough full of water beside a small leafy tree.
+vis_mineral_spring	building	gen	3	Mineral Spring	obj:144:4		0			A small domed pavilion of white stone with a blue-tiled dome topped by a golden finial, arched openings on all sides.
+vis_hermits_shack	building	gen	3	Hermit's Shack	obj:144:5		0			A hollow dead tree stump with twisted roots, a small door and a window in its trunk, grass around it.
+vis_gazebo	building	gen	3	Gazebo	obj:144:6		0			A small octagonal gazebo with a red roof, white posts and railings.
+vis_derrick	building	gen	3	Derrick	obj:144:8		0			A tall wooden oil derrick tower beside a small wooden shed, barrels around them.
+vis_warlocks_lab	building	gen	3	Warlock's Lab	obj:144:9		0			A round white stone base with arched doors, topped by a large golden frame of curved arms holding a big red-brown crystal.
+vis_prospector	building	gen	3	Prospector	obj:144:10		0			An old prospector in a hat kneeling by a small stream with a gold pan, heaps of gold nuggets, sacks, a pickaxe and rocks around him.
+vis_trailblazer	building	gen	3	Trailblazer	obj:144:11		0			A beige canvas tepee with red bands, a carved wooden totem figure on top of its poles.
+vis_trapper_lodge	building	gen	3	Trapper Lodge	obj:144:12		0			A low A-frame hut of rough planks with a steep sloping roof, partly dug into the ground.
+pk_ancient_lamp	pickup	gen	3	Ancient Lamp	obj:145:0		0			A golden oil lamp with a curled handle, a small lid and a long spout.
+vis_town_gate	building	gen	3	Town Gate	obj:146:3		0			A large sandstone gatehouse with an ornate carved roof and pinnacles and a big arched gate with green panels.
+vis_ancient_altar	building	gen	3	Ancient Altar	def:avchrnal obj:146:4		0			A giant orange octopus-like creature with long tentacles sprawled around a round brick platform, holding a turquoise-and-gold curved horn in its middle.
+wat_buoy	water	gen	3	Buoy	obj:11:0		0			A small floating buoy: a round orange-brown wooden float with a little caged lantern on top.
+wat_cartographer	water	gen	3	Cartographer (water)	obj:13:0		0			A wooden house on stilts with a grey-green shingle roof and a small lantern turret on top.
+wat_flotsam	water	gen	3	Flotsam	obj:29:0		0			A small floating heap of broken wooden planks and boards.
+wat_fountain_of_youth	water	gen	3	Fountain of Youth (water)	def:watermag		0			A tall fountain rising from the sea: a slender column of dark blue tiles with golden bands crowned by a big blue flower-shaped basin with a golden centre, streams of water falling from its petals.
+wat_school_of_magic	water	gen	3	School of Magic (water)	obj:47:1		0			A tall craggy spire of brown rock, stone buildings and windows carved into it, a big wooden water wheel on its side and green plants at its foot.
+wat_mermaids	water	gen	3	Mermaids	obj:52:0		0			A mermaid with long blonde hair and a green fish tail sitting on a mossy rock.
+wat_observation_tower	water	gen	3	Observation Tower	obj:58:1		0			A tall round tower of mossy green-grey stone with a crenellated top, standing on a rocky islet.
+wat_ocean_bottle	water	gen	3	Ocean Bottle	obj:59:0		0			A small green glass bottle with a cork, floating upright.
+wat_prison	water	gen	3	Prison (water)	def:avwtprsn		0			A ruined round tower of mossy grey-green stone with a barred arched gate, on a rocky islet.
+wat_sea_chest	water	gen	3	Sea Chest	obj:82:0		0			A small wooden chest with iron bands, floating.
+wat_survivor	water	gen	3	Shipwreck Survivor	obj:86:0		0			A man in an orange shirt clinging to a long floating wooden log.
+wat_sirens	water	gen	3	Sirens	obj:92:0		0			A low rocky islet with two winged harpy-like women perched on its rocks.
+wat_tavern	water	gen	3	Tavern (water)	def:wt_tvrn01		0			A two-storey wooden tavern on stilts with a green mossy shingle roof, a covered porch and a chimney.
+wat_whirlpool	water	gen	3	Whirlpool	obj:111:0		0			A swirling funnel of dark blue and white foaming water shaped as a wide shallow vortex cone.
+wat_sea_barrel	water	gen	3	Sea Barrel	obj:145:1		0			A wooden barrel with iron hoops, floating upright.
+wat_jetsam	water	gen	3	Jetsam	obj:145:2		0			A wooden crate with iron bands, floating.
+wat_vial_of_mana	water	gen	3	Vial of Mana	obj:145:3		0			A small blue glass vial with a golden stopper, floating upright.
+wat_seafaring_academy	water	gen	3	Seafaring Academy	obj:146:0		0			A curved sandstone building like a horseshoe colosseum with two tiers of arched arcades and a round tower with a dark conical roof.
+wat_observatory	water	gen	3	Observatory (water)	obj:146:1		0			A round tower of green-grey stone with a domed top and a brass telescope, on a rocky islet.
+wat_altar_of_mana	water	gen	3	Altar of Mana	obj:146:2		0			A stepped pyramid altar of reddish-brown rock with red-and-gold stairs up its front and a red gem disc on top.
+art_centaurs_axe	pickup	gen	4	Centaurs Axe	def:ava0007		0			A single-bladed battle axe with a broad steel-blue blade and a short turned wooden handle, lying on the ground.
+art_blackshard_of_the_dead_knight	pickup	gen	4	Blackshard of the Dead Knight	def:ava0008		0			A long sword with a black steel blade and an ornate red-and-silver crossguard and pommel, lying on the ground.
+art_greater_gnolls_flail	pickup	gen	4	Greater Gnoll's Flail	def:ava0009		0			A flail: a wooden handle with a short chain ending in a spiked iron ball, lying on the ground.
+art_ogres_club_of_havoc	pickup	gen	4	Ogre's Club of Havoc	def:ava0010		0			A huge knobbly wooden club, thick at one end and studded with a few iron spikes, lying on the ground.
+art_sword_of_hellfire	pickup	gen	4	Sword of Hellfire	def:ava0011		0			A short sword with a golden hilt, its blade wreathed in sculpted orange flames, lying on the ground.
+art_titans_gladius	pickup	gen	4	Titan's Gladius	def:ava0012		0			A broad short sword with a bright polished silver blade, a simple crossguard and a brown leather grip, lying on the ground.
+art_shield_of_the_dwarven_lords	pickup	gen	4	Shield of the Dwarven Lords	def:ava0013		0			A round wooden shield of vertical brown planks with an iron rim and a domed iron boss, lying on the ground.
+art_shield_of_the_yawning_dead	pickup	gen	4	Shield of the Yawning Dead	def:ava0014		0			A dark navy-blue heater shield with a silver rim bearing a white grinning skull emblem, lying on the ground.
+art_buckler_of_the_gnoll_king	pickup	gen	4	Buckler of the Gnoll King	def:ava0015		0			A small round silver-grey metal buckler with an embossed star pattern and studs, lying on the ground.
+art_targ_of_the_rampaging_ogre	pickup	gen	4	Targ of the Rampaging Ogre	def:ava0016		0			A round battered bronze-gold targe with a cracked rim and rivets, lying on the ground.
+art_shield_of_the_damned	pickup	gen	4	Shield of the Damned	def:ava0017		0			A tall dark grey shield with a silver skeletal figure emblem, sculpted flames licking at its lower edge, lying on the ground.
+art_sentinels_shield	pickup	gen	4	Sentinel's Shield	def:ava0018		0			A golden heater shield with a raised rim bearing a green winged serpent emblem, lying on the ground.
+art_helm_of_the_alabaster_unicorn	pickup	gen	4	Helm of the Alabaster Unicorn	def:ava0019		0			A polished silver knight's helmet with a closed visor, a spiral unicorn horn on its brow and a golden crest, lying on the ground.
+art_skull_helmet	pickup	gen	4	Skull Helmet	def:ava0020		0			A golden-yellow helmet shaped like a big skull with dark eye sockets and bared teeth, lying on the ground.
+art_helm_of_chaos	pickup	gen	4	Helm of Chaos	def:ava0021		0			A steel helmet with curled ram horns on both sides, red eye slits and small green gem studs, lying on the ground.
+art_crown_of_the_supreme_magi	pickup	gen	4	Crown of the Supreme Magi	def:ava0022		0			A tall royal crown of gold with a red velvet cap and a band studded with blue and red jewels, lying on the ground.
+art_hellstorm_helmet	pickup	gen	4	Hellstorm Helmet	def:ava0023		0			A demonic bronze helmet with curled ram horns and a grimacing fanged face mask with a red lower part, lying on the ground.
+art_thunder_helmet	pickup	gen	4	Thunder Helmet	def:ava0024		0			A golden winged helmet with a tall crest and cheek guards, an open face with a dark red inside, lying on the ground.
+art_breastplate_of_petrified_wood	pickup	gen	4	Breastplate of Petrified Wood	def:ava0025		0			A breastplate carved from brown petrified wood shaped like a muscled torso, lying on the ground.
+art_rib_cage	pickup	gen	4	Rib Cage	def:ava0026		0			A body armour made of a pale bone rib cage with a spine, lying on the ground.
+art_scales_of_the_greater_basilisk	pickup	gen	4	Scales of the Greater Basilisk	def:ava0027		0			A sleeveless armour vest covered with green and yellow reptile scales and a golden collar, lying on the ground.
+art_tunic_of_the_cyclops_king	pickup	gen	4	Tunic of the Cyclops King	def:ava0028		0			A golden armour tunic of layered gold plates with a red collar and a big single-eye emblem on the chest, lying on the ground.
+art_breastplate_of_brimstone	pickup	gen	4	Breastplate of Brimstone	def:ava0029		0			A breastplate of red-orange glowing lava-like metal with a dark cracked pattern and golden rims, lying on the ground.
+art_titans_cuirass	pickup	gen	4	Titan's Cuirass	def:ava0030		0			A polished silver muscle cuirass, lying on the ground.
+art_armor_of_wonder	pickup	gen	4	Armor of Wonder	def:ava0031		0			A golden plate breastplate of segmented gold plates with rivets, lying on the ground.
+art_sandals_of_the_saint	pickup	gen	4	Sandals of the Saint	def:ava0032		0			A pair of brown leather sandals with straps and small golden buckles, lying on the ground.
+art_celestial_necklace_of_bliss	pickup	gen	4	Celestial Necklace of Bliss	def:ava0033		0			A necklace of blue enamel and silver links with an oval sapphire pendant, lying on the ground.
+art_lions_shield_of_courage	pickup	gen	4	Lion's Shield of Courage	def:ava0034		0			A red heater shield with a golden rim bearing a golden rampant lion, lying on the ground.
+art_sword_of_judgement	pickup	gen	4	Sword of Judgement	def:ava0035		0			A straight long sword with a silver blade, a golden crossguard and a red grip with a gold pommel, lying on the ground.
+art_helm_of_heavenly_enlightenment	pickup	gen	4	Helm of Heavenly Enlightenment	def:ava0036		0			A pointed copper-gold conical helmet with a golden feathered wing on its side, lying on the ground.
+art_quiet_eye_of_the_dragon	pickup	gen	4	Quiet Eye of the Dragon	def:ava0037		0			A golden ring set with a big oval stone like a green-gold dragon eye with a slit pupil, lying on the ground.
+art_red_dragon_flame_tongue	pickup	gen	4	Red Dragon Flame Tongue	def:ava0038		0			A wavy flamberge sword whose blade is shaped as sculpted red-orange flames, golden hilt, lying on the ground.
+art_dragon_scale_shield	pickup	gen	4	Dragon Scale Shield	def:ava0039		0			An oval shield covered with green dragon scales, a red gem in its centre and a spiky golden rim, lying on the ground.
+art_dragon_scale_armor	pickup	gen	4	Dragon Scale Armor	def:ava0040		0			A green dragon-scale cuirass with spiky golden shoulder guards and a red gem at the collar, lying on the ground.
+art_dragonbone_greaves	pickup	gen	4	Dragonbone Greaves	def:ava0041		0			A pair of leg greaves made of pale ridged bone segments, lying on the ground.
+art_dragon_wing_tabard	pickup	gen	4	Dragon Wing Tabard	def:ava0042		0			A green tabard of leathery dragon wing membrane with a golden belt, lying on the ground.
+art_necklace_of_dragonteeth	pickup	gen	4	Necklace of Dragonteeth	def:ava0043		0			A golden chain necklace hung all around with curved ivory dragon teeth and a red gem, lying on the ground.
+art_crown_of_dragontooth	pickup	gen	4	Crown of Dragontooth	def:ava0044		0			A green crown with a band of ivory dragon-tooth spikes, golden studs and small gems, lying on the ground.
+art_still_eye_of_the_dragon	pickup	gen	4	Still Eye of the Dragon	def:ava0045		0			A silver ring set with a big orange-red dragon eye stone with a black slit pupil, lying on the ground.
+art_clover_of_fortune	pickup	gen	4	Clover of Fortune	def:ava0046		0			A large bright green four-leaf clover with a short stem, lying on the ground.
+art_cards_of_prophecy	pickup	gen	4	Cards of Prophecy	def:ava0047		0			A fanned stack of three large ornate cards painted in gold, orange and green with figures, no letters, lying on the ground.
+art_ladybird_of_luck	pickup	gen	4	Ladybird of Luck	def:ava0048		0			A small silver statuette of a bird with spread wings perched on a curved silver base, lying on the ground.
+art_badge_of_courage	pickup	gen	4	Badge of Courage	def:ava0049		0			A medal: a blue-and-red ribbon on a golden bar holding a round golden medallion, lying on the ground.
+art_crest_of_valor	pickup	gen	4	Crest of Valor	def:ava0050		0			An ornate heraldic crest: a cream shield with green figures and red side ornaments under a small gold crown, lying on the ground.
+art_glyph_of_gallantry	pickup	gen	4	Glyph of Gallantry	def:ava0051		0			A flat beige stone tablet carved with a curved double chevron glyph, lying on the ground.
+art_speculum	pickup	gen	4	Speculum	def:ava0052		0			A copper-bronze telescope on a small tripod stand, lying on the ground.
+art_spyglass	pickup	gen	4	Spyglass	def:ava0053		0			A golden brass collapsible spyglass, lying on the ground.
+art_amulet_of_the_undertaker	pickup	gen	4	Amulet of the Undertaker	def:ava0054		0			A coffin-shaped copper-brown amulet with a small skull emblem, lying on the ground.
+art_vampires_cowl	pickup	gen	4	Vampire's Cowl	def:ava0055		0			A dark grey cloak with a high orange-brown fur collar, lying on the ground.
+art_dead_mans_boots	pickup	gen	4	Dead Man's Boots	def:ava0056		0			A pair of rust-brown leather boots with a small skull lying between them, lying on the ground.
+art_garniture_of_interference	pickup	gen	4	Garniture of Interference	def:ava0057		0			A golden chain collar with a round black-and-white yin-yang medallion with a red rim, lying on the ground.
+art_surcoat_of_counterpoise	pickup	gen	4	Surcoat of Counterpoise	def:ava0058		0			A short-sleeved surcoat split white and black with a yin-yang emblem on the chest and a golden collar, lying on the ground.
+art_boots_of_polarity	pickup	gen	4	Boots of Polarity	def:ava0059		0			A pair of tall red leather boots with buttons and a yin-yang emblem on the cuffs, lying on the ground.
+art_bow_of_elven_cherrywood	pickup	gen	4	Bow of Elven Cherrywood	def:ava0060		0			A long elegant recurve bow of reddish cherry wood with a thin string, lying on the ground.
+art_bowstring_of_the_unicorns_mane	pickup	gen	4	Bowstring of the Unicorn's Mane	def:ava0061		0			A coiled bowstring of shining pale golden hair lying in loose loops, lying on the ground.
+art_angel_feather_arrows	pickup	gen	4	Angel Feather Arrows	def:ava0062		0			A brown leather quiver full of white-feathered arrows with one arrow lying across it, lying on the ground.
+art_bird_of_perception	pickup	gen	4	Bird of Perception	def:ava0063		0			A silver statuette of an eagle with spread wings on a small stepped pedestal, lying on the ground.
+art_stoic_watchman	pickup	gen	4	Stoic Watchman	def:ava0064		0			A small silver statuette of a standing armoured guard on a rough rock base, lying on the ground.
+art_emblem_of_cognizance	pickup	gen	4	Emblem of Cognizance	def:ava0065		0			A golden cross-shaped emblem with red enamel arms and a blue gem eye in its centre, lying on the ground.
+art_statesmans_medal	pickup	gen	4	Statesman's Medal	def:ava0066		0			A large round golden medal embossed with a blue dove inside a decorated rim, lying on the ground.
+art_diplomats_ring	pickup	gen	4	Diplomat's Ring	def:ava0067		0			A thick golden ring set with a pale blue dove-shaped stone and small green gems, lying on the ground.
+art_ambassadors_sash	pickup	gen	4	Ambassador's Sash	def:ava0068		0			A folded sash of blue-and-white striped silk with a yellow border and a golden medallion, lying on the ground.
+art_ring_of_the_wayfarer	pickup	gen	4	Ring of the Wayfarer	def:ava0069		0			A golden signet ring with a large flat round face engraved with crossed lines, lying on the ground.
+art_equestrians_gloves	pickup	gen	4	Equestrian's Gloves	def:ava0070		0			A pair of brown leather riding gloves, lying on the ground.
+art_necklace_of_ocean_guidance	pickup	gen	4	Necklace of Ocean Guidance	def:ava0071		0			A golden pendant shaped like a leaping dolphin, lying on the ground.
+art_angel_wings	pickup	gen	4	Angel Wings	def:ava0072		0			A pair of white-silver feathered angel wings joined by a leather harness, lying on the ground.
+art_charm_of_mana	pickup	gen	4	Charm of Mana	def:ava0073		0			A golden winged charm with spiky golden rays and a ruby on top, lying on the ground.
+art_talisman_of_mana	pickup	gen	4	Talisman of Mana	def:ava0074		0			A golden bell-shaped talisman engraved with a dark rune, a red gem at its top, lying on the ground.
+art_mystic_orb_of_mana	pickup	gen	4	Mystic Orb of Mana	def:ava0075		0			A round red-and-gold orb amulet bound with golden straps, a red gem on top, lying on the ground.
+art_collar_of_conjuring	pickup	gen	4	Collar of Conjuring	def:ava0076		0			A golden collar band with a small hourglass-shaped clasp, lying on the ground.
+art_ring_of_conjuring	pickup	gen	4	Ring of Conjuring	def:ava0077		0			A golden ring with a red-and-white gem, lying on the ground.
+art_cape_of_conjuring	pickup	gen	4	Cape of Conjuring	def:ava0078		0			A deep red hooded cape with a golden clasp at the collar, lying on the ground.
+art_orb_of_the_firmament	pickup	gen	4	Orb of the Firmament	def:ava0079		0			A glass orb showing swirling blue sky and white clouds on a golden-silver stand, lying on the ground.
+art_orb_of_silt	pickup	gen	4	Orb of Silt	def:ava0080		0			A cloudy brown earthen orb on a golden stand, lying on the ground.
+art_orb_of_tempestuous_fire	pickup	gen	4	Orb of Tempestuous Fire	def:ava0081		0			A fiery orange glowing orb held in a golden claw stand with red gems, lying on the ground.
+art_orb_of_driving_rain	pickup	gen	4	Orb of Driving Rain	def:ava0082		0			A deep blue orb on a golden winged stand, lying on the ground.
+art_recanters_cloak	pickup	gen	4	Recanter's Cloak	def:ava0083		0			A shimmering golden-mesh cloak with a red lining, lying on the ground.
+art_spirit_of_oppression	pickup	gen	4	Spirit of Oppression	def:ava0084		0			A dark statuette of a skeletal ghost figure with a skull face and outstretched clawed hands, lying on the ground.
+art_hourglass_of_the_evil_hour	pickup	gen	4	Hourglass of the Evil Hour	def:ava0085		0			A wooden hourglass with dark red sand and small golden skulls on its frame, lying on the ground.
+art_tome_of_fire_magic	pickup	gen	4	Tome of Fire Magic	def:ava0086		0			An open book with sculpted orange flames rising from its pages, lying on the ground.
+art_tome_of_air_magic	pickup	gen	4	Tome of Air Magic	def:ava0087		0			An open book with a small grey whirlwind rising from its pages, lying on the ground.
+art_tome_of_water_magic	pickup	gen	4	Tome of Water Magic	def:ava0088		0			An open book with a curling blue wave rising from its pages, lying on the ground.
+art_tome_of_earth_magic	pickup	gen	4	Tome of Earth Magic	def:ava0089		0			An open book with brown rock chunks rising from its pages, lying on the ground.
+art_boots_of_levitation	pickup	gen	4	Boots of Levitation	def:ava0090		0			A pair of bronze-coloured boots with small wings at the ankles, lying on the ground.
+art_golden_bow	pickup	gen	4	Golden Bow	def:ava0091		0			A long ornate golden bow, lying on the ground.
+art_sphere_of_permanence	pickup	gen	4	Sphere of Permanence	def:ava0092		0			A pale brown-and-cream marbled sphere held in a dark bronze ornamental frame, lying on the ground.
+art_orb_of_vulnerability	pickup	gen	4	Orb of Vulnerability	def:ava0093		0			A dark blue-black orb in a golden ring stand with curled claws, lying on the ground.
+art_ring_of_vitality	pickup	gen	4	Ring of Vitality	def:ava0094		0			A golden ring with an ornate crown-like setting and red gems, lying on the ground.
+art_ring_of_life	pickup	gen	4	Ring of Life	def:ava0095		0			A golden ring with a square flat engraved face, lying on the ground.
+art_vial_of_lifeblood	pickup	gen	4	Vial of Lifeblood	def:ava0096		0			A slender glass vial filled with bright red liquid with a golden stopper, lying on the ground.
+art_necklace_of_swiftness	pickup	gen	4	Necklace of Swiftness	def:ava0097		0			A golden pendant with outspread wings and a red gem, lying on the ground.
+art_boots_of_speed	pickup	gen	4	Boots of Speed	def:ava0098		0			A pair of tall brown leather boots wrapped with many golden straps, lying on the ground.
+art_cape_of_velocity	pickup	gen	4	Cape of Velocity	def:ava0099		0			A rust-red cape billowing to one side, lying on the ground.
+art_pendant_of_dispassion	pickup	gen	4	Pendant of Dispassion	def:ava0100		0			A silver pendant shaped like a double-bladed axe on a red-and-white striped handle, on a chain, lying on the ground.
+art_pendant_of_second_sight	pickup	gen	4	Pendant of Second Sight	def:ava0101		0			A round brown leather pendant with a big blue eye on its face, lying on the ground.
+art_pendant_of_holiness	pickup	gen	4	Pendant of Holiness	def:ava0102		0			A golden chain with silver angel wings around a blue sapphire pendant, lying on the ground.
+art_pendant_of_life	pickup	gen	4	Pendant of Life	def:ava0103		0			A golden ankh pendant with a red gem, lying on the ground.
+art_pendant_of_death	pickup	gen	4	Pendant of Death	def:ava0104		0			A silver skull pendant with red eyes on a chain, lying on the ground.
+art_pendant_of_free_will	pickup	gen	4	Pendant of Free Will	def:ava0105		0			A golden pendant shaped like an open hand, lying on the ground.
+art_pendant_of_negativity	pickup	gen	4	Pendant of Negativity	def:ava0106		0			A silver lightning-bolt pendant with a blue gem at its top, on a chain, lying on the ground.
+art_pendant_of_total_recall	pickup	gen	4	Pendant of Total Recall	def:ava0107		0			A golden sun-shaped pendant with spiky rays and a red gem in a white-ringed centre, lying on the ground.
+art_pendant_of_courage	pickup	gen	4	Pendant of Courage	def:ava0108		0			A golden sun-shaped pendant with a lion face in its centre and a small red gem on top, lying on the ground.
+art_everflowing_crystal_cloak	pickup	gen	4	Everflowing Crystal Cloak	def:ava0109		0			A pale blue shimmering crystal-like cloak with a golden jewelled collar, lying on the ground.
+art_ring_of_infinite_gems	pickup	gen	4	Ring of Infinite Gems	def:ava0110		0			A wide golden ring encrusted with many coloured gems around a big green emerald, lying on the ground.
+art_everpouring_vial_of_mercury	pickup	gen	4	Everpouring Vial of Mercury	def:ava0111		0			A silver glass flask with a long neck and a small stopper, filled with liquid mercury, lying on the ground.
+art_inexhaustible_cart_of_ore	pickup	gen	4	Inexhaustible Cart of Ore	def:ava0112		0			A small wooden cart with brown plank sides and wooden wheels loaded with grey ore lumps, lying on the ground.
+art_eversmoking_ring_of_sulfur	pickup	gen	4	Eversmoking Ring of Sulfur	def:ava0113		0			A golden ring set with a big yellow sulfur crystal, lying on the ground.
+art_inexhaustible_cart_of_lumber	pickup	gen	4	Inexhaustible Cart of Lumber	def:ava0114		0			A small wooden cart with wooden wheels loaded with logs and planks, lying on the ground.
+art_endless_sack_of_gold	pickup	gen	4	Endless Sack of Gold	def:ava0115		0			A large brown sack tipped over with gold coins spilling out, lying on the ground.
+art_endless_bag_of_gold	pickup	gen	4	Endless Bag of Gold	def:ava0116		0			A bulging brown leather bag tied at the top, gold coins showing at its mouth, lying on the ground.
+art_endless_purse_of_gold	pickup	gen	4	Endless Purse of Gold	def:ava0117		0			A small open brown leather purse full of gold coins, lying on the ground.
+art_legs_of_legion	pickup	gen	4	Legs of Legion	def:ava0118		0			A bronze statue fragment: a pair of sculpted legs standing on a square plinth, lying on the ground.
+art_loins_of_legion	pickup	gen	4	Loins of Legion	def:ava0119		0			A bronze statue fragment: the hips and thighs of a figure wearing a pleated kilt, lying on the ground.
+art_torso_of_legion	pickup	gen	4	Torso of Legion	def:ava0120		0			A bronze statue fragment: a muscled bare torso, lying on the ground.
+art_arms_of_legion	pickup	gen	4	Arms of Legion	def:ava0121		0			Two bronze statue arms lying one above the other, lying on the ground.
+art_head_of_legion	pickup	gen	4	Head of Legion	def:ava0122		0			A bronze statue head of a warrior with a crested helmet, lying on the ground.
+art_sea_captains_hat	pickup	gen	4	Sea Captain's Hat	def:ava0123		0			A polished silver helmet with a wide rounded brim, a pointed crown and an anchor emblem on its front, lying on the ground.
+art_spellbinders_hat	pickup	gen	4	Spellbinder's Hat	def:ava0124		0			A tall pointed blue wizard hat with a broad brim decorated with yellow stars and moons, lying on the ground.
+art_shackles_of_war	pickup	gen	4	Shackles of War	def:ava0125		0			A pair of iron manacles joined by a chain, lying on the ground.
+art_orb_of_inhibition	pickup	gen	4	Orb of Inhibition	def:ava0126		0			A bright red glass orb on a round silver-blue stand, lying on the ground.
+art_vial_of_dragon_blood	pickup	gen	4	Vial of Dragon Blood	def:ava0127		0			A teardrop-shaped flask of swirling red, orange and green liquid with a blue stopper, lying on the ground.
+art_armageddons_blade	pickup	gen	4	Armageddon's Blade	def:ava0129		0			A golden sword with a broad flame-shaped crossguard and an orange-red blade, lying on the ground.
+art_angelic_alliance	pickup	gen	4	Angelic Alliance	def:ava0130		0			A long silver broadsword with a golden crossguard and hilt, lying on the ground.
+art_cloak_of_the_undead_king	pickup	gen	4	Cloak of the Undead King	def:ava0131		0			A long tattered dark brown-grey cloak with a golden clasp, lying on the ground.
+art_elixir_of_life	pickup	gen	4	Elixir of Life	def:ava0132		0			A tall ornate flask of dark green glass in a golden holder with a turquoise-and-gold winged top, lying on the ground.
+art_armor_of_the_damned	pickup	gen	4	Armor of the Damned	def:ava0133		0			A dark grey horned helmet with a skull-like face, red eyes and big curved ram horns, lying on the ground.
+art_statue_of_legion	pickup	gen	4	Statue of Legion	def:ava0134		0			A small golden statue of a standing muscled warrior, lying on the ground.
+art_power_of_the_dragon_father	pickup	gen	4	Power of the Dragon Father	def:ava0135		0			A dark red dragon-scale armour with tall horn-like shoulder spikes, lying on the ground.
+art_titans_thunder	pickup	gen	4	Titan's Thunder	def:ava0136		0			A jagged silver-blue lightning bolt shaped like a spear, lying on the ground.
+art_admirals_hat	pickup	gen	4	Admiral's Hat	def:ava0137		0			A purple-blue admiral's tricorn hat with gold trim, a red-orange plume and a gold badge, lying on the ground.
+art_bow_of_the_sharpshooter	pickup	gen	4	Bow of the Sharpshooter	def:ava0138		0			A long dark wooden bow with brass fittings, lying on the ground.
+art_wizards_well	pickup	gen	4	Wizard's Well	def:ava0139		0			A small wooden barrel-shaped well bucket with iron hoops and a curved handle, full of water, lying on the ground.
+art_ring_of_the_magi	pickup	gen	4	Ring of the Magi	def:ava0140		0			A heavy bronze-gold ring with an ornate crown setting holding a dark crystal, lying on the ground.
+art_cornucopia	pickup	gen	4	Cornucopia	def:ava0141		0			A curved golden-brown horn of plenty studded with coloured gems, lying on the ground.
+art_diplomats_cloak	pickup	gen	4	Diplomats Cloak	def:ava0142		0			A deep blue cloak with gold trim and a jewelled golden collar, lying on the ground.
+art_pendant_of_reflection	pickup	gen	4	Pendant Of Reflection	def:ava0143		0			A round golden pendant with an ornate rim framing a red, black and white yin-yang emblem, lying on the ground.
+art_ironfist_of_the_ogre	pickup	gen	4	Ironfist Of The Ogre	def:ava0144		0			A massive steel gauntlet with spikes, golden claw details and a red gem, lying on the ground.
+art_cannon	pickup	gen	4	Cannon	def:cannonmap		0			A cannon: a long bronze barrel on a wooden two-wheeled carriage with big spoked wheels, lying on the ground.
+art_trident_of_dominion	pickup	gen	4	Trident Of Dominion	def:ava0147		0			A golden trident with three curved prongs and a blue gem at its centre, lying on the ground.
+art_shield_of_naval_glory	pickup	gen	4	Shield Of Naval Glory	def:ava0148		0			A round golden shield embossed with an octopus and a blue gem, lying on the ground.
+art_royal_armor_of_nix	pickup	gen	4	Royal Armor Of Nix	def:ava0149		0			A golden cuirass covered with a turquoise-blue fish-scale pattern, lying on the ground.
+art_crown_of_the_five_seas	pickup	gen	4	Crown Of The Five Seas	def:ava0150		0			A golden crown with blue gems and white pearl spikes, lying on the ground.
+art_wayfarer_boots	pickup	gen	4	Wayfarer Boots	def:ava0151		0			A pair of green leather knee boots with golden trim, lying on the ground.
+art_runes_of_imminency	pickup	gen	4	Runes Of Imminency	def:ava0152		0			A golden ring holding several oval rune stones in blue, green, purple and grey with golden runes, lying on the ground.
+art_demons_horseshoe	pickup	gen	4	Demons Horseshoe	def:ava0153		0			A large red-orange horseshoe with flame-like spikes along its curve, lying on the ground.
+art_shamans_puppet	pickup	gen	4	Shamans Puppet	def:ava0154		0			A small straw voodoo doll with red feathery hair and a stitched face, lying on the ground.
+art_hideous_mask	pickup	gen	4	Hideous Mask	def:ava0155		0			A silver-grey metal mask with a grotesque face pattern, lying on the ground.
+art_ring_of_suppression	pickup	gen	4	Ring Of Suppression	def:ava0156		0			A broad silver ring with a keyhole-shaped plate, lying on the ground.
+art_pendant_of_downfall	pickup	gen	4	Pendant Of Downfall	def:ava0157		0			A pendant shaped like a golden ram skull with curled silver horns, lying on the ground.
+art_ring_of_oblivion	pickup	gen	4	Ring Of Oblivion	def:ava0158		0			A golden ring with a square red-and-white meander emblem, lying on the ground.
+art_cape_of_silence	pickup	gen	4	Cape Of Silence	def:ava0159		0			A golden hooded headdress-cape with black stripes and blue gems, lying on the ground.
+art_golden_goose	pickup	gen	4	Golden Goose	def:ava0160		0			A golden goose-shaped vessel with a long curved neck and a white-silver inside, lying on the ground.
+art_horn_of_the_abyss	pickup	gen	4	Horn Of The Abyss	def:ava0161		0			A curved horn with turquoise-blue scales and a golden mouthpiece, lying on the ground.
+art_charm_of_eclipse	pickup	gen	4	Charm Of Eclipse	def:ava0162		0			A golden sun-disc charm with a dark purple centre on a golden chain, lying on the ground.
+art_seal_of_sunset	pickup	gen	4	Seal Of Sunset	def:ava0163		0			A golden signet ring with a round purple face, lying on the ground.
+art_plate_of_dying_light	pickup	gen	4	Plate Of Dying Light	def:ava0164		0			A golden breastplate with purple panels, lying on the ground.
+art_sleepkeeper	pickup	gen	4	Sleepkeeper	def:ava0165		0			A small golden statuette of a squat horned owl-like guardian with red eyes, lying on the ground.
+skip_event	pickup	skip	4	Event	obj:26		0			Invisible event marker.
+skip_grail	pickup	skip	4	Grail	obj:36		0			Buried grail, invisible on the map.
+skip_random_artifact	pickup	skip	4	Random Artifact	obj:65 obj:66 obj:67 obj:68 obj:69		0			Placeholder, replaced by a real artifact at map start.
+skip_random_hero	pickup	skip	4	Random Hero	obj:70		0			Placeholder, replaced by a real hero at map start.
+skip_random_monster	pickup	skip	4	Random Monster	obj:71 obj:72 obj:73 obj:74 obj:75 obj:162 obj:163 obj:164		0			Placeholder, replaced by a real monster at map start.
+skip_random_resource	pickup	skip	4	Random Resource	obj:76		0			Placeholder, replaced by a real resource at map start.
+skip_random_town	pickup	skip	4	Random Town	obj:77		0			Placeholder, replaced by a real town at map start.
+skip_hero_placeholder	pickup	skip	4	Hero Placeholder	obj:214		0			Placeholder for a campaign hero.
+skip_random_dwelling	pickup	skip	4	Random Dwelling	obj:216 obj:217 obj:218		0			Placeholder, replaced by a real dwelling at map start.

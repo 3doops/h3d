@@ -1,0 +1,3 @@
+[submodule "client/assets"]
+	path = client/assets
+	url = https://github.com/3doops/h3d-assets.git

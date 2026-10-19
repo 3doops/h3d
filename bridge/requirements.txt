@@ -1,0 +1,2 @@
+frida>=17
+websockets>=13

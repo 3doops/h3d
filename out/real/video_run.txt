@@ -1,0 +1,11 @@
+godot: /c/prj/hota-decompile/_dl/godot/lvp/Godot_lvp.exe (vulkan), server ws://127.0.0.1:8765
+objects: manifest with 1193 models, 0 variant sets
+client: renderer llvmpipe (LLVM 23.1.2, 256 bits), server ws://127.0.0.1:8765
+objects: 1233 (glb 1202, fallback 17, instanced 41)
+world built in 27025 ms
+objects: 1233 (glb 2404, fallback 34, instanced 82)
+world built in 1533 ms
+client: quit
+Done recording movie at path: C:/prj/hota-decompile/godot/out/.real_auto.avi
+773 frames at 20 FPS (movie length: 00:00:38:13), recorded in 00:35:25 (1% of real-time speed).
+-> /c/prj/hota-decompile/godot/out/real_auto.mp4

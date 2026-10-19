@@ -1,0 +1,19 @@
+== staging /c/prj/hota-decompile/_work/export-client
+   models: 909 GLB, manifest names 896 of them (all present)
+   921 assets as raw files (620M, hard links)
+== export (4.7.2, release, preset "Windows Desktop")
+   in pck: 909 GLB, 12 terrain textures, manifest yes
+   bridge/: 12 entries (633K)
+   python/: python-3.12.10-embed-amd64.zip + frida 17.23.3, pillow 13.0.0, websockets 13.1 (174 MB)
+   python/ check: frida 17.23.3 websockets 13.1
+   188K	/c/prj/hota-decompile/dist/HotA3D-client/HotA3D.console.exe
+   105M	/c/prj/hota-decompile/dist/HotA3D-client/HotA3D.exe
+   617M	/c/prj/hota-decompile/dist/HotA3D-client/HotA3D.pck
+   4.0K	/c/prj/hota-decompile/dist/HotA3D-client/README.txt
+   633K	/c/prj/hota-decompile/dist/HotA3D-client/bridge
+   167M	/c/prj/hota-decompile/dist/HotA3D-client/python
+   pck check: 909 GLB names + manifest.json in HotA3D.pck
+== zip /c/prj/hota-decompile/dist/HotA3D-client-win64.zip
+   243 files, CRC ok
+   585M  /c/prj/hota-decompile/dist/HotA3D-client-win64.zip
+   removed /c/prj/hota-decompile/dist/HotA3D-client (--keep-dir keeps it)

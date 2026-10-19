@@ -1,0 +1,6 @@
+bridge up (menu), godot: /c/prj/hota-decompile/_dl/godot/lvp/Godot_lvp.exe (vulkan)
+auto check [PASS] menu: the game's main menu fullscreen (engine frames, input) {"frame":[800,600],"frames":18,"phase":"menu"}
+auto check [PASS] menu: new game -> 3D world of the new map {"me":0,"objects":1233,"size":36.0,"why":"adventure"}
+auto check [PASS] menu: HUD button -> the engine's system options {"window":"systemOptions"}
+auto check [PASS] menu: main menu from the system options -> menu screen again {"frames":91,"phase":"menu"}
+checks: 4 passed, 0 failed; report C:/prj/hota-decompile/godot/out/menu/client_report_menu.json

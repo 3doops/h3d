@@ -1,0 +1,376 @@
+{
+  "checks": {
+    "battle: engine result": {
+      "info": {
+        "at": 38.3,
+        "attacker": 98.0,
+        "attacker_owner": 0.0,
+        "defender": {
+          "army": [
+            [
+              43.0,
+              8.0
+            ],
+            [
+              43.0,
+              8.0
+            ],
+            [
+              43.0,
+              8.0
+            ],
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "at": [
+            8.0,
+            24.0,
+            0.0
+          ],
+          "type": "monster"
+        },
+        "kind": "battle",
+        "losses": {
+          "attacker": [
+            [
+              84.0,
+              4.0
+            ]
+          ],
+          "defender": [
+            [
+              43.0,
+              8.0
+            ],
+            [
+              43.0,
+              8.0
+            ],
+            [
+              43.0,
+              8.0
+            ]
+          ]
+        },
+        "ms": 346120,
+        "t": "event",
+        "target_gone": true,
+        "target_object": 353,
+        "winner": "attacker"
+      },
+      "ok": true
+    },
+    "engine windows in the client (passthrough)": {
+      "info": {
+        "frames": 269,
+        "garrison_changed": {},
+        "resources": {},
+        "windows": [
+          "window_open combat",
+          "window_close combat"
+        ]
+      },
+      "ok": true
+    },
+    "hero 98 Жабаркас: engine path, walk, visit": {
+      "info": {
+        "exp": [
+          80.0,
+          80.0
+        ],
+        "from": [
+          8.0,
+          22.0,
+          0.0
+        ],
+        "level": [
+          1.0,
+          1.0
+        ],
+        "object": "AVWimpx0",
+        "object_gone": false,
+        "path_cells": 2,
+        "reachable_today": 2,
+        "res_gained": {},
+        "target": [
+          8,
+          24,
+          0
+        ],
+        "to": [
+          8.0,
+          23.0,
+          0.0
+        ]
+      },
+      "ok": true
+    },
+    "snapshot from the engine": {
+      "info": {
+        "caps": [
+          "windows"
+        ],
+        "date": {
+          "day": 1.0,
+          "month": 1.0,
+          "week": 1.0
+        },
+        "heroes": 4,
+        "me": 0,
+        "objects": 601
+      },
+      "ok": true
+    }
+  },
+  "frames": 269,
+  "timeline": [
+    {
+      "at": 0.0,
+      "caps": [
+        "windows"
+      ],
+      "game": "HotA 1.8.0 (h3hota.exe)",
+      "ms": 5289,
+      "source": "engine",
+      "t": "hello"
+    },
+    {
+      "at": 0.0,
+      "current": 0.0,
+      "date": {
+        "day": 1.0,
+        "month": 1.0,
+        "week": 1.0
+      },
+      "heroes": 4,
+      "levels": 1.0,
+      "me": 0.0,
+      "ms": 5320,
+      "objects": 601,
+      "size": 36.0,
+      "t": "snapshot"
+    },
+    {
+      "at": 1.7,
+      "cmd": "select_hero",
+      "ms": 157081,
+      "result": {
+        "hero": 98.0
+      },
+      "t": "cmd_done"
+    },
+    {
+      "at": 2.9,
+      "cells": 2,
+      "hero": 98.0,
+      "ms": 206821,
+      "reachable": 2.0,
+      "t": "path",
+      "to": [
+        8.0,
+        24.0,
+        0.0,
+        200.0
+      ]
+    },
+    {
+      "at": 4.8,
+      "cells": [
+        [
+          8.0,
+          23.0,
+          0.0
+        ]
+      ],
+      "hero": 98.0,
+      "kind": "hero_move",
+      "ms": 280419,
+      "owner": 0.0,
+      "t": "event"
+    },
+    {
+      "at": 4.8,
+      "changed": 0,
+      "current": 0.0,
+      "date": {
+        "day": 1.0,
+        "month": 1.0,
+        "week": 1.0
+      },
+      "fog_open": 11,
+      "ms": 280432,
+      "removed": [],
+      "res": [
+        25.0,
+        10.0,
+        25.0,
+        10.0,
+        10.0,
+        10.0,
+        20000.0
+      ],
+      "t": "state"
+    },
+    {
+      "at": 4.8,
+      "depth": 1.0,
+      "h": 600.0,
+      "kind": "manager",
+      "ms": 280455,
+      "name": "combat",
+      "t": "window_open",
+      "w": 800.0
+    },
+    {
+      "action": "closed",
+      "at": 38.2,
+      "kind": "window",
+      "ms": 345972,
+      "name": "combatResults",
+      "ret": 30722.0,
+      "t": "event"
+    },
+    {
+      "at": 38.2,
+      "depth": 1.0,
+      "ms": 346072,
+      "name": "combat",
+      "ret": 30722.0,
+      "t": "window_close"
+    },
+    {
+      "at": 38.3,
+      "changed": 0,
+      "current": 0.0,
+      "date": {
+        "day": 1.0,
+        "month": 1.0,
+        "week": 1.0
+      },
+      "fog_open": 0,
+      "ms": 346099,
+      "removed": [],
+      "res": [
+        25.0,
+        10.0,
+        25.0,
+        10.0,
+        10.0,
+        10.0,
+        20000.0
+      ],
+      "t": "state"
+    },
+    {
+      "at": 38.3,
+      "attacker": 98.0,
+      "attacker_owner": 0.0,
+      "defender": {
+        "army": [
+          [
+            43.0,
+            8.0
+          ],
+          [
+            43.0,
+            8.0
+          ],
+          [
+            43.0,
+            8.0
+          ],
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "at": [
+          8.0,
+          24.0,
+          0.0
+        ],
+        "type": "monster"
+      },
+      "kind": "battle",
+      "losses": {
+        "attacker": [
+          [
+            84.0,
+            4.0
+          ]
+        ],
+        "defender": [
+          [
+            43.0,
+            8.0
+          ],
+          [
+            43.0,
+            8.0
+          ],
+          [
+            43.0,
+            8.0
+          ]
+        ]
+      },
+      "ms": 346120,
+      "t": "event",
+      "winner": "attacker"
+    },
+    {
+      "at": 38.4,
+      "changed": 0,
+      "current": 0.0,
+      "date": {
+        "day": 1.0,
+        "month": 1.0,
+        "week": 1.0
+      },
+      "fog_open": 0,
+      "ms": 365047,
+      "removed": [
+        353.0
+      ],
+      "res": [
+        25.0,
+        10.0,
+        25.0,
+        10.0,
+        10.0,
+        10.0,
+        20000.0
+      ],
+      "t": "state"
+    },
+    {
+      "at": 38.4,
+      "cmd": "move_hero",
+      "ms": 365061,
+      "result": {
+        "alive": true,
+        "at": [
+          8.0,
+          23.0,
+          0.0
+        ],
+        "from": [
+          8.0,
+          22.0,
+          0.0
+        ],
+        "hero": 98.0,
+        "mp": 1530.0,
+        "mp_before": 1630.0,
+        "to": [
+          8.0,
+          24.0,
+          0.0
+        ]
+      },
+      "t": "cmd_done"
+    }
+  ]
+}

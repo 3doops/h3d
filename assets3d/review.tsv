@@ -1,0 +1,95 @@
+key	verdict	note
+hero_generic	turn=180	facing away from the camera
+hero_necromancer	turn=90	side view, horse faces -X
+res_sulfur	reject_model	orange instead of yellow
+hero_wizard	turn=90	side view, faces -X
+cr_pikeman	turn=90	faces -X
+cr_centaur	turn=-90	faces +X
+town_inferno	reject_model	dark shapeless blob
+cr_wolf_rider	turn=-90	faces +X
+cr_peasant	turn=90	faces -X
+cr_behemoth	turn=180	faces away
+hero_druid	turn=90	faces -X
+hero_demoniac	turn=90	faces -X
+hero_death_knight	turn=90	faces -X
+hero_witch	turn=90	faces -X
+hero_elementalist	turn=90	faces -X
+vis_boat	turn=90	bow at -X
+res_sulfur	ok	still orange-ish, acceptable
+cr_centaur_captain	turn=180	faces away
+cr_obsidian_gargoyle	turn=180	back with wings to camera
+cr_hell_hound	turn=-90	head at +X
+cr_cerberus	turn=90	heads at -X
+cr_wolf_raider	turn=-90	head at +X
+cr_basilisk	turn=90	head at -X
+cr_rogue	turn=90	faces -X
+cr_armadillo	turn=-90	head at +X
+cr_snow_elf	turn=180	back to camera
+cr_steel_elf	turn=90	faces -X
+bank_cyclops_stockpile	turn=180	door at the back
+gate_garrison_v	turn=90	vertical garrison: wall must run north-south
+art_dragonbone_greaves	refit	lay the item down
+art_necklace_of_ocean_guidance	refit	lay the item down
+art_orb_of_inhibition	refit	lay the item down
+art_quiet_eye_of_the_dragon	refit	lay the item down
+art_ring_of_conjuring	refit	lay the item down
+art_stoic_watchman	refit	lay the item down
+art_sword_of_hellfire	refit	lay the item down
+art_sword_of_judgement	refit	lay the item down
+art_vampires_cowl	refit	lay the item down
+hero_wizard	turn=-90	recheck: was facing away
+cr_centaur_captain	turn=90	recheck: head at +X
+cr_obsidian_gargoyle	turn=-90	recheck: faces -X
+cr_hell_hound	turn=0	recheck: faces -X
+cr_basilisk	turn=180	recheck: head at -X
+cr_rogue	turn=-90	recheck: back to camera
+cr_armadillo	turn=180	recheck: head at +X
+cr_grand_elf	turn=90	faces -X
+cr_unicorn	turn=90	head at -X
+cr_war_unicorn	turn=180	faces away
+cr_naga_queen	turn=180	back to camera
+cr_horned_demon	turn=180	back to camera
+cr_devil	turn=90	profile, faces -X
+cr_skeleton_warrior	turn=180	back to camera
+cr_power_lich	turn=90	profile, faces -X
+cr_black_knight	turn=90	horse head at -X
+cr_dread_knight	turn=90	horse head at -X
+vis_windmill	ok	reviewed 2026-10-18
+cr_griffin	ok	reviewed 2026-10-18
+cr_royal_griffin	ok	reviewed 2026-10-18
+cr_crusader	ok	reviewed 2026-10-18
+cr_monk	ok	reviewed 2026-10-18
+cr_zealot	ok	reviewed 2026-10-18
+cr_cavalier	ok	reviewed 2026-10-18
+cr_champion	ok	reviewed 2026-10-18
+cr_angel	ok	reviewed 2026-10-18
+cr_archangel	ok	reviewed 2026-10-18
+cr_dwarf	ok	reviewed 2026-10-18
+cr_battle_dwarf	ok	reviewed 2026-10-18
+cr_wood_elf	ok	reviewed 2026-10-18
+cr_pegasus	ok	reviewed 2026-10-18
+cr_silver_pegasus	ok	reviewed 2026-10-18
+cr_dendroid_guard	ok	reviewed 2026-10-18
+cr_dendroid_soldier	ok	reviewed 2026-10-18
+cr_gold_dragon	ok	reviewed 2026-10-18
+cr_master_gremlin	ok	reviewed 2026-10-18
+cr_stone_gargoyle	ok	reviewed 2026-10-18
+cr_stone_golem	ok	reviewed 2026-10-18
+cr_mage	ok	reviewed 2026-10-18
+cr_arch_mage	ok	reviewed 2026-10-18
+cr_genie	ok	reviewed 2026-10-18
+cr_master_genie	ok	reviewed 2026-10-18
+cr_naga	ok	reviewed 2026-10-18
+cr_giant	ok	reviewed 2026-10-18
+cr_titan	ok	reviewed 2026-10-18
+cr_magog	ok	reviewed 2026-10-18
+cr_pit_fiend	ok	reviewed 2026-10-18
+cr_pit_lord	ok	reviewed 2026-10-18
+cr_efreeti	ok	reviewed 2026-10-18
+cr_efreet_sultan	ok	reviewed 2026-10-18
+cr_arch_devil	ok	reviewed 2026-10-18
+cr_wraith	ok	reviewed 2026-10-18
+cr_zombie	ok	reviewed 2026-10-18
+cr_vampire	ok	reviewed 2026-10-18
+cr_vampire_lord	ok	reviewed 2026-10-18
+cr_bone_dragon	ok	reviewed 2026-10-18

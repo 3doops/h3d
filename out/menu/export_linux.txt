@@ -1,0 +1,12 @@
+== no export: HotA3D.x86_64 = release template, HotA3D.pck + python/ from HotA3D-client-win64.zip
+   bridge/: 12 entries (633K)
+   71M	/c/prj/hota-decompile/dist/HotA3D-client-linux-x86_64/HotA3D.x86_64
+   4.0K	/c/prj/hota-decompile/dist/HotA3D-client-linux-x86_64/README.txt
+   633K	/c/prj/hota-decompile/dist/HotA3D-client-linux-x86_64/bridge
+   4.0K	/c/prj/hota-decompile/dist/HotA3D-client-linux-x86_64/doctor.sh
+   1.0K	/c/prj/hota-decompile/dist/HotA3D-client-linux-x86_64/run.sh
+== tar.gz /c/prj/hota-decompile/dist/HotA3D-client-linux-x86_64.tar.gz
+   pck check (in tar): 909 GLB names + manifest.json
+   244 files, gzip CRC ok, ELF x86-64; modes HotA3D.x86_64 755, doctor.sh 755, run.sh 755
+   576M  /c/prj/hota-decompile/dist/HotA3D-client-linux-x86_64.tar.gz
+   removed /c/prj/hota-decompile/dist/HotA3D-client-linux-x86_64 (--keep-dir keeps it)

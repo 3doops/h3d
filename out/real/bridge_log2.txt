@@ -1,0 +1,28 @@
+game pid 15124 (started)
+bridge enabled in the agent: {'on': True, 'walk': [4, 4], 'quick': 1, 'moveReminder': 1}
+bridge on ws://127.0.0.1:8765
+client connected ('127.0.0.1', 52343)
+client error: ConnectionClosedError: no close frame received or sent
+client disconnected
+client connected ('127.0.0.1', 52351)
+client error: ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+client disconnected
+client connected ('127.0.0.1', 52354)
+<- {"cmd":"select_hero","hero":70,"t":"cmd"}
+<- {"hero":70,"t":"path","to":[7,29,0]}
+<- {"cmd":"move_hero","hero":70,"t":"cmd","to":[7,29,0]}
+<- {"hero":70,"t":"path","to":[3,22,0]}
+<- {"hero":70,"t":"path","to":[5,21,0]}
+<- {"cmd":"select_hero","hero":75,"t":"cmd"}
+<- {"hero":75,"t":"path","to":[21,25,1]}
+<- {"cmd":"move_hero","hero":75,"t":"cmd","to":[21,25,1]}
+<- {"answer":0,"id":1,"t":"dialog_answer"}
+[game] NormalDialog style 7 answer 0 -> 30729
+<- {"cmd":"end_turn","t":"cmd"}
+<- {"answer":0,"id":2,"t":"dialog_answer"}
+[game] NormalDialog style 2 answer 0 -> 30725
+[game] battle start {"atk":94,"def":-1,"town":-1,"at":[24,6,0]}
+[game] battle start {"atk":62,"def":-1,"town":-1,"at":[13,11,0]}
+<- {"answer":0,"id":3,"t":"dialog_answer"}
+client disconnected
+game process exited

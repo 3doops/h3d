@@ -1,0 +1,196 @@
+id	name	faction	level	upgraded	map_def	png	notes
+0	Pikeman	castle	1	0	avwpike	_work/assets3d_src/hota_png/avwpike.png	HotA-patched map sprite (same DEF name)
+1	Halberdier	castle	1	1	avwpikx0	_work/assets3d_src/hota_png/avwpikx0.png	HotA-patched map sprite (same DEF name)
+2	Archer	castle	2	0	avwlcrs	_work/assets3d_src/hota_png/avwlcrs.png	HotA-patched map sprite (same DEF name)
+3	Marksman	castle	2	1	avwhcrs	_work/assets3d_src/hota_png/avwhcrs.png	HotA-patched map sprite (same DEF name)
+4	Griffin	castle	3	0	avwgrif	_work/assets3d_src/hota_png/avwgrif.png	HotA-patched map sprite (same DEF name)
+5	Royal Griffin	castle	3	1	avwgrix0	_work/assets3d_src/hota_png/avwgrix0.png	HotA-patched map sprite (same DEF name)
+6	Swordsman	castle	4	0	avwswrd0	_work/assets3d_src/hota_png/avwswrd0.png	HotA-patched map sprite (same DEF name)
+7	Crusader	castle	4	1	avwswrx0	_work/assets3d_src/hota_png/avwswrx0.png	HotA-patched map sprite (same DEF name)
+8	Monk	castle	5	0	avwmonk	_work/assets3d_src/hota_png/avwmonk.png	HotA-patched map sprite (same DEF name)
+9	Zealot	castle	5	1	avwmonx0	_work/assets3d_src/hota_png/avwmonx0.png	HotA-patched map sprite (same DEF name)
+10	Cavalier	castle	6	0	avwcvlr0	_work/assets3d_src/hota_png/avwcvlr0.png	HotA-patched map sprite (same DEF name)
+11	Champion	castle	6	1	avwcvlx0	_work/assets3d_src/hota_png/avwcvlx0.png	HotA-patched map sprite (same DEF name)
+12	Angel	castle	7	0	avwangl	_work/assets3d_src/hota_png/avwangl.png	HotA-patched map sprite (same DEF name)
+13	Archangel	castle	7	1	avwarch	_work/assets3d_src/hota_png/avwarch.png	HotA-patched map sprite (same DEF name)
+14	Centaur	rampart	1	0	avwcent0	_work/assets3d_src/hota_png/avwcent0.png	HotA-patched map sprite (same DEF name)
+15	Centaur Captain	rampart	1	1	avwcenx0	_work/assets3d_src/hota_png/avwcenx0.png	HotA-patched map sprite (same DEF name)
+16	Dwarf	rampart	2	0	avwdwrf0	_work/assets3d_src/hota_png/avwdwrf0.png	HotA-patched map sprite (same DEF name)
+17	Battle Dwarf	rampart	2	1	avwdwrx0	_work/assets3d_src/hota_png/avwdwrx0.png	HotA-patched map sprite (same DEF name)
+18	Wood Elf	rampart	3	0	avwelfw0	_work/assets3d_src/hota_png/avwelfw0.png	HotA-patched map sprite (same DEF name)
+19	Grand Elf	rampart	3	1	avwelfx0	_work/assets3d_src/hota_png/avwelfx0.png	HotA-patched map sprite (same DEF name)
+20	Pegasus	rampart	4	0	avwpega0	_work/assets3d_src/hota_png/avwpega0.png	HotA-patched map sprite (same DEF name)
+21	Silver Pegasus	rampart	4	1	avwpegx0	_work/assets3d_src/hota_png/avwpegx0.png	HotA-patched map sprite (same DEF name)
+22	Dendroid Guard	rampart	5	0	avwtree0	_work/assets3d_src/hota_png/avwtree0.png	HotA-patched map sprite (same DEF name)
+23	Dendroid Soldier	rampart	5	1	avwtrex0	_work/assets3d_src/hota_png/avwtrex0.png	HotA-patched map sprite (same DEF name)
+24	Unicorn	rampart	6	0	avwunic0	_work/assets3d_src/hota_png/avwunic0.png	HotA-patched map sprite (same DEF name)
+25	War Unicorn	rampart	6	1	avwunix0	_work/assets3d_src/hota_png/avwunix0.png	HotA-patched map sprite (same DEF name)
+26	Green Dragon	rampart	7	0	avwdrag0	_work/assets3d_src/hota_png/avwdrag0.png	HotA-patched map sprite (same DEF name)
+27	Gold Dragon	rampart	7	1	avwdrax0	_work/assets3d_src/hota_png/avwdrax0.png	HotA-patched map sprite (same DEF name)
+28	Gremlin	tower	1	0	avwgrem0	_work/assets3d_src/hota_png/avwgrem0.png	HotA-patched map sprite (same DEF name)
+29	Master Gremlin	tower	1	1	avwgrex0	_work/assets3d_src/hota_png/avwgrex0.png	HotA-patched map sprite (same DEF name)
+30	Stone Gargoyle	tower	2	0	avwgarg0	_work/assets3d_src/hota_png/avwgarg0.png	HotA-patched map sprite (same DEF name)
+31	Obsidian Gargoyle	tower	2	1	avwgarx0	_work/assets3d_src/hota_png/avwgarx0.png	HotA-patched map sprite (same DEF name)
+32	Stone Golem	tower	3	0	avwgolm0	_work/assets3d_src/hota_png/avwgolm0.png	HotA-patched map sprite (same DEF name)
+33	Iron Golem	tower	3	1	avwgolx0	_work/assets3d_src/hota_png/avwgolx0.png	HotA-patched map sprite (same DEF name)
+34	Mage	tower	4	0	avwmage0	_work/assets3d_src/hota_png/avwmage0.png	HotA-patched map sprite (same DEF name)
+35	Arch Mage	tower	4	1	avwmagx0	assets/h3-original/creatures/tower/035_arch_mage/AVWmagx0.png	
+36	Genie	tower	5	0	avwgeni0	_work/assets3d_src/hota_png/avwgeni0.png	HotA-patched map sprite (same DEF name)
+37	Master Genie	tower	5	1	avwgenx0	_work/assets3d_src/hota_png/avwgenx0.png	HotA-patched map sprite (same DEF name)
+38	Naga	tower	6	0	avwnaga0	_work/assets3d_src/hota_png/avwnaga0.png	HotA-patched map sprite (same DEF name)
+39	Naga Queen	tower	6	1	avwnagx0	_work/assets3d_src/hota_png/avwnagx0.png	HotA-patched map sprite (same DEF name)
+40	Giant	tower	7	0	avwtitn0	_work/assets3d_src/hota_png/avwtitn0.png	HotA-patched map sprite (same DEF name)
+41	Titan	tower	7	1	avwtitx0	_work/assets3d_src/hota_png/avwtitx0.png	HotA-patched map sprite (same DEF name)
+42	Imp	inferno	1	0	avwimp0	_work/assets3d_src/hota_png/avwimp0.png	HotA-patched map sprite (same DEF name)
+43	Familiar	inferno	1	1	avwimpx0	_work/assets3d_src/hota_png/avwimpx0.png	HotA-patched map sprite (same DEF name)
+44	Gog	inferno	2	0	avwgog0	_work/assets3d_src/hota_png/avwgog0.png	HotA-patched map sprite (same DEF name)
+45	Magog	inferno	2	1	avwgogx0	_work/assets3d_src/hota_png/avwgogx0.png	HotA-patched map sprite (same DEF name)
+46	Hell Hound	inferno	3	0	avwhoun0	_work/assets3d_src/hota_png/avwhoun0.png	HotA-patched map sprite (same DEF name)
+47	Cerberus	inferno	3	1	avwhoux0	_work/assets3d_src/hota_png/avwhoux0.png	HotA-patched map sprite (same DEF name)
+48	Demon	inferno	4	0	avwdemn0	_work/assets3d_src/hota_png/avwdemn0.png	HotA-patched map sprite (same DEF name)
+49	Horned Demon	inferno	4	1	avwdemx0	_work/assets3d_src/hota_png/avwdemx0.png	HotA-patched map sprite (same DEF name)
+50	Pit Fiend	inferno	5	0	avwpitf0	_work/assets3d_src/hota_png/avwpitf0.png	HotA-patched map sprite (same DEF name)
+51	Pit Lord	inferno	5	1	avwpitx0	_work/assets3d_src/hota_png/avwpitx0.png	HotA-patched map sprite (same DEF name)
+52	Efreeti	inferno	6	0	avwefre0	_work/assets3d_src/hota_png/avwefre0.png	HotA-patched map sprite (same DEF name)
+53	Efreet Sultan	inferno	6	1	avwefrx0	_work/assets3d_src/hota_png/avwefrx0.png	HotA-patched map sprite (same DEF name)
+54	Devil	inferno	7	0	avwdevl0	_work/assets3d_src/hota_png/avwdevl0.png	HotA-patched map sprite (same DEF name)
+55	Arch Devil	inferno	7	1	avwdevx0	_work/assets3d_src/hota_png/avwdevx0.png	HotA-patched map sprite (same DEF name)
+56	Skeleton	necropolis	1	0	avwskel0	_work/assets3d_src/hota_png/avwskel0.png	HotA-patched map sprite (same DEF name)
+57	Skeleton Warrior	necropolis	1	1	avwskex0	_work/assets3d_src/hota_png/avwskex0.png	HotA-patched map sprite (same DEF name)
+58	Walking Dead	necropolis	2	0	avwzomb0	_work/assets3d_src/hota_png/avwzomb0.png	HotA-patched map sprite (same DEF name)
+59	Zombie	necropolis	2	1	avwzomx0	_work/assets3d_src/hota_png/avwzomx0.png	HotA-patched map sprite (same DEF name)
+60	Wight	necropolis	3	0	avwwigh	_work/assets3d_src/hota_png/avwwigh.png	HotA-patched map sprite (same DEF name)
+61	Wraith	necropolis	3	1	avwwigx0	_work/assets3d_src/hota_png/avwwigx0.png	HotA-patched map sprite (same DEF name)
+62	Vampire	necropolis	4	0	avwvamp0	_work/assets3d_src/hota_png/avwvamp0.png	HotA-patched map sprite (same DEF name)
+63	Vampire Lord	necropolis	4	1	avwvamx0	_work/assets3d_src/hota_png/avwvamx0.png	HotA-patched map sprite (same DEF name)
+64	Lich	necropolis	5	0	avwlich0	_work/assets3d_src/hota_png/avwlich0.png	HotA-patched map sprite (same DEF name)
+65	Power Lich	necropolis	5	1	avwlicx0	_work/assets3d_src/hota_png/avwlicx0.png	HotA-patched map sprite (same DEF name)
+66	Black Knight	necropolis	6	0	avwbkni0	_work/assets3d_src/hota_png/avwbkni0.png	HotA-patched map sprite (same DEF name)
+67	Dread Knight	necropolis	6	1	avwbknx0	_work/assets3d_src/hota_png/avwbknx0.png	HotA-patched map sprite (same DEF name)
+68	Bone Dragon	necropolis	7	0	avwbone0	_work/assets3d_src/hota_png/avwbone0.png	HotA-patched map sprite (same DEF name)
+69	Ghost Dragon	necropolis	7	1	avwbonx0	_work/assets3d_src/hota_png/avwbonx0.png	HotA-patched map sprite (same DEF name)
+70	Troglodyte	dungeon	1	0	avwtrog0	_work/assets3d_src/hota_png/avwtrog0.png	HotA-patched map sprite (same DEF name)
+71	Infernal Troglodyte	dungeon	1	1	avwinfr	_work/assets3d_src/hota_png/avwinfr.png	HotA-patched map sprite (same DEF name)
+72	Harpy	dungeon	2	0	avwharp0	_work/assets3d_src/hota_png/avwharp0.png	HotA-patched map sprite (same DEF name)
+73	Harpy Hag	dungeon	2	1	avwharx0	_work/assets3d_src/hota_png/avwharx0.png	HotA-patched map sprite (same DEF name)
+74	Beholder	dungeon	3	0	avwbehl0	_work/assets3d_src/hota_png/avwbehl0.png	HotA-patched map sprite (same DEF name)
+75	Evil Eye	dungeon	3	1	avwbehx0	_work/assets3d_src/hota_png/avwbehx0.png	HotA-patched map sprite (same DEF name)
+76	Medusa	dungeon	4	0	avwmeds	_work/assets3d_src/hota_png/avwmeds.png	HotA-patched map sprite (same DEF name)
+77	Medusa Queen	dungeon	4	1	avwmedx0	_work/assets3d_src/hota_png/avwmedx0.png	HotA-patched map sprite (same DEF name)
+78	Minotaur	dungeon	5	0	avwmino	_work/assets3d_src/hota_png/avwmino.png	HotA-patched map sprite (same DEF name)
+79	Minotaur King	dungeon	5	1	avwminx0	_work/assets3d_src/hota_png/avwminx0.png	HotA-patched map sprite (same DEF name)
+80	Manticore	dungeon	6	0	avwmant0	_work/assets3d_src/hota_png/avwmant0.png	HotA-patched map sprite (same DEF name)
+81	Scorpicore	dungeon	6	1	avwmanx0	_work/assets3d_src/hota_png/avwmanx0.png	HotA-patched map sprite (same DEF name)
+82	Red Dragon	dungeon	7	0	avwrdrg	_work/assets3d_src/hota_png/avwrdrg.png	HotA-patched map sprite (same DEF name)
+83	Black Dragon	dungeon	7	1	avwddrx0	_work/assets3d_src/hota_png/avwddrx0.png	HotA-patched map sprite (same DEF name)
+84	Goblin	stronghold	1	0	avwgobl0	_work/assets3d_src/hota_png/avwgobl0.png	HotA-patched map sprite (same DEF name)
+85	Hobgoblin	stronghold	1	1	avwgobx0	_work/assets3d_src/hota_png/avwgobx0.png	HotA-patched map sprite (same DEF name)
+86	Wolf Rider	stronghold	2	0	avwwolf0	_work/assets3d_src/hota_png/avwwolf0.png	HotA-patched map sprite (same DEF name)
+87	Wolf Raider	stronghold	2	1	avwwolx0	_work/assets3d_src/hota_png/avwwolx0.png	HotA-patched map sprite (same DEF name)
+88	Orc	stronghold	3	0	avworc0	_work/assets3d_src/hota_png/avworc0.png	HotA-patched map sprite (same DEF name)
+89	Orc Chieftain	stronghold	3	1	avworcx0	_work/assets3d_src/hota_png/avworcx0.png	HotA-patched map sprite (same DEF name)
+90	Ogre	stronghold	4	0	avwogre0	_work/assets3d_src/hota_png/avwogre0.png	HotA-patched map sprite (same DEF name)
+91	Ogre Mage	stronghold	4	1	avwogrx0	_work/assets3d_src/hota_png/avwogrx0.png	HotA-patched map sprite (same DEF name)
+92	Roc	stronghold	5	0	avwroc0	_work/assets3d_src/hota_png/avwroc0.png	HotA-patched map sprite (same DEF name)
+93	Thunderbird	stronghold	5	1	avwrocx0	_work/assets3d_src/hota_png/avwrocx0.png	HotA-patched map sprite (same DEF name)
+94	Cyclops	stronghold	6	0	avwcycl0	_work/assets3d_src/hota_png/avwcycl0.png	HotA-patched map sprite (same DEF name)
+95	Cyclops King	stronghold	6	1	avwcycx0	_work/assets3d_src/hota_png/avwcycx0.png	HotA-patched map sprite (same DEF name)
+96	Behemoth	stronghold	7	0	avwbhmt0	_work/assets3d_src/hota_png/avwbhmt0.png	HotA-patched map sprite (same DEF name)
+97	Ancient Behemoth	stronghold	7	1	avwbhmx0	_work/assets3d_src/hota_png/avwbhmx0.png	HotA-patched map sprite (same DEF name)
+98	Gnoll	fortress	1	0	avwgnll0	_work/assets3d_src/hota_png/avwgnll0.png	HotA-patched map sprite (same DEF name)
+99	Gnoll Marauder	fortress	1	1	avwgnlx0	_work/assets3d_src/hota_png/avwgnlx0.png	HotA-patched map sprite (same DEF name)
+100	Lizardman	fortress	2	0	avwlizr	_work/assets3d_src/hota_png/avwlizr.png	HotA-patched map sprite (same DEF name)
+101	Lizard Warrior	fortress	2	1	avwlizx0	_work/assets3d_src/hota_png/avwlizx0.png	HotA-patched map sprite (same DEF name)
+102	Gorgon	fortress	5	0	avwgorg	_work/assets3d_src/hota_png/avwgorg.png	HotA-patched map sprite (same DEF name)
+103	Mighty Gorgon	fortress	5	1	avwgorx0	_work/assets3d_src/hota_png/avwgorx0.png	HotA-patched map sprite (same DEF name)
+104	Serpent Fly	fortress	3	0	avwdfly	_work/assets3d_src/hota_png/avwdfly.png	HotA-patched map sprite (same DEF name)
+105	Dragon Fly	fortress	3	1	avwdfir	_work/assets3d_src/hota_png/avwdfir.png	HotA-patched map sprite (same DEF name)
+106	Basilisk	fortress	4	0	avwbasl	_work/assets3d_src/hota_png/avwbasl.png	HotA-patched map sprite (same DEF name)
+107	Greater Basilisk	fortress	4	1	avwgbas	_work/assets3d_src/hota_png/avwgbas.png	HotA-patched map sprite (same DEF name)
+108	Wyvern	fortress	6	0	avwwyvr	_work/assets3d_src/hota_png/avwwyvr.png	HotA-patched map sprite (same DEF name)
+109	Wyvern Monarch	fortress	6	1	avwwyvx0	_work/assets3d_src/hota_png/avwwyvx0.png	HotA-patched map sprite (same DEF name)
+110	Hydra	fortress	7	0	avwhydr	_work/assets3d_src/hota_png/avwhydr.png	HotA-patched map sprite (same DEF name)
+111	Chaos Hydra	fortress	7	1	avwhydx0	_work/assets3d_src/hota_png/avwhydx0.png	HotA-patched map sprite (same DEF name)
+112	Air Elemental	conflux	2	0	avwelma0	_work/assets3d_src/hota_png/avwelma0.png	HotA-patched map sprite (same DEF name)
+113	Earth Elemental	conflux	5	0	avwelme0	_work/assets3d_src/hota_png/avwelme0.png	HotA-patched map sprite (same DEF name)
+114	Fire Elemental	conflux	4	0	avwelmf0	_work/assets3d_src/hota_png/avwelmf0.png	HotA-patched map sprite (same DEF name)
+115	Water Elemental	conflux	3	0	avwelmw0	_work/assets3d_src/hota_png/avwelmw0.png	HotA-patched map sprite (same DEF name)
+116	Gold Golem	neutral	5	0	avwglmg0	_work/assets3d_src/hota_png/avwglmg0.png	HotA-patched map sprite (same DEF name)
+117	Diamond Golem	neutral	6	0	avwglmd0	_work/assets3d_src/hota_png/avwglmd0.png	HotA-patched map sprite (same DEF name)
+118	Pixie	conflux	1	0	avwpixie	_work/assets3d_src/hota_png/avwpixie.png	HotA-patched map sprite (same DEF name)
+119	Sprite	conflux	1	1	avwsprit	_work/assets3d_src/hota_png/avwsprit.png	HotA-patched map sprite (same DEF name)
+120	Psychic Elemental	conflux	6	0	avwpsye	_work/assets3d_src/hota_png/avwpsye.png	HotA-patched map sprite (same DEF name)
+121	Magic Elemental	conflux	6	1	avwmagel	_work/assets3d_src/hota_png/avwmagel.png	HotA-patched map sprite (same DEF name)
+123	Ice Elemental	conflux	3	1	avwicee	_work/assets3d_src/hota_png/avwicee.png	HotA-patched map sprite (same DEF name)
+125	Magma Elemental	conflux	5	1	avwstone	_work/assets3d_src/hota_png/avwstone.png	HotA-patched map sprite (same DEF name)
+127	Storm Elemental	conflux	2	1	avwstorm	_work/assets3d_src/hota_png/avwstorm.png	HotA-patched map sprite (same DEF name)
+129	Energy Elemental	conflux	4	1	avwnrg	_work/assets3d_src/hota_png/avwnrg.png	HotA-patched map sprite (same DEF name)
+130	Firebird	conflux	7	0	avwfbird	_work/assets3d_src/hota_png/avwfbird.png	HotA-patched map sprite (same DEF name)
+131	Phoenix	conflux	7	1	avwphx	_work/assets3d_src/hota_png/avwphx.png	HotA-patched map sprite (same DEF name)
+132	Azure Dragon	neutral	10	0	avwazure	_work/assets3d_src/hota_png/avwazure.png	HotA-patched map sprite (same DEF name)
+133	Crystal Dragon	neutral	10	0	avwcdrg	_work/assets3d_src/hota_png/avwcdrg.png	HotA-patched map sprite (same DEF name)
+134	Faerie Dragon	neutral	8	0	avwfdrg	_work/assets3d_src/hota_png/avwfdrg.png	HotA-patched map sprite (same DEF name)
+135	Rust Dragon	neutral	10	0	avwrust	_work/assets3d_src/hota_png/avwrust.png	HotA-patched map sprite (same DEF name)
+136	Enchanter	neutral	6	0	avwench	_work/assets3d_src/hota_png/avwench.png	HotA-patched map sprite (same DEF name)
+137	Sharpshooter	neutral	4	0	avwsharp	_work/assets3d_src/hota_png/avwsharp.png	HotA-patched map sprite (same DEF name)
+138	Halfling	factory	1	0	avwhalf	_work/assets3d_src/hota_png/avwhalf.png	HotA moves it to factory (SoD: neutral); HotA-patched map sprite (same DEF name)
+139	Peasant	neutral	1	0	avwpeas	_work/assets3d_src/hota_png/avwpeas.png	HotA-patched map sprite (same DEF name)
+140	Boar	neutral	2	0	avwboar	_work/assets3d_src/hota_png/avwboar.png	HotA-patched map sprite (same DEF name)
+141	Mummy	neutral	3	0	avwmumy	_work/assets3d_src/hota_png/avwmumy.png	HotA-patched map sprite (same DEF name)
+142	Nomad	neutral	3	0	avwnomd	_work/assets3d_src/hota_png/avwnomd.png	HotA-patched map sprite (same DEF name)
+143	Rogue	neutral	2	0	avwrog	_work/assets3d_src/hota_png/avwrog.png	HotA-patched map sprite (same DEF name)
+144	Troll	neutral	5	0	avwtrll	_work/assets3d_src/hota_png/avwtrll.png	HotA-patched map sprite (same DEF name)
+145	Catapult	neutral	0	0			war machine / tower: never a map monster
+146	Ballista	neutral	5	0			war machine / tower: never a map monster
+147	First Aid Tent	neutral	0	0			war machine / tower: never a map monster
+148	Ammo Cart	neutral	0	0			war machine / tower: never a map monster
+149	Arrow Tower	neutral	0	0			war machine / tower: never a map monster
+150	Cannon	neutral	6	0	cannonmap	_work/assets3d_src/hota_png/cannonmap.png	war machine / tower: never a map monster
+151	Sea Dog	cove	3	1	avwpr3up	_work/assets3d_src/hota_png/avwpr3up.png	
+153	Nymph	cove	1	0	avwnimph	_work/assets3d_src/hota_png/avwnimph.png	
+154	Oceanid	cove	1	1	avwocean	_work/assets3d_src/hota_png/avwocean.png	
+155	Crew Mate	cove	2	0	avwseadg	_work/assets3d_src/hota_png/avwseadg.png	
+156	Seaman	cove	2	1	avwswash	_work/assets3d_src/hota_png/avwswash.png	
+157	Pirate	cove	3	0	avwpirat	_work/assets3d_src/hota_png/avwpirat.png	
+158	Corsair	cove	3	1	avwcorsa	_work/assets3d_src/hota_png/avwcorsa.png	
+159	Stormbird	cove	4	0	avwassid	_work/assets3d_src/hota_png/avwassid.png	HotA maps use avwassid for this id (VCMI config: avwassup)
+160	Ayssid	cove	4	1	avwassup	_work/assets3d_src/hota_png/avwassup.png	HotA maps use avwassup for this id (VCMI config: avwassid)
+161	Sea Witch	cove	5	0	avwpries	_work/assets3d_src/hota_png/avwpries.png	
+162	Sorceress	cove	5	1	avwsorcs	_work/assets3d_src/hota_png/avwsorcs.png	
+163	Nix	cove	6	0	avwnix	_work/assets3d_src/hota_png/avwnix.png	
+164	Nix Warrior	cove	6	1	avwnixup	_work/assets3d_src/hota_png/avwnixup.png	
+165	Sea Serpent	cove	7	0	avwserpe	_work/assets3d_src/hota_png/avwserpe.png	
+166	Haspid	cove	7	1	avwhaspi	_work/assets3d_src/hota_png/avwhaspi.png	
+167	Satyr	neutral	4	0	avwsatyr	_work/assets3d_src/hota_png/avwsatyr.png	
+168	Fangarm	neutral	5	0	avwfngrm	_work/assets3d_src/hota_png/avwfngrm.png	
+169	Leprechaun	neutral	2	0	avwlepr	_work/assets3d_src/hota_png/avwlepr.png	
+170	Steel Golem	neutral	4	0	avwslgl0	_work/assets3d_src/hota_png/avwslgl0.png	
+171	Halfling Grenadier	factory	1	1	avwhbom	_work/assets3d_src/hota_png/avwhbom.png	
+172	Mechanic	factory	2	0	avwmech	_work/assets3d_src/hota_png/avwmech.png	
+173	Engineer	factory	2	1	avwengn	_work/assets3d_src/hota_png/avwengn.png	
+174	Armadillo	factory	3	0	avwalmd	_work/assets3d_src/hota_png/avwalmd.png	
+175	Bellwether Armadillo	factory	3	1	avwalmb	_work/assets3d_src/hota_png/avwalmb.png	
+176	Automaton	factory	4	0	avwauto	_work/assets3d_src/hota_png/avwauto.png	
+177	Sentinel Automaton	factory	4	1	avwauth	_work/assets3d_src/hota_png/avwauth.png	
+178	Sandworm	factory	5	0	avwworm	_work/assets3d_src/hota_png/avwworm.png	
+179	Olgoi-Khorkhoi	factory	5	1	avwolgo	_work/assets3d_src/hota_png/avwolgo.png	
+180	Gunslinger	factory	6	0	avwguns	_work/assets3d_src/hota_png/avwguns.png	
+181	Bounty Hunter	factory	6	1	avwbhun	_work/assets3d_src/hota_png/avwbhun.png	
+182	Couatl	factory	7	0	avwcoat	_work/assets3d_src/hota_png/avwcoat.png	
+183	Crimson Couatl	factory	7	1	avwradc	_work/assets3d_src/hota_png/avwradc.png	
+184	Dreadnought	factory	7	0	avwdred	_work/assets3d_src/hota_png/avwdred.png	
+185	Juggernaut	factory	7	1	avwjugg	_work/assets3d_src/hota_png/avwjugg.png	
+186	Kobold	bulwark	1	0	avwkobol	_work/assets3d_src/hota_png/avwkobol.png	
+187	Kobold Foreman	bulwark	1	1	avwfkobl	_work/assets3d_src/hota_png/avwfkobl.png	
+188	Mountain Ram	bulwark	2	0	avwmtram	_work/assets3d_src/hota_png/avwmtram.png	
+189	Argali	bulwark	2	1	avwargal	_work/assets3d_src/hota_png/avwargal.png	
+190	Snow Elf	bulwark	3	0	avwsnelf	_work/assets3d_src/hota_png/avwsnelf.png	
+191	Steel Elf	bulwark	3	1	avwstelf	_work/assets3d_src/hota_png/avwstelf.png	
+192	Yeti	bulwark	4	0	avwyeti	_work/assets3d_src/hota_png/avwyeti.png	
+193	Yeti Runemaster	bulwark	4	1	avwmsprt	_work/assets3d_src/hota_png/avwmsprt.png	
+194	Shaman	bulwark	5	0	avwshamn	_work/assets3d_src/hota_png/avwshamn.png	
+195	Great Shaman	bulwark	5	1	avwgshmn	_work/assets3d_src/hota_png/avwgshmn.png	
+196	Mammoth	bulwark	6	0	avwmamth	_work/assets3d_src/hota_png/avwmamth.png	
+197	War Mammoth	bulwark	6	1	avwwmamt	_work/assets3d_src/hota_png/avwwmamt.png	
+198	Jotunn	bulwark	7	0	avwjotun	_work/assets3d_src/hota_png/avwjotun.png	
+199	Jotunn Warlord	bulwark	7	1	avwjotnw	_work/assets3d_src/hota_png/avwjotnw.png	

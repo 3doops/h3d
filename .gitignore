@@ -1,0 +1,31 @@
+# Godot editor import cache (rebuilt when the project is opened)
+.godot/
+# local build dirs when this repo is cloned on its own (in h3-regress they live one level up)
+/_dl/
+/_work/
+/dist/
+# shot.sh / test_client.py / export_client.sh output: video, logs, bridge traffic (PNG screenshots stay in git)
+out/**/*.mp4
+out/**/*.avi
+out/**/*.webm
+out/**/*.log
+out/**/*.jsonl
+out/**/.*
+bridge/out/
+# binaries and original game files never go in
+*.exe
+*.dll
+*.pdb
+*.lib
+*.exp
+*.obj
+*.lod
+*.snd
+*.vid
+*.def
+*.DEF
+*.pcx
+*.PCX
+__pycache__/
+*.pyc
+*.blend1

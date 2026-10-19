@@ -1,0 +1,107 @@
+model_key	category	kind	priority	name	match	footprint	flag	fit	members	description
+res_wood	resource	gen	1	Wood	obj:79:0	1x1	0			A neat stack of about ten freshly cut round logs with pale cut ends and rough brown bark, piled in a small pyramid.
+res_mercury	resource	gen	1	Mercury	obj:79:1	1x1	0	pbr=1		A round-bellied dark iron cauldron filled to the brim with shining liquid silver mercury, standing on a few flat stones.
+res_ore	resource	gen	1	Ore	obj:79:2	1x1	0	pbr=1		A heap of heavy lumps of dark blue-grey iron ore with metallic glints and rusty spots.
+res_sulfur	resource	gen	1	Sulfur	obj:79:3	1x1	0			A conical heap of bright yellow powdery sulfur with a few crystalline yellow lumps on top.
+res_crystal	resource	gen	1	Crystal	obj:79:4	1x1	0	pbr=1		A cluster of large translucent deep-red crystals growing from a small rock, sharp hexagonal prisms pointing upward and outward.
+res_gems	resource	gen	1	Gems	obj:79:5	1x1	0	pbr=1		A small heap of polished faceted gemstones of many colours: red rubies, green emeralds, blue sapphires, yellow topazes and white diamonds.
+res_gold	resource	gen	1	Gold	obj:79:6	1x1	0	pbr=1		A heap of shiny gold coins and a few small gold ingots piled into a low rounded mound, warm yellow gold with bright highlights.
+pk_treasure_chest	pickup	gen	1	Treasure Chest	obj:101	1x1	0	pbr=1		A wooden treasure chest bound with iron bands, its lid open and overflowing with gold coins and a few jewels.
+pk_campfire	pickup	gen	1	Campfire	obj:12	1x1	0			A campfire of crossed logs in a ring of stones with bright orange flames, a small iron pot and a little sack of coins beside it.
+pk_spell_scroll	pickup	gen	1	Spell Scroll	obj:93	1x1	0			A large rolled parchment scroll, half unrolled, with a red wax seal and a ribbon, lying on the ground; ornate faded ink patterns, no readable letters.
+pk_pandoras_box	pickup	gen	1	Pandora's Box	obj:6	1x1	0	pbr=1		An ornate cube-shaped golden box with a heavy lid, its faces decorated with embossed blue-and-gold arcane emblems, glinting rim.
+pk_artifact	pickup	gen	2	Artifact (generic)	obj:5	1x1	0			A small ornate treasure: a jewelled golden goblet, a short sword and a gilded helmet lying together on a red velvet cloth.
+mine_wood	mine	gen	1	Sawmill	obj:53:0	4x2	1			A rustic sawmill: an open timber shed with a plank roof on thick posts, a large circular saw blade at the side, stacks of sawn planks and round logs in front, a few pine saplings around it.
+mine_mercury	mine	gen	1	Alchemist's Lab	obj:53:1	3x1	1			An alchemist's laboratory: a two-storey stone and red-brick house with a red clay tile roof and a round tower, a large black iron cauldron with silver mercury standing at the front door.
+mine_ore	mine	gen	1	Ore Pit	obj:53:2	3x2	1			An open-cast ore pit: a shallow quarry dug into brown earth with stepped rocky walls, heaps of dark grey ore lumps, a wooden mine cart full of ore and a pickaxe by the edge.
+mine_sulfur	mine	gen	1	Sulfur Dune	obj:53:3	3x1	1			Several large rounded dunes of bright yellow sulfur with darker ochre streaks, with a small wooden shovel and a bucket in front.
+mine_crystal	mine	gen	1	Crystal Cavern	obj:53:4	3x1	1			A crystal cavern: a rugged brown rock outcrop with a dark cave mouth in the front; big clusters of glowing deep-red crystals grow out of the rock around the entrance, a small mine cart with red crystals in front.
+mine_gems	mine	gen	1	Gem Pond	obj:53:5	3x2	1			A gem pond: a small clear blue pond framed by brown rocks and bare grey shrubs, colourful gemstones sparkling along its shore and a wooden wheelbarrow filled with gems at the front.
+mine_gold	mine	gen	1	Gold Mine	obj:53:6	3x1	1			A gold mine dug into a steep weathered brown-and-ochre rock outcrop with some green moss: a timber-framed mine entrance in the front face, a small iron mine cart full of glittering gold nuggets on short rails in front of the entrance.
+mine_abandoned	mine	gen	2	Abandoned Mine	obj:53:7 obj:220	3x1	1			An abandoned mine: a craggy grey-brown rock outcrop with an old timber mine entrance boarded up with broken planks, cobwebs and scattered bones and rubble in front.
+tree_pine_a	tree	gen	1	Pine tree A				max_h=1.6		A tall dark-green conifer (spruce/pine) with dense layered drooping branches forming a narrow cone, straight reddish-brown trunk visible at the bottom.
+tree_pine_b	tree	gen	1	Pine tree B				max_h=1.3		A shorter, bushier dark-green fir tree with a broad cone of thick needle branches and a slightly uneven crown, short brown trunk.
+tree_pine_snow_a	tree	gen	1	Snowy pine A				max_h=1.6		A tall dark-green spruce tree whose layered branches are heavily laden with clean white snow, a narrow cone shape, brown trunk at the bottom.
+tree_pine_snow_b	tree	gen	1	Snowy pine B				max_h=1.3		A smaller bushy fir tree covered with thick caps of white snow on every branch tier, dark green needles peeking out.
+tree_oak_a	tree	gen	1	Leafy tree A				max_h=1.4		A broad deciduous oak tree with a dense rounded crown of rich green leaves in several clumps and a thick gnarled grey-brown trunk.
+tree_oak_b	tree	gen	1	Leafy tree B				max_h=1.3		A slender deciduous tree (lime/birch-like) with an oval crown of fresh green leaves and a straight light trunk.
+tree_autumn	tree	gen	1	Autumn tree				max_h=1.35		A deciduous tree in autumn colours: a rounded crown of orange, golden-yellow and red leaves on a dark brown trunk.
+tree_dead_a	tree	gen	1	Dead tree A				max_h=1.4		A dead leafless tree with a twisted grey-brown trunk and bare crooked branches spreading upward like claws.
+tree_dead_b	tree	gen	1	Dead tree B				max_h=1.1		A small dead leafless tree, broken top, a few thin bare black branches, cracked pale bark.
+forest_pine	tree	clump	1	Pine forest	re:avlpntr\d			density=1	tree_pine_a,tree_pine_b	Clumps of pine trees (assembled from tree_pine_a/b on the DEF's blocked cells).
+forest_pine_snow	tree	clump	1	Snowy pine forest	re:avlsntr\d			density=1	tree_pine_snow_a,tree_pine_snow_b	Clumps of snow-laden pines (assembled from tree_pine_snow_a/b).
+forest_leafy	tree	clump	1	Leafy forest	re:avlsptr\d re:avlmxf\d\d			density=1	tree_oak_a,tree_oak_b,tree_pine_b	Mixed green deciduous forest (assembled).
+forest_autumn	tree	clump	1	Autumn forest	re:avlautr\d			density=1	tree_autumn,tree_oak_a,tree_pine_b	Autumn-coloured forest (assembled).
+forest_dead	tree	clump	1	Dead forest	re:avldead\d re:avlddsn\d re:avld\dsn0			density=0.7	tree_dead_a,tree_dead_b	Groups of dead leafless trees (assembled).
+mountain_grass_l	mountain	gen	1	Grass mountains (large)	re:avlmtgn[01] re:avlmtgr[12] re:grsmnt0[01]	5x3	0			A large mountain massif of grey granite with three or four jagged peaks, steep cliffs and scree, green grass and a few small pine trees on the lower slopes.
+mountain_grass_m	mountain	gen	1	Grass mountains (medium)	re:avlmtgn[2-5] re:avlmtgr[3-6] re:grsmnt0[2-5]	3x2	0			A medium rocky mountain of grey granite with two craggy peaks, steep cliff faces and green grassy foothills.
+mountain_snow_l	mountain	gen	1	Snow mountains (large)	re:avlmtsn[12]	5x3	0			A large mountain massif with three or four sharp peaks of dark grey rock thickly covered with snow and ice, snow fields on the ledges and steep rocky cliffs.
+mountain_snow_m	mountain	gen	1	Snow mountains (medium)	re:avlmtsn[3-6]	3x2	0			A medium mountain with two sharp snow-capped peaks of dark grey rock, snow lying on all ledges, steep cliffs.
+mountain_dirt_l	mountain	gen	1	Brown mountains (large)	re:avlmtdr[1278]	5x3	0			A large mountain massif of layered brown and ochre sandstone rock with several eroded peaks, deep vertical crevices and sparse dry bushes.
+mountain_dirt_m	mountain	gen	1	Brown mountains (medium)	re:avlmtdr[3-6]	3x2	0			A medium mountain of layered brown-ochre rock with two eroded peaks, cliffs with deep crevices and loose scree at the foot.
+rock_boulder	rock	gen	1	Boulder	re:avlrg0[3-9] re:avlrg1[01] re:avlrd04 re:avlrk5d0 re:avlrr01 re:avlr1[0-5]r0 re:avlrhl01	1x1	0			One big weathered grey granite boulder with a smaller stone beside it, patches of moss and lichen.
+rock_group	rock	gen	1	Rock group	re:avlrg0[12] re:avlrd0[12] re:avlrk3d0 re:avlrr05 re:avlr0[2-9]r0 re:avlrhl0[23] re:avlbuzr0	2x1	0			A low group of three or four large weathered grey boulders and flat rock slabs lying together, some moss.
+town_castle	town	gen	1	Castle town	town:0	5x3	1	upgrade=1024;upgrade_faces=60000		A knightly castle of light grey ashlar stone: a massive square curtain wall with crenellated battlements, several tall square towers with crenellations, a central keep with blue-grey slate roofs and a big arched gatehouse in the middle of the front wall; green grassy hill around the walls.
+town_rampart	town	gen	1	Rampart town	town:1	5x3	1	upgrade=1024;upgrade_faces=60000		A woodland town of elves and dwarves: large timber-framed halls with steep wooden-shingle gable roofs and carved gable ends on mossy stone foundations, wooden stairs and a palisade gate, on a green hill with stone terraces and a few trees.
+town_tower	town	gen	1	Tower town	town:2	5x3	1	upgrade=1024;upgrade_faces=60000		A wizards' city of slender white marble towers with tall pointed bright-blue conical roofs and gold finials, joined by white walls and bridges, standing on white crystalline rocks dusted with snow.
+town_inferno	town	gen	1	Inferno town	town:3	5x3	1	upgrade=1024;upgrade_faces=60000		An infernal fortress of black-grey stone: a tall keep with several jagged spiky towers, windows glowing orange-yellow, standing on a mound of dark volcanic rock and red-brown ash with cracks of glowing lava.
+town_necropolis	town	gen	1	Necropolis town	town:4	5x3	1	flag=0		A gothic necropolis: a tall narrow keep of dark grey stone with pointed lancet windows faintly glowing green and steep steel-grey spires, stepped terraces with crenellations, on a crag of pale sandstone with a few dead trees and old tombstones.
+town_dungeon	town	gen	1	Dungeon town	town:5	5x3	1	upgrade=1024;upgrade_faces=60000		An underground warlock stronghold: a huge round fortress of grey stone ringed by many cylindrical towers with crenellated tops, built into a crater of rust-brown and ochre rock, a dark gate at the front.
+town_stronghold	town	gen	1	Stronghold town	town:6	5x3	1	upgrade=1024;upgrade_faces=60000		A barbarian stronghold: rough massive walls of piled brown and ochre stone blocks reinforced with timber, blocky square towers with crude battlements, wooden gate, earthy brown palette.
+town_fortress	town	gen	1	Fortress town	town:7	5x3	1	upgrade=1024;upgrade_faces=60000		A swamp fortress: a stepped pyramid-like mound of mossy green-grey stone blocks overgrown with vines and moss, with a dark stone gateway at the front and small green-roofed huts on the terraces.
+town_conflux	town	gen	1	Conflux town	town:8	5x3	1	upgrade=1024;upgrade_faces=60000		An elemental city of rose-pink and sandstone walls with many slender round towers topped by turquoise onion domes and gold spires, and a big copper-bronze domed palace in the centre.
+town_cove	town	gen	1	Cove town	town:9	5x3	1	upgrade=1024;upgrade_faces=60000		A pirate coastal fortress: a big round tower of weathered sandstone with timber hoardings and a wooden crown, smaller round towers and wooden palisade walls, tropical palm trees and jungle plants around it on a rocky green island hill.
+town_factory	town	gen	1	Factory town	town:10	5x3	1	upgrade=1024;upgrade_faces=60000		An industrial desert city of cream sandstone and brass: a large domed hall with arched windows and a copper-brown dome, slender tall chimney columns at the corners, riveted metal details, on a sandy rocky plateau.
+town_bulwark	town	gen	1	Bulwark town	town:11	5x3	1	upgrade=1024;upgrade_faces=60000		A northern giants' fortress of grey stone: several very tall narrow towers with flat crenellated tops, huge carved stone statues of bearded giants flanking the gate, steep stone steps, snow lying on the rocks around it.
+hero_generic	hero	gen	1	Hero (generic)	hero	1x1	1			A knight in polished steel plate armour with a short dark cape riding a sturdy grey horse with a deep red cloth caparison, a lance held upright in his right hand.
+hero_knight	hero	gen	1	Knight	heroclass:0	1x1	1			A knight in shining silver plate armour and a plumed helmet riding a white horse with a black-and-white chequered caparison, a long lance held upright.
+hero_necromancer	hero	gen	1	Necromancer	heroclass:9	1x1	1			A gaunt necromancer in a black hooded robe with a bone staff riding a pale grey-white horse with tattered black caparison.
+hero_wizard	hero	gen	1	Wizard	heroclass:5	1x1	1			A bearded wizard in a flowing purple robe and pointed hat holding a tall staff, riding a grey dappled horse with a purple saddle cloth.
+hero_barbarian	hero	gen	1	Barbarian	heroclass:12	1x1	1			A muscular barbarian with a horned helmet, fur cloak and a big axe riding a tan horse with a dark red caparison.
+hero_ranger	hero	gen	1	Ranger	heroclass:2	1x1	1			A ranger in green and brown leather with a hooded cloak and a longbow on the back riding a brown horse with a light leather saddle.
+cr_pikeman	creature	gen	1	Pikeman	creature:0		0			A foot soldier in a steel helmet and breastplate over a blue tabard with a white cross, holding a long pike upright, sturdy boots.
+cr_centaur	creature	gen	1	Centaur	creature:14		0	max_xz=1.25		A centaur: muscular human torso with a leather bracer and a wooden spear rising from the body of a chestnut-brown horse, long dark hair.
+cr_gremlin	creature	gen	1	Gremlin	creature:28		0			A small green-skinned gremlin with big pointed ears in a red tunic, carrying an iron ball and chain on its shoulder.
+cr_imp	creature	gen	1	Imp	creature:42		0			A small crouching imp with leathery orange-brown skin, little horns, bat ears, a long thin tail and clawed hands, grinning.
+cr_skeleton	creature	gen	1	Skeleton	creature:56		0			A walking human skeleton of yellowed bones holding a rusty short sword, hunched forward.
+cr_walking_dead	creature	gen	1	Walking Dead	creature:58		0			A shambling zombie with pale grey-green rotting skin, torn ragged grey clothes and outstretched arms.
+cr_troglodyte	creature	gen	1	Troglodyte	creature:70		0			A hunched blind troglodyte with smooth brown reptilian skin, no eyes, a long spear and a small round shield.
+cr_goblin	creature	gen	1	Goblin	creature:84		0			A small green goblin with long pointed ears in a ragged brown tunic, carrying a crude spiked club.
+cr_wolf_rider	creature	gen	1	Wolf Rider	creature:86		0	max_xz=1.25		A green-skinned goblin warrior with a club riding a huge grey wolf with bared fangs.
+cr_gnoll	creature	gen	1	Gnoll	creature:98		0			A hyena-headed gnoll with spotted brown fur in a leather harness holding a flail, standing upright.
+cr_lizardman	creature	gen	1	Lizardman	creature:100		0			An upright lizardman with dark blue-green scales and a pale belly holding a short bow, a quiver on its back and a long tail.
+cr_pixie	creature	gen	1	Pixie	creature:118		0	max_h=1.0		A tiny pixie girl with orange-and-black butterfly wings, red hair and a green leaf dress, hovering low, feet almost touching the ground.
+cr_peasant	creature	gen	1	Peasant	creature:139		0			A simple peasant in a purple-brown tunic and brown trousers holding a wooden pitchfork.
+cr_halfling	creature	gen	1	Halfling	creature:138		0	max_h=1.0		A small halfling with curly brown hair in a brown leather jerkin, holding a sling, bare hairy feet.
+cr_nymph	creature	gen	1	Nymph	creature:153		0			A water nymph: a slender female figure made of translucent pale-blue water and white foam, long flowing hair, arms raised gracefully.
+cr_kobold	creature	gen	1	Kobold	creature:186		0			A small stocky kobold in heavy grey-blue fur and leather clothes with a horned hood, holding a pick, snowy north look.
+cr_green_dragon	creature	gen	1	Green Dragon	creature:26		0	max_xz=1.6;max_h=1.5		A large green dragon with emerald scales, a lighter yellow-green belly, folded bat-like wings, horns and a spiked tail curled around its feet.
+cr_behemoth	creature	gen	1	Behemoth	creature:96		0	max_xz=1.5;max_h=1.4		A huge hunched behemoth beast with shaggy brown fur, enormous clawed forearms, a horned head and bared tusks.
+dw_guardhouse	building	gen	1	Guardhouse	obj:17:56		1			A square guard tower of light grey stone with crenellated battlements, a wooden door, arrow slits and a small walled yard.
+dw_archers_tower	building	gen	1	Archers' Tower	obj:17:57		1			A tall square stone watchtower with crenellations and arrow slits, a wooden balcony under the top, grey ashlar stone.
+dw_barracks	building	gen	2	Barracks	obj:17:58		1			A fortified stone barracks: a square tower with crenellations joined to a low stone hall, banners removed, grey stone.
+dw_centaur_stables	building	gen	1	Centaur Stables	obj:17:6		1			A long low wooden stable with a thatched roof, open stall doors, a fenced paddock and a hay pile.
+dw_workshop	building	gen	1	Workshop	obj:17:43		1			A tall wooden workshop on four stilts with a slatted roof, a big round clock face with gears on the front, ladders and wooden beams.
+dw_imp_crucible	building	gen	1	Imp Crucible	obj:17:29		1			A pit of glowing molten fire framed by red-brown brick walls, with two tall dark pillars topped by horn-like spikes and iron grates.
+dw_cursed_temple	building	gen	1	Cursed Temple	obj:17:54		1			A small grey stone temple in classical style with columns, a triangular pediment and broken steps, weathered and gloomy.
+dw_graveyard	building	gen	1	Graveyard	obj:17:55		1			A low earthen burial mound with a few crooked tombstones, an open grave and old dark wooden coffin boards.
+dw_warren	building	gen	1	Warren	obj:17:46		1			A stepped beehive-shaped mound overgrown with green moss and yellow lichen with round burrow openings on each tier.
+dw_goblin_barracks	building	gen	1	Goblin Barracks	obj:17:21		1			A small whitewashed stone fort with rough crenellations, a crooked wooden door and a little watch platform.
+dw_wolf_pen	building	gen	1	Wolf Pen	obj:17:19		1			A pale stone kennel fort with crenellated walls and a wide wooden gate, scattered bones in front.
+dw_gnoll_hut	building	gen	1	Gnoll Hut	obj:17:20		1			A round hut with a conical straw thatched roof on a raised wooden platform with log walls and a short ladder.
+dw_magic_lantern	building	gen	1	Magic Lantern	obj:17:59		1			A tall curved metal lantern post with a glowing golden lantern among lush fern-like plants and blue flowers.
+dw_homestead	building	gen	1	Homestead	obj:17:15		1			A rustic two-storey wooden house with a steep shingled roof, carved beams and a small porch, set among small bushes.
+dw_dwarf_cottage	building	gen	1	Dwarf Cottage	obj:17:12		1			A grassy green mound house built into a hillock with a round wooden door, small round windows and a stone chimney.
+vis_windmill	building	gen	1	Windmill	obj:112	1x1	0			A tall round windmill tower of light stone and brick with a conical thatched cap and four big lattice sails with canvas.
+vis_water_wheel	building	gen	1	Water Wheel	obj:109	3x2	0			A red-roofed wooden mill house with a large wooden water wheel on its side turning in a little stream with stones.
+vis_shrine_1	building	gen	1	Shrine of Magic Incantation	obj:88	1x1	0			A small round open shrine of bronze-brown metal and stone: a domed canopy on slender columns sheltering a glowing book on a lectern.
+vis_shrine_2	building	gen	1	Shrine of Magic Gesture	obj:89	1x1	0			A small round open shrine of polished brass with a golden dome on slender columns sheltering a glowing magic orb on a pedestal.
+vis_shrine_3	building	gen	1	Shrine of Magic Thought	obj:90	1x1	0			A small round open shrine of white marble and silver with a silver dome and spire on slender columns sheltering a floating crystal.
+vis_obelisk	portal	gen	1	Obelisk	obj:57	1x1	0	max_h=1.4		A tall slender four-sided obelisk of polished deep-blue stone with carved runes and a pyramid tip, standing on a stepped stone plinth.
+vis_magic_well	building	gen	1	Magic Well	obj:49	1x1	0			A round stone well with a small red tiled roof on two wooden posts, a bucket on a rope and glowing blue water inside.
+vis_lean_to	pickup	gen	1	Lean-to	obj:39	1x1	0			A small lean-to shelter of branches and a brown canvas tarp over a log, a bedroll and a sack underneath.
+vis_witch_hut	building	gen	1	Witch Hut	obj:113	1x1	0			A crooked little witch's hut with a sagging thatched roof on a twisted stilted base, a crooked chimney and a small round window.
+vis_seer_hut	building	gen	1	Seer's Hut	obj:83	1x1	0			A round hut with a domed straw roof decorated with feathers and charms, a hanging cloth door and a small totem beside it.
+vis_monolith	portal	gen	1	Two-way Monolith	obj:45	1x1	0			A tall arch-shaped standing stone of dark weathered rock framing a swirling glowing blue magic portal, carved horn-like ornaments on top.
+vis_subterranean_gate	mine	gen	1	Subterranean Gate	obj:103	3x2	0			A cave entrance into the underground: a big dark arched cave mouth in a rocky hill of brown stone, a stone stairway leading down into darkness.
+vis_boat	boat	gen	1	Boat	obj:8	1x1	0			A small wooden sailing ship (cog) with a single mast and a furled cream sail, curved brown planked hull and a little stern castle.

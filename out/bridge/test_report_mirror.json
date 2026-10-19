@@ -1,0 +1,95 @@
+{
+ "checks": {
+  "mirror: hello caps \"mirror\", visible": {
+   "ok": true,
+   "info": "caps ['windows', 'phase', 'mirror'], snapshot selected 70"
+  },
+  "mirror: game window is a normal visible window (WS_VISIBLE, caption, 800x600 client, not minimized)": {
+   "ok": true,
+   "info": "{\"title\": \"Heroes of Might and Magic III: Horn of the Abyss\", \"style\": \"0x14ca0000\", \"exstyle\": \"0x100\", \"ws_visible\": true, \"caption\": true, \"minimized\": false, \"toolwindow\": false, \"rect\": [10, 10, 816, 654], \"client\": [800, 600], \"IsWindowVisible\": false}"
+  },
+  "godot -> original: the Godot move is drawn by the engine and presented to the window": {
+   "ok": true,
+   "info": "engine frame changed True; presents 51 -> 114 (GDI ok 0, failed 114: BitBlt to a window fails in session 0), last client rect [0, 8, 608, 544]; res [20, 10, 20, 10, 10, 10, 20600] -> [30, 10, 20, 10, 10, 10, 20600]"
+  },
+  "original -> godot: hero walked in the game window -> hero_move (external) + state why external": {
+   "ok": true,
+   "info": "target [3, 28, 0]: 2 hero_move events (the walk is animated), cells [[5, 28, 0], [4, 28, 0], [3, 28, 0]]; states why external 2, fog_open 16, mp 959"
+  },
+  "right-click info in the game window: native popup while held (not sent to the client), gone after release": {
+   "ok": true,
+   "info": "{\"object\": \"avtgold0\", \"cell\": [2, 28, 0], \"held\": [[\"dialogBox\"], null], \"released\": [\"adventureMap\"], \"to_client\": []}"
+  },
+  "dialog: opened in the game window, mirrored (native), answered from the client": {
+   "ok": true,
+   "info": "dialog 1 '{Сундук Сокровищ}\\n\\nОбследовав местную территорию, ' options ['1500 золото', '1000 опыта']; closed {'t': 'event', 'kind': 'dialog_closed', 'id': 1, 'answer': 0, 'by': 'client', 'ret': 30729}; gold 20600 -> 22100"
+  },
+  "end turn in the game window: reminder mirrored, answered there; AI turns; day 2 in the client": {
+   "ok": true,
+   "info": "dialog 'Некоторые ваши герои ещё могут ходить, вы действит' closed {'t': 'event', 'kind': 'dialog_closed', 'id': 2, 'answer': 0, 'by': 'native', 'ret': 30725}; turns [1, 3, 4, 0]; date {'day': 1, 'week': 1, 'month': 1} -> {'day': 2, 'week': 1, 'month': 1}"
+  },
+  "window opened in the game window (hero screen) -> window_open + frames; Esc from the client closes it": {
+   "ok": true,
+   "info": "portrait [641, 228] (hero 70); {'t': 'window_open', 'name': 'heroScreen', 'w': 800, 'h': 600, 'depth': 1, 'kind': 'dialog'}"
+  },
+  "window opened from the client (K), closed in the game window; client path queued until then": {
+   "ok": true,
+   "info": "order ['window_close', 'path']; path [[2, 28, 0, 100]]"
+  },
+  "game window: system options -> main menu -> client gets phase menu + menu frames": {
+   "ok": true,
+   "info": "system button [727, 308]; {'t': 'window_open', 'name': 'systemOptions', 'w': 800, 'h': 600, 'depth': 1, 'kind': 'dialog'}; {'t': 'phase', 'phase': 'menu', 'gen': 1, 'why': 'left'}"
+  },
+  "client loads a save in the menu (adventure + snapshot); quit in the game window -> phase exited": {
+   "ok": true,
+   "info": "{'t': 'phase', 'phase': 'adventure', 'gen': 2, 'size': 36, 'levels': 2, 'me': 0, 'current': 0, 'file': 'GODOT_TEST', 'humans': [0]}; {'t': 'phase', 'phase': 'exited'}"
+  }
+ },
+ "notes": [],
+ "window": {
+  "title": "Heroes of Might and Magic III: Horn of the Abyss",
+  "style": "0x14ca0000",
+  "exstyle": "0x100",
+  "ws_visible": true,
+  "caption": true,
+  "minimized": false,
+  "toolwindow": false,
+  "rect": [
+   10,
+   10,
+   816,
+   654
+  ],
+  "client": [
+   800,
+   600
+  ],
+  "IsWindowVisible": false
+ },
+ "external_states": 3,
+ "dialogs": [
+  {
+   "id": 1,
+   "style": "choose",
+   "engine_style": 7,
+   "native": true,
+   "text": "{Сундук Сокровищ}\n\nОбследовав местную территорию, вы обнаруживаете тщательно спрятанный сундук. Вы можете забрать золото или раздать его крестьянам, которые будут рады поделиться с вами своим опытом. Ваш выбор?"
+  },
+  {
+   "id": 2,
+   "style": "yesno",
+   "engine_style": 2,
+   "native": true,
+   "text": "Некоторые ваши герои ещё могут ходить, вы действительно хотите завершить ход?"
+  },
+  {
+   "id": 3,
+   "style": "ok",
+   "engine_style": "extended",
+   "native": true,
+   "text": "Какой прекрасный день. Лёгкий туман стелится по лугу вашего города. Вы пытаетесь сделать вдох чистого воздуха. Грязное зловоние заполняет ваши ноздри, ваши глаза начинают слезиться, Вы понимаете, что это не лёгкий туман, а комбинация дыма, сажи и зловония сгорающей серы. Вы смотрите на дым, который поднимается от соседнего города. Вы замечаете, что дым охватывает весь луг, где находится ваш город."
+  }
+ ],
+ "seconds": 56.4,
+ "ok": true
+}

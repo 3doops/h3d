@@ -1,0 +1,41 @@
+game folder C:\prj\hota-decompile\game\Heroes3_HotA1
+game pid 7880 (started, hidden window)
+bridge enabled in the agent: {'on': True, 'phase': 'menu', 'walk': [4, 4], 'quick': 1, 'moveReminder': 1, 'battles': 'game', 'windows': {}, 'visible': False}; frames: gdiplus
+bridge on ws://127.0.0.1:8799
+client connected ('127.0.0.1', 61961)
+client connected ('127.0.0.1', 61964)
+<- {"t": "hello", "client": "test_client", "caps": ["windows"]}
+client test_client caps ['windows']
+client disconnected
+<- {"t": "window_refresh"}
+<- {"t": "window_refresh"}
+<- {"t": "window_refresh"}
+<- {"t": "window_refresh"}
+[game] phase adventure #1 {"t":"phase","phase":"adventure","gen":1,"size":36,"levels":2,"me":0,"current":0,"file":"НОВАЯ ИГРА","humans":[0]}
+phase menu -> adventure {'t': 'phase', 'phase': 'adventure', 'gen': 1, 'size': 36, 'levels': 2, 'me': 0, 'current': 0, 'file': 'НОВАЯ ИГРА', 'humans': [0]}
+snapshot (adventure): map 36x2, 1233 objects, me 0
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\24_menu_newgame_map.jpg"}
+<- {"t": "path", "hero": 7, "to": [7, 29, 0]}
+<- {"t": "cmd", "cmd": "system_menu"}
+[game] window systemOptions passthrough open, depth 1
+<- {"t": "window_refresh"}
+[game] window dialogBox passthrough open, depth 2
+[game] window dialogBox passthrough closed (30725), depth 1
+[game] window systemOptions passthrough closed (108), depth 0
+[game] phase menu (gGameCommand 108, game over 0)
+phase adventure -> menu {'t': 'phase', 'phase': 'menu', 'gen': 1, 'why': 'left'}
+<- {"t": "window_refresh"}
+<- {"t": "window_refresh"}
+[game] phase adventure #2 {"t":"phase","phase":"adventure","gen":2,"size":36,"levels":2,"me":0,"current":0,"file":"GODOT_TEST","humans":[0]}
+phase menu -> adventure {'t': 'phase', 'phase': 'adventure', 'gen': 2, 'size': 36, 'levels': 2, 'me': 0, 'current': 0, 'file': 'GODOT_TEST', 'humans': [0]}
+snapshot (adventure): map 36x2, 1233 objects, me 0
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\28_menu_loaded.jpg"}
+<- {"t": "cmd", "cmd": "system_menu"}
+[game] window systemOptions passthrough open, depth 1
+[game] window dialogBox passthrough open, depth 2
+<- {"t": "window_refresh"}
+[game] window dialogBox passthrough closed (30725), depth 1
+[game] window systemOptions passthrough closed (105), depth 0
+[game] phase menu (gGameCommand 105, game over 0)
+phase adventure -> menu {'t': 'phase', 'phase': 'menu', 'gen': 2, 'why': 'left'}
+game process exited

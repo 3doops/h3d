@@ -1,0 +1,13 @@
+id	name	key	village_def	fort_def	citadel_def	castle_def	capitol_def	w	h	png	notes
+0	Castle	castle	avccast0	avccasf0	avccasc0	avccasx0	avccasz0	5	3	_work/assets3d_src/hota_png/avccasx0.png	avccasx0: HotA redraw of the SoD DEF; SoD shows avccasx0 for fort/citadel/castle
+1	Rampart	rampart	avcramp0	avcramf0	avcramc0	avcramx0	avcramz0	5	3	_work/assets3d_src/hota_png/avcramx0.png	avcramx0: HotA redraw of the SoD DEF; SoD shows avcramx0 for fort/citadel/castle
+2	Tower	tower	avctowr0	avctowf0	avctowc0	avctowx0	avctowz0	5	3	_work/assets3d_src/hota_png/avctowx0.png	avctowx0: HotA redraw of the SoD DEF; SoD shows avctowx0 for fort/citadel/castle
+3	Inferno	inferno	avcinft0	avcinff0	avcinfc0	avcinfx0	avcinfz0	5	3	_work/assets3d_src/hota_png/avcinfx0.png	avcinfx0: HotA redraw of the SoD DEF; SoD shows avcinfx0 for fort/citadel/castle
+4	Necropolis	necropolis	avcnecr0	avcnecf0	avcnecc0	avcnecx0	avcnecz0	5	3	_work/assets3d_src/hota_png/avcnecx0.png	avcnecx0: HotA redraw of the SoD DEF; SoD shows avcnecx0 for fort/citadel/castle
+5	Dungeon	dungeon	avcdung0	avcdunf0	avcdunc0	avcdunx0	avcdunz0	5	3	_work/assets3d_src/hota_png/avcdunx0.png	avcdunx0: HotA redraw of the SoD DEF; SoD shows avcdunx0 for fort/citadel/castle
+6	Stronghold	stronghold	avcstro0	avcstrf0	avcstrc0	avcstrx0	avcstrz0	5	3	_work/assets3d_src/hota_png/avcstrx0.png	avcstrx0: HotA redraw of the SoD DEF; SoD shows avcstrx0 for fort/citadel/castle
+7	Fortress	fortress	avcftrt0	avcforf0	avcforc0	avcftrx0	avcforz0	5	3	_work/assets3d_src/hota_png/avcftrx0.png	avcftrx0: HotA redraw of the SoD DEF; SoD shows avcftrx0 for fort/citadel/castle
+8	Conflux	conflux	avchfor0	avchfof0	avchfoc0	avchforx	avchforz	5	3	_work/assets3d_src/hota_png/avchforx.png	avchforx: HotA redraw of the SoD DEF; SoD shows avchforx for fort/citadel/castle
+9	Cove	cove	avccove0	avccovf0	avccovc0	avccovx0	avccovz0	5	3	_work/assets3d_src/hota_png/avccovx0.png	
+10	Factory	factory	avcface0	avcfacf0	avcfacc0	avcfacx0	avcfacz0	5	3	_work/assets3d_src/hota_png/avcfacx0.png	
+11	Bulwark	bulwark	avcblwr0	avcbulf0	avcbulc0	avcbulx0	avcbulz0	5	3	_work/assets3d_src/hota_png/avcbulx0.png	

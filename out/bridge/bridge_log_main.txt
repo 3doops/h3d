@@ -1,0 +1,46 @@
+game folder C:\prj\hota-decompile\game\Heroes3_HotA1
+game pid 11192 (started, hidden window)
+bridge enabled in the agent: {'on': True, 'phase': 'adventure', 'walk': [4, 4], 'quick': 1, 'moveReminder': 1, 'battles': 'auto', 'windows': {}, 'visible': False}; frames: gdiplus
+bridge on ws://127.0.0.1:8799
+client connected ('127.0.0.1', 61934)
+client connected ('127.0.0.1', 61937)
+<- {"t": "hello", "client": "test_client", "caps": ["windows"]}
+client test_client caps ['windows']
+<- {"t": "debug_queue"}
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\01_start.jpg"}
+<- {"t": "cmd", "cmd": "select_hero", "hero": 70}
+<- {"t": "path", "hero": 70, "to": [7, 29, 0]}
+<- {"t": "cmd", "cmd": "move_hero", "hero": 70, "to": [7, 29, 0]}
+client disconnected
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\02_resource.jpg"}
+<- {"t": "path", "hero": 70, "to": [2, 26, 0]}
+<- {"t": "cmd", "cmd": "move_hero", "hero": 70, "to": [2, 26, 0]}
+<- {"t": "dialog_answer", "id": 1, "answer": 1}
+[game] NormalDialog style 7 answer 1 -> 30730
+<- {"t": "dialog_answer", "id": 2, "answer": 1}
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\03_chest.jpg"}
+<- {"t": "path", "hero": 70, "to": [6, 26, 0]}
+<- {"t": "cmd", "cmd": "move_hero", "hero": 70, "to": [6, 26, 0]}
+[game] window townScreen passthrough open, depth 1
+<- {"t": "window_refresh"}
+<- {"t": "window_refresh"}
+<- {"t": "window_refresh"}
+[game] window townScreen passthrough closed (2011), depth 0
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\04_town.jpg"}
+<- {"t": "cmd", "cmd": "open_hero", "hero": 70}
+[game] window heroScreen passthrough open, depth 1
+<- {"t": "window_refresh"}
+[game] window heroScreen passthrough closed (30720), depth 0
+<- {"t": "cmd", "cmd": "adv_key", "key": "K"}
+[game] window kingdomOverview passthrough open, depth 1
+<- {"t": "window_refresh"}
+[game] window kingdomOverview passthrough closed (30720), depth 0
+<- {"t": "cmd", "cmd": "end_turn"}
+<- {"t": "dialog_answer", "id": 3, "answer": 0}
+[game] NormalDialog style 2 answer 0 -> 30725
+[game] battle start {"atk":94,"def":-1,"town":-1,"at":[24,6,0]}
+[game] battle start {"atk":82,"def":-1,"town":-1,"at":[20,6,1]}
+[game] battle start {"atk":62,"def":-1,"town":-1,"at":[13,11,0]}
+<- {"t": "dialog_answer", "id": 4, "answer": 0}
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\05_next_day.jpg"}
+<- {"t": "debug_queue"}

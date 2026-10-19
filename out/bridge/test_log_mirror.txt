@@ -1,0 +1,47 @@
+bridge.py pid 11652 (GODOT_TEST.GM1), waiting for the game...
+[PASS] mirror: hello caps "mirror", visible caps ['windows', 'phase', 'mirror'], snapshot selected 70
+[PASS] mirror: game window is a normal visible window (WS_VISIBLE, caption, 800x600 client, not minimized) {"title": "Heroes of Might and Magic III: Horn of the Abyss", "style": "0x14ca0000", "exstyle": "0x100", "ws_visible": true, "caption": true, "minimized": false, "toolwindow": false, "rect": [10, 10, 816, 654], "client": [800, 600], "IsWindowVisible": false}
+   shot C:\prj\hota-decompile\godot\out\bridge\30_mirror_before.jpg: True
+   event hero_move hero 70: [[6, 28, 0]]
+   shot C:\prj\hota-decompile\godot\out\bridge\31_mirror_godot_move.jpg: True
+[PASS] godot -> original: the Godot move is drawn by the engine and presented to the window engine frame changed True; presents 51 -> 114 (GDI ok 0, failed 114: BitBlt to a window fails in session 0), last client rect [0, 8, 608, 544]; res [20, 10, 20, 10, 10, 10, 20600] -> [30, 10, 20, 10, 10, 10, 20600]
+   event hero_move hero 70: [[5, 28, 0], [4, 28, 0]]
+   event hero_move hero 70: [[3, 28, 0]]
+[PASS] original -> godot: hero walked in the game window -> hero_move (external) + state why external target [3, 28, 0]: 2 hero_move events (the walk is animated), cells [[5, 28, 0], [4, 28, 0], [3, 28, 0]]; states why external 2, fog_open 16, mp 959
+   shot C:\prj\hota-decompile\godot\out\bridge\32_mirror_native_move.jpg: True
+[PASS] right-click info in the game window: native popup while held (not sent to the client), gone after release {"object": "avtgold0", "cell": [2, 28, 0], "held": [["dialogBox"], null], "released": ["adventureMap"], "to_client": []}
+   event hero_move hero 70: [[2, 27, 0]]
+   dialog 1 [choose/7] '{Сундук Сокровищ}\n\nОбследовав местную территорию, вы обнаруживаете тщательно спрятанный су' options=['1500 золото', '1000 опыта']
+   shot C:\prj\hota-decompile\godot\out\bridge\33_mirror_chest_dialog.jpg: True
+   event dialog_closed: {"id": 1, "answer": 0, "by": "client", "ret": 30729}
+[PASS] dialog: opened in the game window, mirrored (native), answered from the client dialog 1 '{Сундук Сокровищ}\n\nОбследовав местную территорию, ' options ['1500 золото', '1000 опыта']; closed {'t': 'event', 'kind': 'dialog_closed', 'id': 1, 'answer': 0, 'by': 'client', 'ret': 30729}; gold 20600 -> 22100
+   dialog 2 [yesno/2] 'Некоторые ваши герои ещё могут ходить, вы действительно хотите завершить ход?' options=[]
+   event dialog_closed: {"id": 2, "answer": 0, "by": "native", "ret": 30725}
+   event turn: {"current": 1, "date": {"day": 1, "week": 1, "month": 1}}
+   event turn: {"current": 3, "date": {"day": 1, "week": 1, "month": 1}}
+   event turn: {"current": 4, "date": {"day": 1, "week": 1, "month": 1}}
+   dialog 3 [ok/extended] 'Какой прекрасный день. Лёгкий туман стелится по лугу вашего города. Вы пытаетесь сделать в' options=[]
+   -> answer 0
+   event dialog_closed: {"id": 3, "answer": 0, "by": "client", "ret": 30722}
+   event turn: {"current": 0, "date": {"day": 2, "week": 1, "month": 1}}
+[PASS] end turn in the game window: reminder mirrored, answered there; AI turns; day 2 in the client dialog 'Некоторые ваши герои ещё могут ходить, вы действит' closed {'t': 'event', 'kind': 'dialog_closed', 'id': 2, 'answer': 0, 'by': 'native', 'ret': 30725}; turns [1, 3, 4, 0]; date {'day': 1, 'week': 1, 'month': 1} -> {'day': 2, 'week': 1, 'month': 1}
+   window_open {"name": "heroScreen", "w": 800, "h": 600, "depth": 1, "kind": "dialog"}
+   frame #2 heroScreen -> C:\prj\hota-decompile\godot\out\bridge\34_mirror_native_hero_window.jpg
+   window_close {"name": "heroScreen", "depth": 1, "ret": 30720}
+[PASS] window opened in the game window (hero screen) -> window_open + frames; Esc from the client closes it portrait [641, 228] (hero 70); {'t': 'window_open', 'name': 'heroScreen', 'w': 800, 'h': 600, 'depth': 1, 'kind': 'dialog'}
+   window_open {"name": "kingdomOverview", "w": 800, "h": 600, "depth": 1, "kind": "dialog"}
+   frame #4 kingdomOverview -> C:\prj\hota-decompile\godot\out\bridge\35_mirror_kingdom_window.jpg
+   window_close {"name": "kingdomOverview", "depth": 1, "ret": 30720}
+[PASS] window opened from the client (K), closed in the game window; client path queued until then order ['window_close', 'path']; path [[2, 28, 0, 100]]
+   window_open {"name": "systemOptions", "w": 800, "h": 600, "depth": 1, "kind": "dialog"}
+   window_open {"name": "dialogBox", "w": 800, "h": 600, "depth": 2, "kind": "dialog"}
+   window_close {"name": "dialogBox", "depth": 2, "ret": 30725}
+   window_close {"name": "systemOptions", "depth": 1, "ret": 108}
+   frame #26 menu -> C:\prj\hota-decompile\godot\out\bridge\36_mirror_menu.jpg
+[PASS] game window: system options -> main menu -> client gets phase menu + menu frames system button [727, 308]; {'t': 'window_open', 'name': 'systemOptions', 'w': 800, 'h': 600, 'depth': 1, 'kind': 'dialog'}; {'t': 'phase', 'phase': 'menu', 'gen': 1, 'why': 'left'}
+   window_open {"name": "systemOptions", "w": 800, "h": 600, "depth": 1, "kind": "dialog"}
+   window_open {"name": "dialogBox", "w": 800, "h": 600, "depth": 2, "kind": "dialog"}
+   window_close {"name": "dialogBox", "depth": 2, "ret": 30725}
+   window_close {"name": "systemOptions", "depth": 1, "ret": 105}
+[PASS] client loads a save in the menu (adventure + snapshot); quit in the game window -> phase exited {'t': 'phase', 'phase': 'adventure', 'gen': 2, 'size': 36, 'levels': 2, 'me': 0, 'current': 0, 'file': 'GODOT_TEST', 'humans': [0]}; {'t': 'phase', 'phase': 'exited'}
+ALL PASSED in 56.4 s; report C:\prj\hota-decompile\godot\out\bridge\test_report_mirror.json

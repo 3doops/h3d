@@ -1,0 +1,64 @@
+bridge.py pid 12980 (GODOT_TEST.GM1), waiting for the game...
+[PASS] hello+snapshot source=engine map 36x2 objects 1233 heroes 9 date {'day': 1, 'week': 1, 'month': 1} current 0 me 0
+[PASS] hidden mode (default): the game window has no WS_VISIBLE {"title": "Heroes of Might and Magic III: Horn of the Abyss", "style": "0x4ca0000", "exstyle": "0x100", "ws_visible": false, "caption": true, "minimized": false, "toolwindow": false, "rect": [10, 10, 816, 654], "client": [800, 600], "IsWindowVisible": false}
+   shot C:\prj\hota-decompile\godot\out\bridge\01_start.jpg: True
+hero 70 Клавий at [6, 27, 0], mp 1500
+[PASS] resource: engine path avtwood0 #435 at [7, 29, 0]: 2 cells, reachable 2, cells [[6, 28, 0, 100], [7, 29, 0, 241]]
+   event hero_move hero 70: [[6, 28, 0]]
+[PASS] resource: picked up gained {'wood': 10}, removed [435], hero_move [[6, 28, 0]]
+   shot C:\prj\hota-decompile\godot\out\bridge\02_resource.jpg: True
+chest #642 at [2, 26, 0]: 5 cells, reachable today 5
+   dialog 1 [choose/7] '{Сундук Сокровищ}\n\nОбследовав местную территорию, вы обнаруживаете тщательно спрятанный су' options=['1500 золото', '1000 опыта']
+   -> answer 1
+   dialog 2 [choose/levelup] 'Повышение уровня: выберите навык' options=['Нападение (продвинутый)', 'Стрельба (базовый)']
+   -> answer 1
+   event window: {"name": "levelUp", "action": "answered", "answer": 1, "hero": 70}
+   event hero_move hero 70: [[5, 28, 0], [4, 28, 0], [3, 28, 0], [2, 27, 0]]
+[PASS] chest: choose dialog answered text '{Сундук Сокровищ}\n\nОбследовав местную территорию, вы обнаруж' options ['1500 золото', '1000 опыта']; exp 84 -> 1084, level 1 -> 2, gold 20600 -> 20600
+[PASS] chest: engine applied the answer 
+   shot C:\prj\hota-decompile\godot\out\bridge\03_chest.jpg: True
+   event hero_move hero 70: [[3, 28, 0], [4, 28, 0], [5, 27, 0], [6, 26, 0]]
+   window_open {"name": "townScreen", "w": 800, "h": 600, "depth": 1, "kind": "manager", "town": 2}
+   frame #9 townScreen -> C:\prj\hota-decompile\godot\out\bridge\08_town_window.jpg
+[PASS] passthrough: town screen open, frames stream {'t': 'window_open', 'name': 'townScreen', 'w': 800, 'h': 600, 'depth': 1, 'kind': 'manager', 'town': 2}; hero_move before it [[3, 28, 0], [4, 28, 0], [5, 27, 0], [6, 26, 0]]; frames so far 9
+   frame #20 townScreen -> C:\prj\hota-decompile\godot\out\bridge\09_recruit_window.jpg
+   frame #36 townScreen -> C:\prj\hota-decompile\godot\out\bridge\10_town_recruited.jpg
+   window_close {"name": "townScreen", "depth": 1, "ret": 2011}
+[PASS] passthrough: recruited by clicks, state after window_close shows it spent {'gold': 720}, creatures gained {56: 12} (town garrison + hero), 37 frames, close {'t': 'window_close', 'name': 'townScreen', 'depth': 1, 'ret': 2011}
+   shot C:\prj\hota-decompile\godot\out\bridge\04_town.jpg: True
+   window_open {"name": "heroScreen", "w": 800, "h": 600, "depth": 1, "kind": "dialog"}
+   frame #38 heroScreen -> C:\prj\hota-decompile\godot\out\bridge\11_hero_window.jpg
+   window_close {"name": "heroScreen", "depth": 1, "ret": 30720}
+[PASS] passthrough: open_hero -> hero screen, Esc closes it {'t': 'window_open', 'name': 'heroScreen', 'w': 800, 'h': 600, 'depth': 1, 'kind': 'dialog'} / {'t': 'window_close', 'name': 'heroScreen', 'depth': 1, 'ret': 30720}
+   window_open {"name": "kingdomOverview", "w": 800, "h": 600, "depth": 1, "kind": "dialog"}
+   frame #39 kingdomOverview -> C:\prj\hota-decompile\godot\out\bridge\12_kingdom_window.jpg
+   window_close {"name": "kingdomOverview", "depth": 1, "ret": 30720}
+[PASS] passthrough: adv_key K -> kingdom overview, OK closes it {'t': 'window_open', 'name': 'kingdomOverview', 'w': 800, 'h': 600, 'depth': 1, 'kind': 'dialog'} / {'t': 'window_close', 'name': 'kingdomOverview', 'depth': 1, 'ret': 30720}
+   dialog 3 [yesno/2] 'Некоторые ваши герои ещё могут ходить, вы действительно хотите завершить ход?' options=[]
+   -> answer 0
+   event turn: {"current": 1, "date": {"day": 1, "week": 1, "month": 1}}
+   event turn: {"current": 3, "date": {"day": 1, "week": 1, "month": 1}}
+   event turn: {"current": 4, "date": {"day": 1, "week": 1, "month": 1}}
+   dialog 4 [ok/extended] 'Какой прекрасный день. Лёгкий туман стелится по лугу вашего города. Вы пытаетесь сделать в' options=[]
+   -> answer 0
+   event turn: {"current": 0, "date": {"day": 2, "week": 1, "month": 1}}
+[PASS] end_turn: AI played, red again, date advanced date {'day': 1, 'week': 1, 'month': 1} -> {'day': 2, 'week': 1, 'month': 1}, turn order [1, 3, 4, 0]
+   shot C:\prj\hota-decompile\godot\out\bridge\05_next_day.jpg: True
+[PASS] engine idle on the adventure map {'n': 0, 'busy': False, 'can': True, 'cur': 0, 'depth': 0, 'advStatus': 1, 'dialog': None, 'window': {'stack': [], 'active': 0, 'vmouse': [771, 563], 'queued': 0, 'delivered': 17, 'pass': True, 'battles': 'auto', 'since': 1792339040520}, 'mirror': {'visible': False, 'period': 0, 'ticks': 0, 'external': 0, 'quiet': True, 'nativeDialog': None, 'virt': 1, 'present': {'visible': False, 'on': False, 'primary': '0x268b148', 'presents': 0, 'gdi_ok': 0, 'gdi_failed': 0, 'last': [0, 0, 0, 0]}}, 'hwnd': 18153700}
+bridge.py pid 7544 (GODOT_BATTLE.GM1), waiting for the game...
+battle save: hero 98 Жабаркас at [8, 22, 0] army [[84, 28], [88, 5], [88, 5], -1, -1, -1, -1]
+   shot C:\prj\hota-decompile\godot\out\bridge\06_battle_start.jpg: True
+attack AVWimpx0 (creature 43) x24 at [8, 24, 0], path [[8, 23, 0, 100], [8, 24, 0, 200]]
+   event hero_move hero 98: [[8, 23, 0]]
+   window_open {"name": "combat", "w": 800, "h": 600, "depth": 1, "kind": "manager"}
+   frame #14 combat -> C:\prj\hota-decompile\godot\out\bridge\13_battle_window.jpg
+[PASS] manual battle: battle screen streams {'t': 'window_open', 'name': 'combat', 'w': 800, 'h': 600, 'depth': 1, 'kind': 'manager'}
+   frame #77 combat -> C:\prj\hota-decompile\godot\out\bridge\14_battle_autocombat.jpg
+   event window: {"name": "combatResults", "action": "closed", "ret": 30722}
+   window_close {"name": "combat", "depth": 1, "ret": 30722}
+   event battle: {"attacker": 98, "attacker_owner": 0, "defender": {"type": "monster", "army": [[43, 8], [43, 8], [43, 8], -1, -1, -1, -1], "at": [8, 24, 0]}, "winner": "attacker", "at": [8, 24, 0], "losses": {"attacker": [[84, 4]], "defender": [[43, 8], [43, 8], [43, 8]]}}
+[PASS] battle: event from the engine {"t": "event", "kind": "battle", "attacker": 98, "attacker_owner": 0, "defender": {"type": "monster", "army": [[43, 8], [43, 8], [43, 8], -1, -1, -1, -1], "at": [8, 24, 0]}, "winner": "attacker", "at": [8, 24, 0], "losses": {"attacker": [[84, 4]], "defender": [[43, 8], [43, 8], [43, 8]]}}
+[PASS] battle: result applied (monster gone or hero lost) window {'t': 'window_close', 'name': 'combat', 'depth': 1, 'ret': 30722}; hero exp 80 -> 176, army [[84, 24], [88, 5], [88, 5], -1, -1, -1, -1]
+   shot C:\prj\hota-decompile\godot\out\bridge\07_battle_after.jpg: True
+[PASS] battle: engine idle on the adventure map (no result window left) {'n': 0, 'busy': False, 'can': True, 'cur': 0, 'depth': 0, 'advStatus': 1, 'dialog': None, 'window': {'stack': [], 'active': 0, 'vmouse': [167, 577], 'queued': 0, 'delivered': 3, 'pass': True, 'battles': 'manual', 'since': 1792339053522}, 'mirror': {'visible': False, 'period': 0, 'ticks': 0, 'external': 0, 'quiet': True, 'nativeDialog': None, 'virt': 1, 'present': {'visible': False, 'on': False, 'primary': '0x268b8f8', 'presents': 0, 'gdi_ok': 0, 'gdi_failed': 0, 'last': [0, 0, 0, 0]}}, 'hwnd': 9371878}
+ALL PASSED in 70.8 s; report C:\prj\hota-decompile\godot\out\bridge\test_report.json

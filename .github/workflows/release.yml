@@ -1,0 +1,124 @@
+# Every commit to main: export the client for Windows x64 and Linux x86_64 (tools/export_client.sh) and publish
+# a GitHub release with both packages. Version = the latest vX.Y.Z tag with the patch number + 1 (first one 1.0.0).
+# Assets come from the submodule client/assets (3doops/h3d-assets, Git LFS). While that repo is private, the
+# secret ASSETS_TOKEN (fine-grained token, Contents: read on h3d-assets) must be set in this repo.
+name: release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  GODOT_VERSION: "4.7.2"
+  PYTHON_EMBED: "3.12.10"
+  BRIDGE_WHEELS: "frida==17.23.3 websockets==13.1 pillow==13.0.0"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Version
+        id: ver
+        run: |
+          last="$(git ls-remote --tags --refs origin 'v*' | sed -n 's#.*refs/tags/v\([0-9]*\.[0-9]*\.[0-9]*\)$#\1#p' \
+                  | sort -t. -k1,1n -k2,2n -k3,3n | tail -1)"
+          if [ -z "$last" ]; then v=1.0.0; else IFS=. read -r a b c <<< "$last"; v="$a.$b.$((c + 1))"; fi
+          echo "version=$v" >> "$GITHUB_OUTPUT"
+          echo "last tag: ${last:-none} -> $v"
+
+      - name: Assets submodule (pointers only)
+        env:
+          ASSETS_TOKEN: ${{ secrets.ASSETS_TOKEN }}
+        run: |
+          if [ -n "$ASSETS_TOKEN" ]; then
+            git config --global url."https://x-access-token:${ASSETS_TOKEN}@github.com/3doops/h3d-assets".insteadOf \
+                https://github.com/3doops/h3d-assets
+          fi
+          GIT_LFS_SKIP_SMUDGE=1 git submodule update --init client/assets
+          mkdir -p _work
+          git -C client/assets lfs ls-files --long | cut -d' ' -f1 | sort > _work/lfs-ids
+          echo "LFS objects: $(wc -l < _work/lfs-ids)"
+
+      # LFS objects are cached between runs: only changed models are downloaded (LFS bandwidth quota)
+      - uses: actions/cache@v4
+        with:
+          path: .git/modules/client/assets/lfs/objects
+          key: lfs-${{ hashFiles('_work/lfs-ids') }}
+          restore-keys: lfs-
+
+      - name: Assets (Git LFS pull)
+        run: |
+          git -C client/assets lfs pull
+          du -sh client/assets/models client/assets/terrain
+
+      - uses: actions/cache@v4
+        with:
+          path: _dl
+          key: dl-godot${{ env.GODOT_VERSION }}-py${{ env.PYTHON_EMBED }}-${{ hashFiles('.github/workflows/release.yml') }}
+
+      - name: Godot, export templates, bridge Python
+        run: |
+          set -euo pipefail
+          V="$GODOT_VERSION"; BASE="https://github.com/godotengine/godot/releases/download/$V-stable"
+          mkdir -p _dl/godot _dl/bridge-python/wheels
+          if [ ! -x "_dl/godot/Godot_v$V-stable_linux.x86_64" ]; then
+            curl -fsSL -o "_dl/godot/SHA512-SUMS.txt" "$BASE/SHA512-SUMS.txt"
+            curl -fsSL -o "_dl/godot/Godot_v$V-stable_linux.x86_64.zip" "$BASE/Godot_v$V-stable_linux.x86_64.zip"
+            (cd _dl/godot && sha512sum -c --ignore-missing SHA512-SUMS.txt \
+               && unzip -q "Godot_v$V-stable_linux.x86_64.zip" && rm "Godot_v$V-stable_linux.x86_64.zip")
+          fi
+          if [ ! -f "_dl/godot-templates-$V/linux_release.x86_64" ]; then
+            python3 -I tools/fetch_export_templates.py --version "$V" --out "_dl/godot-templates-$V" \
+                --members windows_release_x86_64.exe,windows_release_x86_64_console.exe,linux_release.x86_64
+          fi
+          EMB="python-$PYTHON_EMBED-embed-amd64.zip"
+          [ -f "_dl/bridge-python/$EMB" ] || \
+            curl -fsSL -o "_dl/bridge-python/$EMB" "https://www.python.org/ftp/python/$PYTHON_EMBED/$EMB"
+          if ! ls _dl/bridge-python/wheels/*.whl >/dev/null 2>&1; then
+            python3 -m pip download --platform win_amd64 --python-version 3.12 --implementation cp \
+                --only-binary=:all: --no-deps -d _dl/bridge-python/wheels $BRIDGE_WHEELS
+          fi
+          ls -la _dl/godot "_dl/godot-templates-$V" _dl/bridge-python/wheels
+
+      - name: Export Windows x64
+        env:
+          VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          export DL="$PWD/_dl" DIST="$PWD/dist" WORK="$PWD/_work" PYTHON=python3 COMMIT="$GITHUB_SHA"
+          export GODOT="$DL/godot/Godot_v$GODOT_VERSION-stable_linux.x86_64"
+          bash tools/export_client.sh windows || { tail -50 dist/.export_client.log; exit 1; }
+
+      - name: Export Linux x86_64
+        env:
+          VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          export DL="$PWD/_dl" DIST="$PWD/dist" WORK="$PWD/_work" PYTHON=python3 COMMIT="$GITHUB_SHA"
+          export GODOT="$DL/godot/Godot_v$GODOT_VERSION-stable_linux.x86_64"
+          bash tools/export_client.sh linux || { tail -50 dist/.export_client_linux.log; exit 1; }
+
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          V: ${{ steps.ver.outputs.version }}
+        run: |
+          mv dist/HotA3D-client-win64.zip "dist/HotA3D-client-$V-win64.zip"
+          mv dist/HotA3D-client-linux-x86_64.tar.gz "dist/HotA3D-client-$V-linux-x86_64.tar.gz"
+          assets_rev="$(git -C client/assets rev-parse --short HEAD)"
+          gh release create "v$V" --target "$GITHUB_SHA" --title "HotA 3D client $V" --generate-notes \
+              --notes "Assets: 3doops/h3d-assets@$assets_rev. Windows: unzip, run HotA3D.exe. Linux: ./run.sh (needs Wine). Details: README.txt inside." \
+              "dist/HotA3D-client-$V-win64.zip" "dist/HotA3D-client-$V-linux-x86_64.tar.gz"

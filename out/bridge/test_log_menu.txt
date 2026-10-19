@@ -1,0 +1,26 @@
+bridge.py pid 11964 (main menu), waiting for the game...
+   frame #9 menu -> C:\prj\hota-decompile\godot\out\bridge\20_menu_main.jpg
+[PASS] menu: starts at the main menu, streamed hello caps ['windows', 'phase'], {'t': 'phase', 'phase': 'menu', 'gen': 0}, frame menu
+   frame #23 menu -> C:\prj\hota-decompile\godot\out\bridge\21_menu_scenario.jpg
+   frame #30 menu -> C:\prj\hota-decompile\godot\out\bridge\22_menu_newcomers.jpg
+   frame #43 menu -> C:\prj\hota-decompile\godot\out\bridge\23_menu_intro.jpg
+[PASS] menu: new game -> phase adventure + snapshot of the new map {'t': 'phase', 'phase': 'adventure', 'gen': 1, 'size': 36, 'levels': 2, 'me': 0, 'current': 0, 'file': 'НОВАЯ ИГРА', 'humans': [0]}; snapshot 36x2, 1233 objects, me 0
+   shot C:\prj\hota-decompile\godot\out\bridge\24_menu_newgame_map.jpg: True
+[PASS] menu: engine commands on the new map (path) hero 7 -> avtore0 [7, 29, 0]: 2 cells
+   window_open {"name": "systemOptions", "w": 800, "h": 600, "depth": 1, "kind": "dialog"}
+   frame #45 systemOptions -> C:\prj\hota-decompile\godot\out\bridge\25_menu_system_options.jpg
+   window_open {"name": "dialogBox", "w": 800, "h": 600, "depth": 2, "kind": "dialog"}
+   window_close {"name": "dialogBox", "depth": 2, "ret": 30725}
+   window_close {"name": "systemOptions", "depth": 1, "ret": 108}
+   frame #67 menu -> C:\prj\hota-decompile\godot\out\bridge\26_menu_back_to_main.jpg
+[PASS] menu: system options -> main menu -> phase menu window systemOptions; {'t': 'phase', 'phase': 'menu', 'gen': 1, 'why': 'left'}
+   frame #81 menu -> C:\prj\hota-decompile\godot\out\bridge\27_menu_load_list.jpg
+[PASS] menu: load game -> phase adventure + snapshot {'t': 'phase', 'phase': 'adventure', 'gen': 2, 'size': 36, 'levels': 2, 'me': 0, 'current': 0, 'file': 'GODOT_TEST', 'humans': [0]}; 1233 objects
+   shot C:\prj\hota-decompile\godot\out\bridge\28_menu_loaded.jpg: True
+   window_open {"name": "systemOptions", "w": 800, "h": 600, "depth": 1, "kind": "dialog"}
+   window_open {"name": "dialogBox", "w": 800, "h": 600, "depth": 2, "kind": "dialog"}
+   frame #96 dialogBox -> C:\prj\hota-decompile\godot\out\bridge\29_menu_quit_confirm.jpg
+   window_close {"name": "dialogBox", "depth": 2, "ret": 30725}
+   window_close {"name": "systemOptions", "depth": 1, "ret": 105}
+[PASS] menu: quit from the system options -> phase exited {'t': 'phase', 'phase': 'exited'}
+ALL PASSED in 55.1 s; report C:\prj\hota-decompile\godot\out\bridge\test_report_menu.json

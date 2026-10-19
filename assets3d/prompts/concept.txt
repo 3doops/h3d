@@ -1,0 +1,16 @@
+Use the built-in image generation tool (image_gen) to create exactly ONE image, then stop. Do not write code, do not run shell commands, do not try to copy files. Reply with one short line naming the generated image.
+
+Use case: stylized-concept
+Asset type: source image for single-image 3D reconstruction — one asset of a 3D fantasy strategy-game world map that is seen from high above.
+Style references: the attached images only define the art style — realistic, hand-crafted fantasy miniature/diorama look with high detail, natural weathered materials, rich but slightly muted colours and warm low sunlight. Match that style and level of detail. Do NOT copy their content, buildings, snow or composition.
+
+Subject: {description}
+Scale and proportions: {size_note}
+{base_note}
+Camera: {view_note}
+Composition: exactly one subject, the whole of it in frame and centred, about 10% empty margin on every side, nothing cut off by the image border.
+Background: plain flat uniform light grey, no gradient, no floor, no horizon, no sky, no fog, no vignette.
+Lighting: soft warm daylight from the upper left plus even ambient fill; no cast shadow on the background, no glow effects, no dramatic rim light, no dark crushed shadows.
+Shapes: chunky, clear, slightly exaggerated silhouette that stays readable from far above; solid connected parts, no thin floating bits, no particles or smoke.
+Constraints: no text, letters, numbers, labels, watermark, signature, UI, border or frame; no extra objects or scenery besides the subject; no people or animals unless the subject says so; no flags or banners unless the subject says so. {extra}
+Output: square 1:1 image.

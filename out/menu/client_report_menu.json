@@ -1,0 +1,156 @@
+{
+  "checks": {
+    "menu: HUD button -> the engine's system options": {
+      "info": {
+        "window": "systemOptions"
+      },
+      "ok": true
+    },
+    "menu: main menu from the system options -> menu screen again": {
+      "info": {
+        "frames": 91,
+        "phase": "menu"
+      },
+      "ok": true
+    },
+    "menu: new game -> 3D world of the new map": {
+      "info": {
+        "me": 0,
+        "objects": 1233,
+        "size": 36.0,
+        "why": "adventure"
+      },
+      "ok": true
+    },
+    "menu: the game's main menu fullscreen (engine frames, input)": {
+      "info": {
+        "frame": [
+          800,
+          600
+        ],
+        "frames": 18,
+        "phase": "menu"
+      },
+      "ok": true
+    }
+  },
+  "frames": 91,
+  "timeline": [
+    {
+      "at": 0.0,
+      "caps": [
+        "windows",
+        "phase"
+      ],
+      "game": "HotA 1.8.0 (h3hota.exe)",
+      "ms": 12240,
+      "source": "engine",
+      "t": "hello"
+    },
+    {
+      "at": 0.0,
+      "current": 0.0,
+      "date": {
+        "day": 1.0,
+        "month": 1.0,
+        "week": 1.0
+      },
+      "heroes": 9,
+      "levels": 2.0,
+      "me": 0.0,
+      "ms": 144000,
+      "objects": 1233,
+      "size": 36.0,
+      "t": "snapshot"
+    },
+    {
+      "at": 3.9,
+      "changed": 0,
+      "current": 0.0,
+      "date": {
+        "day": 1.0,
+        "month": 1.0,
+        "week": 1.0
+      },
+      "fog_open": 0,
+      "ms": 315232,
+      "removed": [],
+      "res": [
+        20.0,
+        10.0,
+        20.0,
+        10.0,
+        10.0,
+        10.0,
+        20000.0
+      ],
+      "t": "state"
+    },
+    {
+      "at": 3.9,
+      "depth": 1.0,
+      "h": 600.0,
+      "kind": "dialog",
+      "ms": 315284,
+      "name": "systemOptions",
+      "t": "window_open",
+      "w": 800.0
+    },
+    {
+      "at": 36.9,
+      "depth": 2.0,
+      "h": 600.0,
+      "kind": "dialog",
+      "ms": 351611,
+      "name": "dialogBox",
+      "t": "window_open",
+      "w": 800.0
+    },
+    {
+      "at": 40.1,
+      "depth": 2.0,
+      "ms": 354785,
+      "name": "dialogBox",
+      "ret": 30725.0,
+      "t": "window_close"
+    },
+    {
+      "at": 40.1,
+      "depth": 1.0,
+      "ms": 354801,
+      "name": "systemOptions",
+      "ret": 108.0,
+      "t": "window_close"
+    },
+    {
+      "at": 40.2,
+      "changed": 0,
+      "current": 0.0,
+      "date": {
+        "day": 1.0,
+        "month": 1.0,
+        "week": 1.0
+      },
+      "fog_open": 0,
+      "ms": 358219,
+      "removed": [],
+      "res": [
+        20.0,
+        10.0,
+        20.0,
+        10.0,
+        10.0,
+        10.0,
+        20000.0
+      ],
+      "t": "state"
+    },
+    {
+      "at": 40.2,
+      "cmd": "system_menu",
+      "ms": 358242,
+      "result": {},
+      "t": "cmd_done"
+    }
+  ]
+}

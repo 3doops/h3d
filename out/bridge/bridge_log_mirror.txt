@@ -1,0 +1,88 @@
+game folder C:\prj\hota-decompile\game\Heroes3_HotA1
+game pid 12728 (started, visible window)
+bridge enabled in the agent: {'on': True, 'phase': 'adventure', 'walk': [3, 3], 'quick': 1, 'moveReminder': 1, 'battles': 'auto', 'windows': {}, 'visible': True}; frames: gdiplus
+bridge on ws://127.0.0.1:8799
+client connected ('127.0.0.1', 61919)
+client connected ('127.0.0.1', 61922)
+<- {"t": "hello", "client": "test_client", "caps": ["windows"]}
+client test_client caps ['windows']
+<- {"t": "debug_queue"}
+<- {"t": "cmd", "cmd": "select_hero", "hero": 70}
+client disconnected
+<- {"t": "debug_queue"}
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\30_mirror_before.jpg"}
+<- {"t": "path", "hero": 70, "to": [7, 29, 0]}
+<- {"t": "cmd", "cmd": "move_hero", "hero": 70, "to": [7, 29, 0]}
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\31_mirror_godot_move.jpg"}
+<- {"t": "debug_queue"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "path", "hero": 70, "to": [3, 28, 0]}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\32_mirror_native_move.jpg"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "[windows().map(w => w.name), BR.nativeDlg]"}
+<- {"t": "debug_eval", "src": "windows().map(w => w.name)"}
+<- {"t": "path", "hero": 70, "to": [2, 26, 0]}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+<- {"t": "debug_eval", "src": "point(adv().add(0xe4).readU32())"}
+[game] dialog 1 (native, visible mode): {Сундук Сокровищ}
+
+Обследовав местную территорию, вы обнаруживаете тщательно спрятанный сундук. Вы м
+<- {"t": "debug_shot", "path": "C:\\prj\\hota-decompile\\godot\\out\\bridge\\33_mirror_chest_dialog.jpg"}
+<- {"t": "dialog_answer", "id": 1, "answer": 0}
+[game] dialog 1: client answer 0 -> clicks on [30729,30722]
+[game] dialog 1 closed by client: 30729 -> 0
+[game] dialog 2 (native, visible mode): Некоторые ваши герои ещё могут ходить, вы действительно хотите завершить ход?
+<- {"t": "debug_eval", "src": "widgetCenter(30725)"}
+[game] dialog 2 closed by native: 30725 -> 0
+[game] battle start {"atk":94,"def":-1,"town":-1,"at":[24,6,0]}
+[game] battle start {"atk":62,"def":-1,"town":-1,"at":[13,11,0]}
+[game] dialog 3 (native, visible mode): Какой прекрасный день. Лёгкий туман стелится по лугу вашего города. Вы пытаетесь сделать вдох чистог
+<- {"t": "dialog_answer", "id": 3, "answer": 0}
+[game] dialog 3: client answer 0 -> clicks on [30722]
+[game] dialog 3 closed by client: 30722 -> 0
+<- {"t": "debug_eval", "src": "[players()[me()].heroes, curPlayerData().add(4).readS32(), ptr(adv().add(0x44).readPointer()).isNull()]"}
+<- {"t": "debug_eval", "src": "(()=>{ const w = adv().add(0x44).readPointer(); for (let g = w.add(0x28).readPointer(), n = 0; !g.isNull() && n < 400; g = g.add(0xc).readPointer(), n++) if (g.add(0x10).re
+[game] window heroScreen passthrough open, depth 1
+<- {"t": "window_refresh"}
+[game] window heroScreen passthrough closed (30720), depth 0
+<- {"t": "cmd", "cmd": "adv_key", "key": "K"}
+[game] window kingdomOverview passthrough open, depth 1
+<- {"t": "window_refresh"}
+<- {"t": "path", "hero": 70, "to": [2, 28, 0]}
+[game] window kingdomOverview passthrough closed (30720), depth 0
+<- {"t": "debug_eval", "src": "(()=>{ const w = adv().add(0x44).readPointer(); for (let g = w.add(0x28).readPointer(), n = 0; !g.isNull() && n < 400; g = g.add(0xc).readPointer(), n++) if (g.add(0x10).re
+[game] window systemOptions passthrough open, depth 1
+[game] window dialogBox passthrough open, depth 2
+[game] window dialogBox passthrough closed (30725), depth 1
+[game] window systemOptions passthrough closed (108), depth 0
+[game] phase menu (gGameCommand 108, game over 0)
+phase adventure -> menu {'t': 'phase', 'phase': 'menu', 'gen': 1, 'why': 'left'}
+<- {"t": "window_refresh"}
+[game] phase adventure #2 {"t":"phase","phase":"adventure","gen":2,"size":36,"levels":2,"me":0,"current":0,"file":"GODOT_TEST","humans":[0]}
+phase menu -> adventure {'t': 'phase', 'phase': 'adventure', 'gen': 2, 'size': 36, 'levels': 2, 'me': 0, 'current': 0, 'file': 'GODOT_TEST', 'humans': [0]}
+snapshot (adventure): map 36x2, 1233 objects, me 0
+<- {"t": "debug_eval", "src": "(()=>{ const w = adv().add(0x44).readPointer(); for (let g = w.add(0x28).readPointer(), n = 0; !g.isNull() && n < 400; g = g.add(0xc).readPointer(), n++) if (g.add(0x10).re
+[game] window systemOptions passthrough open, depth 1
+[game] window dialogBox passthrough open, depth 2
+[game] window dialogBox passthrough closed (30725), depth 1
+[game] window systemOptions passthrough closed (105), depth 0
+[game] phase menu (gGameCommand 105, game over 0)
+phase adventure -> menu {'t': 'phase', 'phase': 'menu', 'gen': 2, 'why': 'left'}
+frame: InvalidOperationError: script has been destroyed
+game process exited
+frame: InvalidOperationError: script has been destroyed

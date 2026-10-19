@@ -1,0 +1,15 @@
+game pid 14224 (started)
+bridge enabled in the agent: {'on': True, 'walk': [4, 4], 'quick': 1, 'moveReminder': 1, 'battles': 'manual', 'windows': {}}; frames: gdiplus
+bridge on ws://127.0.0.1:8765
+client connected ('127.0.0.1', 55216)
+<- {"caps":["windows"],"client":"godot","t":"hello"}
+client godot caps ['windows']
+<- {"cmd":"select_hero","hero":98,"t":"cmd"}
+<- {"hero":98,"t":"path","to":[8,24,0]}
+<- {"cmd":"move_hero","hero":98,"t":"cmd","to":[8,24,0]}
+[game] battle start {"atk":98,"def":-1,"town":-1,"at":[8,24,0]}
+[game] window combat passthrough open, depth 1
+[game] window combatResults skipped -> 30722
+[game] window combat passthrough closed (30722), depth 0
+[game] battle end, winner side 0
+client disconnected

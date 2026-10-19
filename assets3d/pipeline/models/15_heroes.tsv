@@ -1,0 +1,20 @@
+model_key	category	kind	priority	name	match	footprint	flag	fit	members	description
+hero_cleric	hero	gen	2	Cleric	heroclass:1	1x1	1			A cleric in long deep-blue robes with a white collar and a mace riding a white horse with a dark blue caparison.
+hero_druid	hero	gen	2	Druid	heroclass:3	1x1	1			A druid in a long green hooded robe with a gnarled wooden staff riding a light brown horse with a leafy green saddle cloth.
+hero_alchemist	hero	gen	2	Alchemist	heroclass:4	1x1	1			An alchemist in a tan and brown robe with leather pouches and glass flasks on his belt riding a light grey horse with a beige saddle cloth.
+hero_demoniac	hero	gen	2	Demoniac	heroclass:6	1x1	1			A demonic warrior in spiked dark red armour with a horned crested helmet riding a dark brown horse with a blood-red caparison.
+hero_heretic	hero	gen	2	Heretic	heroclass:7	1x1	1			A heretic sorcerer in black and crimson robes with long dark hair riding a dark horse with a red caparison trimmed in black.
+hero_death_knight	hero	gen	2	Death Knight	heroclass:8	1x1	1			A death knight in black plate armour with a horned skull-like helmet and a long sword riding a pale white horse with a black tattered caparison.
+hero_overlord	hero	gen	2	Overlord	heroclass:10	1x1	1			An overlord in dark steel armour with a horned helmet and a heavy sword riding a black horse with a red caparison.
+hero_warlock	hero	gen	2	Warlock	heroclass:11	1x1	1			A warlock in a red hooded robe with long red hair and a dark staff riding a black horse with a red caparison.
+hero_battle_mage	hero	gen	2	Battle Mage	heroclass:13	1x1	1			A battle mage in rough leather and fur with a horned headdress and a bone-tipped staff riding a beige horse with a pale caparison.
+hero_beastmaster	hero	gen	2	Beastmaster	heroclass:14	1x1	1			A beastmaster in scaly green-brown leather armour with a spear riding a tan horse with a green caparison.
+hero_witch	hero	gen	2	Witch	heroclass:15	1x1	1			A swamp witch in a green hooded cloak with a crooked staff riding a tan horse with a mossy green caparison.
+hero_planeswalker	hero	gen	2	Planeswalker	heroclass:16	1x1	1			A planeswalker warrior in orange-red elemental armour with flame-shaped plates riding a dark chestnut horse with a fiery orange caparison.
+hero_elementalist	hero	gen	2	Elementalist	heroclass:17	1x1	1			An elementalist in white and sky-blue robes with a crystal-tipped staff riding a white horse with a blue caparison.
+hero_captain	hero	gen	2	Captain	heroclass:18	1x1	1			A pirate captain in a long dark coat and a black tricorn hat with a cutlass riding a white horse with a red caparison.
+hero_navigator	hero	gen	2	Navigator	heroclass:19	1x1	1			A navigator in a red sea coat and a bandana with a spyglass on the belt riding a white horse with a red caparison.
+hero_mercenary	hero	gen	2	Mercenary	heroclass:20	1x1	1			A mercenary gunslinger in a wide-brimmed hat and a long brown duster coat with a long rifle riding a brown horse with a red saddle cloth.
+hero_artificer	hero	gen	2	Artificer	heroclass:21	1x1	1			An artificer with white hair and brass goggles in a red coat with tool belts and a small mechanical device riding a brown horse with a red saddle cloth.
+hero_chieftain	hero	gen	2	Chieftain	heroclass:22	1x1	1			A northern chieftain in thick furs and a steel helmet with a big axe riding a pale horse with a blue caparison.
+hero_elder	hero	gen	2	Elder	heroclass:23	1x1	1			A northern elder shaman with a white beard in fur robes and bone charms holding a rune staff riding a pale horse with a blue caparison.

@@ -1,0 +1,31 @@
+{
+ "checks": {
+  "menu: starts at the main menu, streamed": {
+   "ok": true,
+   "info": "hello caps ['windows', 'phase'], {'t': 'phase', 'phase': 'menu', 'gen': 0}, frame menu"
+  },
+  "menu: new game -> phase adventure + snapshot of the new map": {
+   "ok": true,
+   "info": "{'t': 'phase', 'phase': 'adventure', 'gen': 1, 'size': 36, 'levels': 2, 'me': 0, 'current': 0, 'file': 'НОВАЯ ИГРА', 'humans': [0]}; snapshot 36x2, 1233 objects, me 0"
+  },
+  "menu: engine commands on the new map (path)": {
+   "ok": true,
+   "info": "hero 7 -> avtore0 [7, 29, 0]: 2 cells"
+  },
+  "menu: system options -> main menu -> phase menu": {
+   "ok": true,
+   "info": "window systemOptions; {'t': 'phase', 'phase': 'menu', 'gen': 1, 'why': 'left'}"
+  },
+  "menu: load game -> phase adventure + snapshot": {
+   "ok": true,
+   "info": "{'t': 'phase', 'phase': 'adventure', 'gen': 2, 'size': 36, 'levels': 2, 'me': 0, 'current': 0, 'file': 'GODOT_TEST', 'humans': [0]}; 1233 objects"
+  },
+  "menu: quit from the system options -> phase exited": {
+   "ok": true,
+   "info": "{'t': 'phase', 'phase': 'exited'}"
+  }
+ },
+ "notes": [],
+ "seconds": 55.1,
+ "ok": true
+}
