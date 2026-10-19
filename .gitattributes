@@ -1,2 +1,10 @@
-# byte-for-byte, as in h3-regress: .sh keep LF on Windows checkouts too
-* -text
+# Text files are stored and checked out with LF on every OS: the CI builds on Linux, where bash fails on CRLF
+# (set -o pipefail\r), and Git Bash, Python, Godot are fine with LF on Windows too.
+* text=auto eol=lf
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.glb  binary
+*.GM1  binary
+*.mp4  binary
