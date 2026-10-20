@@ -44,6 +44,9 @@ RESOLUTION = os.environ.get("A3D_RES", "512")  # TRELLIS.2 voxel resolution: 512
 MAX_CONCEPT_ATTEMPTS = 3
 CLUMP_VERSION = "2"  # bump to re-assemble every forest clump after changing assemble_clump.py
 MAX_TRELLIS_ATTEMPTS = 3
+MAX_INFRA_ERRORS = 15  # GPU errors in a row for one key before it is marked failed
+INFRA_PAUSE = 120  # s the TRELLIS worker waits after a GPU error (server restarts itself)
+UPGRADE_MAX_TRIES = 2  # failed 1024 attempts for a town before it stays on the published 512 model
 
 lock = threading.Lock()
 codex_pause_until = 0.0  # set when Codex reports its usage limit
@@ -147,6 +150,10 @@ def pending(rows, stage_wanted):
         if st.get("stage", "new") == stage_wanted and not st.get("failed") \
                 and st.get("retry_after", 0) <= time.time():
             out.append((row, st))
+    if stage_wanted == "concept_ok":
+        # a concept that recently hit a GPU error waits behind every other ready concept (stable sort keeps
+        # the priority order inside each group), so the queue does not spin on one bad model
+        out.sort(key=lambda x: x[1].get("infra_errors", 0) > 0)
     return out
 
 
@@ -241,13 +248,22 @@ def do_trellis(row, st):
                                 texture_size="2048" if int(fit.get("tex", 1024)) > 1024 else "1024")
     except Exception as e:  # noqa: BLE001
         msg = str(e)
-        if "out of memory" in msg or "CUDA" in msg or isinstance(e, (OSError, ConnectionError)) \
+        server_err = msg.startswith(("500", "507"))  # CUDA/CuMesh OOM: the server restarts itself (~2 min)
+        if server_err or "out of memory" in msg or "CUDA" in msg or isinstance(e, (OSError, ConnectionError)) \
                 or msg.startswith(("502", "503", "504")) or "Timeout" in type(e).__name__:
-            # GPU host problem (memory held by another job, server down): not the model's fault -> retry later,
-            # with resolution 512 after two such errors for this key
+            # GPU host problem (OOM in CuMesh on this particular mesh, server restarting): not the model's
+            # fault -> retry later. 500/507: wait ~2 min for the restart and take a new seed (the OOM depends on
+            # the generated geometry; checked 2026-10-20: land_fissure_lava seed 3 ok, seed 4 OOM). Resolution
+            # 512 after two such errors for this key.
             st["infra_errors"] = infra + 1
-            st["retry_after"] = time.time() + 600 * min(st["infra_errors"], 6)
+            if server_err:
+                st["seed"] = seed + 1
+                st["retry_after"] = time.time() + 120 * min(st["infra_errors"], 5)
+            else:
+                st["retry_after"] = time.time() + 600 * min(st["infra_errors"], 6)
             st["history"].append({"t": time.time(), "trellis_infra_error": msg[:200]})
+            if st["infra_errors"] >= MAX_INFRA_ERRORS:
+                st["failed"] = f"trellis: {st['infra_errors']} GPU errors in a row: " + msg[:150]
             save_state(key, st)
             log(f"TRELLIS infrastructure error #{st['infra_errors']} (pausing TRELLIS): {msg[:160]}", key)
             stats["errors"] += 1
@@ -508,7 +524,8 @@ def try_upgrade(args):
             continue
         key = row["model_key"]
         st = load_state(key)
-        if st.get("stage") != "published" or st.get("upgraded") or st.get("upgrade_next", 0) > time.time():
+        if st.get("stage") != "published" or st.get("upgraded") or st.get("upgrade_next", 0) > time.time() \
+                or st.get("upgrade_tries", 0) >= UPGRADE_MAX_TRIES:
             continue
         with lock:
             if key in claimed:
@@ -565,7 +582,7 @@ def worker(name, args, stage, func, gate=None):
         try:
             res = func(row, st)
             if res == "pause":
-                pause_until = time.time() + (300 if name == "trellis" else 60)
+                pause_until = time.time() + (INFRA_PAUSE if name == "trellis" else 60)
         except Exception as e:  # noqa: BLE001
             stats["errors"] += 1
             log(f"{name} crashed: {e}\n{traceback.format_exc()}", key)

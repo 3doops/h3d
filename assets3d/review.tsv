@@ -93,3 +93,20 @@ cr_zombie	ok	reviewed 2026-10-18
 cr_vampire	ok	reviewed 2026-10-18
 cr_vampire_lord	ok	reviewed 2026-10-18
 cr_bone_dragon	ok	reviewed 2026-10-18
+dw_enchanters_hollow	reject_model	retry after temporary TRELLIS 500
+dw_altar_of_fire	reject_model	retry after temporary TRELLIS 500
+dw_altar_of_water	reject_model	retry after temporary TRELLIS 500
+dw_thatched_hut	reject_model	retry after temporary TRELLIS 500
+dw_hovel	reject_model	retry after temporary TRELLIS 500
+dw_boar_glen	reject_model	retry after temporary TRELLIS 500
+dw_tomb_of_curses	reject_model	retry after temporary TRELLIS 500
+dw_nomad_tent	reject_model	retry after temporary TRELLIS 500
+dw_rogue_cavern	reject_model	retry after temporary TRELLIS 500
+dw_troll_bridge	reject_model	retry after temporary TRELLIS 500
+dw_elemental_conflux	reject_model	retry after temporary TRELLIS 500
+dw_golem_factory	reject_model	retry after temporary TRELLIS 500
+bank_griffin_conservatory	reject_model	retry after temporary TRELLIS 500
+bank_imp_cache	reject_model	retry after temporary TRELLIS 500
+bank_naga_bank	reject_model	retry after temporary TRELLIS 500
+bank_crypt	reject_model	retry after temporary TRELLIS 500
+wat_shipwreck	reject_model	retry after temporary TRELLIS 500
